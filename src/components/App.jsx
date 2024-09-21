@@ -6,7 +6,7 @@ import Matching from "./Matching";
 import QandA from "./QandA";
 import "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Footer from "./Footer";
 function App() {
 	return (
 		<>
@@ -14,6 +14,7 @@ function App() {
 			<Banner />
 			<Matching />
 			<QandA />
+			<Footer />
 		</>
 	);
 }
