@@ -1,0 +1,242 @@
+.team-container {
+	height: 4070px;
+	background: #fffdf8;
+
+	.team-content {
+		user-select: none;
+		padding: 0 130px;
+
+		.team-header {
+			width: 100%;
+			justify-content: flex-start;
+			color: #000;
+			font-size: 160px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			position: relative;
+			text-align: left;
+			padding: 70px 0;
+
+			.team-header-text {
+				position: relative;
+				z-index: 2;
+			}
+
+			.line-color {
+				display: flex;
+				align-items: center;
+				position: absolute;
+				bottom: 100px;
+				z-index: 1;
+
+				.purple {
+					width: 186.618px;
+					height: 38px;
+					flex-shrink: 0;
+					background: #ac92eb;
+				}
+
+				.blue {
+					width: 186.618px;
+					height: 38px;
+					flex-shrink: 0;
+					background: #4fc1e8;
+				}
+
+				.green {
+					width: 186.618px;
+					height: 38px;
+					flex-shrink: 0;
+					background: #a0d568;
+				}
+
+				.yellow {
+					width: 186.618px;
+					height: 38px;
+					flex-shrink: 0;
+					background: #ffce54;
+				}
+
+				.red {
+					width: 186.618px;
+					height: 38px;
+					flex-shrink: 0;
+					background: #ed5564;
+				}
+			}
+		}
+
+		.team-text {
+			width: 1672px;
+			height: 99px;
+			flex-shrink: 0;
+			font-size: 40.911px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			text-align: left;
+		}
+
+		.line1 {
+			position: relative;
+			padding: 100px 0;
+			.line {
+				width: 100%;
+				height: 4px;
+				background: #000;
+			}
+
+			.rectangle {
+				width: 590px;
+				height: 67px;
+				flex-shrink: 0;
+				border-radius: 35px;
+				border: 5px solid #000;
+				background: #000;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				overflow: hidden;
+
+				.rectangle-text {
+					width: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #fff;
+					text-align: center;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+
+				.rectangle2 {
+					width: 288px;
+					height: 56px;
+					flex-shrink: 0;
+					border-radius: 0px 28px 28px 0px;
+					background: #fff;
+
+					width: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #000;
+					text-align: center;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+			}
+		}
+
+		.core-team,
+		.mentor-team {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			gap: 45px;
+
+			.box-member {
+				padding-top: 40px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: center;
+
+				.avt {
+					background-size: cover !important;
+					background-repeat: no-repeat !important;
+					width: 530.673px;
+					height: 534.102px;
+				}
+
+				.name {
+					color: #010101;
+					font-size: 35.073px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					text-align: left;
+				}
+
+				.info {
+					color: #010101;
+					font-size: 26px;
+					font-style: normal;
+					font-weight: 400;
+					text-align: left;
+					line-height: normal;
+					padding-bottom: 5px;
+				}
+			}
+		}
+
+		.line2 {
+			position: relative;
+			padding: 100px 0;
+			.line {
+				width: 100%;
+				height: 4px;
+				background: #000;
+			}
+
+			.rectangle {
+				width: 590px;
+				height: 67px;
+				flex-shrink: 0;
+				border-radius: 35px;
+				border: 5px solid #000;
+				background: #000;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				overflow: hidden;
+
+				.rectangle-text {
+					width: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #fff;
+					text-align: center;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+
+				.rectangle2 {
+					width: 288px;
+					height: 56px;
+					flex-shrink: 0;
+					border-radius: 28px 0px 0px 28px;
+					background: #fff;
+
+					width: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #000;
+					text-align: center;
+					font-size: 30px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+			}
+		}
+	}
+}

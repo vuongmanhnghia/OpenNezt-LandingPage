@@ -1,0 +1,68 @@
+.subscribe-container {
+	background: url("../assets/Jungle\ Subscribe\ Newsletter.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 440px;
+
+	.subscribe-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		user-select: none;
+		padding: 70px;
+		.subscribe-header {
+			color: #fff;
+			text-align: center;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			font-size: 53px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		.subscribe-submit {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			padding: 80px;
+
+			input {
+				border: none !important;
+				box-shadow: none !important;
+				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				color: #757575;
+				font-size: 24px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 550px;
+				height: 70px;
+				border-radius: 8.008px;
+				background: #fff;
+				padding-left: 30px;
+				border-radius: 8.008px;
+				background: #fff;
+			}
+
+			button {
+				width: 183px;
+				height: 72px;
+				border-radius: 8px;
+				background: #40bcd0;
+
+				color: #fff;
+				font-size: 23.855px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				border: none;
+			}
+		}
+	}
+}

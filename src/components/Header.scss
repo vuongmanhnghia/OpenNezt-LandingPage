@@ -1,4 +1,7 @@
 .header-container {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
 	width: 100%;
 	.header-content {
 		background-color: #1f1f30;
@@ -36,6 +39,7 @@
 					font-style: normal;
 					font-weight: 700;
 					line-height: normal;
+					cursor: pointer;
 				}
 			}
 

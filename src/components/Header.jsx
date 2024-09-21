@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
 
-function Header() {
+const Header = (props) => {
 	return (
 		<>
 			<div className="header-container">
@@ -9,10 +9,16 @@ function Header() {
 					<div className="header-logo"></div>
 					<div className="header-list-tag">
 						<ul className="list-tag">
-							<li className="tag">Home</li>
-							<li className="tag">About Us</li>
+							<li className="tag" onClick={() => props.scrollToBanner()}>
+								Home
+							</li>
+							<li className="tag" onClick={() => props.scrollToTeam()}>
+								About Us
+							</li>
 							<li className="tag">Pricing</li>
-							<li className="tag">Support</li>
+							<li className="tag" onClick={() => props.scrollToQandA()}>
+								Support
+							</li>
 							<li className="tag">Login</li>
 						</ul>
 						<div className="tag-login">GET STARTED</div>
@@ -21,6 +27,6 @@ function Header() {
 			</div>
 		</>
 	);
-}
+};
 
 export default Header;
