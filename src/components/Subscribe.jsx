@@ -5,7 +5,7 @@ function Subscribe() {
 	return (
 		<>
 			<div className="subscribe-container">
-				<div className="subscribe-content">
+				<div className="subscribe-content container">
 					<div className="subscribe-header">
 						Subscribe to receive exclusive startup tips,
 						<br /> strategic business insights, and more.{" "}

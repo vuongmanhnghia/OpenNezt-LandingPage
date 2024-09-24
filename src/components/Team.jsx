@@ -16,7 +16,7 @@ function Team() {
 	return (
 		<>
 			<div className="team-container">
-				<div className="team-content">
+				<div className="team-content container">
 					<div className="team-header">
 						<div className="team-header-text">
 							It’s all about <br /> the people.

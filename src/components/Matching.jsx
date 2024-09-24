@@ -5,7 +5,7 @@ function Matching() {
 	return (
 		<>
 			<div className="matching-container">
-				<div className="matching-content">
+				<div className="matching-content container">
 					<div className="matching-header">
 						Co-founder matching: Connect
 						<br />

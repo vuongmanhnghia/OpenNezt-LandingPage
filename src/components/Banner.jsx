@@ -4,8 +4,8 @@ import "./Banner.scss";
 function Banner() {
 	return (
 		<>
-			<div className="banner-container">
-				<div className="banner-content">
+			<div className="banner-container ">
+				<div className="banner-content container">
 					<div className="banner-text-header">Connect</div>
 					<div className="banner-text-header">
 						with the Perfect Partners.

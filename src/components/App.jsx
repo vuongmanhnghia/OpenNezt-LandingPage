@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import LearnMore from "./LearnMore";
 import Team from "./Team";
+import Navigation from "./Navigation";
 function App() {
 	const QandARef = useRef(null);
 	const BannerRef = useRef(null);
@@ -27,7 +28,7 @@ function App() {
 
 	return (
 		<>
-			<Header
+			<Navigation
 				scrollToBanner={scrollToBanner}
 				scrollToQandA={scrollToQandA}
 				scrollToTeam={scrollToTeam}

@@ -5,7 +5,7 @@ function LearnMore() {
 	return (
 		<>
 			<div className="learnmore-container">
-				<div className="learnmore-content">
+				<div className="learnmore-content container">
 					<div className="learnmore-header">
 						Take your startup journey to the next level.
 					</div>
