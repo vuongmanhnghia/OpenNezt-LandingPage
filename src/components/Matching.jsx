@@ -7,20 +7,19 @@ function Matching() {
 			<div className="matching-container">
 				<div className="matching-content container">
 					<div className="matching-header">
-						Co-founder matching: Connect
-						<br />
-						from Anywhere in the World.
+						Co-founder matching: Connect from Anywhere in the World.
 					</div>
 					<div className="matching-text-content">
 						Access our platform from anywhere, and connect with potential
-						co-founders across <br /> various industries, including tech,
-						marketing, finance, and more. All you need is one <br />
+						co-founders across various industries, including tech,
+						marketing, finance, and more. All you need is one
 						registration, and wherever you are, find the right partner to
 						launch or grow your startup.
 					</div>
-					<div className="matching-box-content row">
-						<div className="matching-box col-5">
+					<div className="matching-box-content container row">
+						<div className="matching-box col-6">
 							<svg
+								className="matching-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="134"
 								height="134"
@@ -36,9 +35,9 @@ function Matching() {
 							</svg>
 							<div className="matching-title">Connect Globally</div>
 						</div>
-						<div className="col-2"></div>
-						<div className="matching-box col-5">
+						<div className="matching-box col-6">
 							<svg
+								className="matching-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="125"
 								height="125"
@@ -51,8 +50,9 @@ function Matching() {
 							</svg>
 							<div className="matching-title">Diverse Industries</div>
 						</div>
-						<div className="matching-box col-5">
+						<div className="matching-box col-6">
 							<svg
+								className="matching-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="126"
 								height="126"
@@ -68,9 +68,9 @@ function Matching() {
 							</svg>
 							<div className="matching-title">Skill Matching</div>
 						</div>
-						<div className="col-2"></div>
-						<div className="matching-box col-5">
+						<div className="matching-box col-6">
 							<svg
+								className="matching-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="125"
 								height="125"

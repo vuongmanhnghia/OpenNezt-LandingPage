@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import "./App.css";
-import Header from "./Header";
 import Banner from "./Banner";
 import Matching from "./Matching";
 import QandA from "./QandA";

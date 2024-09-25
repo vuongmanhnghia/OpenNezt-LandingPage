@@ -1,18 +1,25 @@
 import React from "react";
 import "./LearnMore.scss";
+import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
+import Dawn_City_Features from "../assets/Dawn_City_Features.png";
 
 function LearnMore() {
 	return (
 		<>
-			<div className="learnmore-container">
-				<div className="learnmore-content container">
+			<div
+				className="learnmore-container"
+				style={{ background: `url(${Dawn_City_Features})` }}>
+				<div className="learnmore-content">
 					<div className="learnmore-header">
 						Take your startup journey to the next level.
 					</div>
-					<div className="learnmore-title"></div>
-					<div className="learnmore-line1">
+					<div
+						className="learnmore-title"
+						style={{ background: `url(${OpenNeztLogoWhite})` }}></div>
+					<div className="learnmore-list">
 						<div className="learnmore-item">
 							<svg
+								className="learnmore-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="60"
 								height="64"
@@ -27,6 +34,7 @@ function LearnMore() {
 						</div>
 						<div className="learnmore-item">
 							<svg
+								className="learnmore-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="60"
 								height="64"
@@ -41,10 +49,9 @@ function LearnMore() {
 								Real-time Collaboration Tools
 							</div>
 						</div>
-					</div>
-					<div className="learnmore-line2">
 						<div className="learnmore-item">
 							<svg
+								className="learnmore-icon"
 								xmlns="http://www.w3.org/2000/svg"
 								width="60"
 								height="64"
