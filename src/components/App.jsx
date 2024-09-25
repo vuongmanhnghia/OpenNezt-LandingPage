@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./App.css";
 import Banner from "./Banner";
 import Matching from "./Matching";
-import QandA from "./QandA";
+import QAndA from "./QAndA";
 import "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Footer";
@@ -42,7 +42,7 @@ function App() {
 				<Team />
 			</div>
 			<div ref={QandARef}>
-				<QandA />
+				<QAndA />
 			</div>
 			<Footer />
 		</>

@@ -1,56 +1,58 @@
 import React from "react";
-import "./Footer.scss";
+import { FaInstagram, FaYoutube, FaLinkedin, FaFacebook } from "react-icons/fa";
 import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./Footer.scss";
 
-function Footer() {
+const Footer = () => {
 	return (
 		<footer className="footer">
-			<div className="footer__container">
-				<div className="footer__logo">
-					<img src={OpenNeztLogoWhite} alt="OpenNezt Logo" />
-				</div>
+			<div className="footer__container container">
+				<div
+					className="footer__logo"
+					style={{ background: `url(${OpenNeztLogoWhite})` }}></div>
 
-				<div className="footer__links">
-					<div className="footer__section">
+				<div className="footer__links row w-100">
+					<div className="footer__section col-lg-2 col-md-3 col-sm-4 mb-3">
 						<h3>Product</h3>
 						<a href="#">Premium</a>
 					</div>
-					<div className="footer__section">
+
+					<div className="footer__section col-lg-2 col-md-3 col-sm-4 mb-3">
 						<h3>Resources</h3>
 						<a href="#">Privacy Policy</a>
 					</div>
-					<div className="footer__section">
+
+					<div className="footer__section col-lg-2 col-md-3 col-sm-4 mb-3">
 						<h3>Company</h3>
 						<a href="#">Contact us</a>
 					</div>
 
-					<div className="footer__newsletter">
+					<div className="footer__newsletter col-lg-6 col-md-12">
 						<h3>Join our Newsletter!</h3>
-						{/* <div className="newsletter__form">
-                            <input type="email" placeholder="Enter your email" />
-                            <button>SUBMIT</button>
-                        </div> */}
+						<div className="newsletter__form">
+							<input type="email" placeholder="Enter your email" />
+							<button type="submit">SUBMIT</button>
+						</div>
 					</div>
 				</div>
 
-				<div className="footer__social">
+				<div className="footer__social mt-4">
 					<a href="#">
-						<i className="fab fa-instagram"></i>
+						<FaInstagram />
 					</a>
 					<a href="#">
-						<i className="fab fa-youtube"></i>
+						<FaYoutube />
 					</a>
 					<a href="#">
-						<i className="fab fa-linkedin"></i>
+						<FaLinkedin />
 					</a>
 					<a href="#">
-						<i className="fab fa-facebook"></i>
+						<FaFacebook />
 					</a>
 				</div>
 			</div>
 		</footer>
 	);
-}
+};
 
 export default Footer;

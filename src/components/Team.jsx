@@ -22,11 +22,11 @@ function Team() {
 							It’s all about <br /> the people.
 						</div>
 						<div className="line-color">
-							<div className="purple"></div>
-							<div className="blue"></div>
-							<div className="green"></div>
-							<div className="yellow"></div>
-							<div className="red"></div>
+							<div className="purple line"></div>
+							<div className="blue line"></div>
+							<div className="green line"></div>
+							<div className="yellow line"></div>
+							<div className="red line"></div>
 						</div>
 					</div>
 					<div className="team-text">
@@ -51,7 +51,6 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Viet_Anh})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
 									border: `rgba(79, 193, 232, 0.34) 4px solid`,
 								}}></div>
 							<div className="name">Chu Việt Anh</div>
@@ -73,7 +72,7 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Gia_Bach})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
+									// backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
 									border: `rgba(160, 213, 104, 0.46) 4px solid`,
 								}}></div>
 							<div className="name">Nguyễn Hoàng Gia Bách</div>
@@ -139,7 +138,7 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Nghia})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(-80px)`,
+									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
 									border: `rgba(237, 85, 100, 0.72) 4px solid`,
 								}}></div>
 							<div className="name">Vương Mạnh Nghĩa</div>
@@ -240,7 +239,7 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Duc_Vinh})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
+									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
 									border: `rgba(255, 206, 84, 0.49) 4px solid`,
 								}}></div>
 							<div className="name">MA. Nguyễn Đức Vinh</div>
@@ -262,7 +261,7 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Van_Lich})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(-100px)`,
+									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
 									border: `rgba(237, 85, 100, 0.72) 4px solid`,
 								}}></div>
 							<div className="name">MA. Trần Văn Lịch</div>

@@ -1,41 +1,87 @@
 .qanda {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 5rem 0;
+	.hero_title {
+		font-size: 4rem;
+		font-weight: 700;
+		margin-bottom: 2rem;
+	}
+
+	.color {
+		border-radius: 1.5rem;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		background: #fff;
+		padding: 2rem;
+
+		.question-header {
+			display: flex;
+			justify-content: space-between;
+			font-size: 2rem;
+			text-align: left;
+
+			font-size: 2rem;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		.answer-line {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			border-top: 1px solid rgba(0, 0, 0, 0.2);
+		}
+
+		.answer {
+			font-size: 1.6rem;
+			font-style: normal;
+			font-weight: 400;
+			text-align: left;
+
+			p {
+				margin: 0;
+			}
+		}
+	}
 }
 
-.hero_title {
-    text-align: center;
-    font: 700 48px/1.19 "Inria Sans", Helvetica, Arial, serif;
-    color: #000;
+@media (min-width: 768px) and (max-width: 992px) {
+	.qanda {
+		padding: 3rem 0;
+		.hero_title {
+			font-size: 2.5rem;
+		}
+
+		.color {
+			padding: 1.5rem;
+			.question-header {
+				font-size: 1.3rem;
+			}
+
+			.answer {
+				font-size: 1.1rem;
+			}
+		}
+	}
 }
 
-.color {
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-}
+@media (max-width: 768px) {
+	.qanda {
+		padding: 2rem 0;
+		.hero_title {
+			font-size: 1.5rem;
+		}
 
-.question-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+		.color {
+			padding: 1rem;
+			.question-header {
+				font-size: 1rem;
+			}
 
-.big_title {
-    font: 700 24px/1.2 "Inria Sans", Helvetica, Arial, serif;
-    color: #1f1f30;
-    margin: 0;
-}
-
-.answer {
-    padding: 10px;
-    margin-top: 10px;
-    border-top: 1px solid #ccc;
-    font-size: 24px;
+			.answer {
+				font-size: 0.8rem;
+			}
+		}
+	}
 }
