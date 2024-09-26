@@ -7,7 +7,8 @@ function Matching() {
 			<div className="matching-container">
 				<div className="matching-content container">
 					<div className="matching-header">
-						Co-founder matching: Connect from Anywhere in the World.
+						<span>Co-founder matching</span>{" "}
+						<span>Connect from Anywhere in the World.</span>
 					</div>
 					<div className="matching-text-content">
 						Access our platform from anywhere, and connect with potential

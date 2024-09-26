@@ -1,19 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 .banner-container {
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	// background-position: center !important;
-	min-height: 120vh;
+	background-position: center !important;
+	min-height: 100vh;
 	width: 100%;
 
 	.banner-content {
+		font-family: "Instrument Sans";
 		gap: 1.5rem;
-		padding-top: 12vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
 
 		.banner-text-header {
+			font-family: "Instrument Sans";
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
@@ -40,6 +44,7 @@
 		}
 
 		.banner-button {
+			font-family: "Inria Sans";
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -59,13 +64,32 @@
 	}
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+	.banner-container {
+		min-height: 90vh;
+
+		.banner-content {
+			.banner-text-header {
+				font-size: 3.5rem;
+			}
+
+			.banner-text-content {
+				font-size: 1.3rem;
+			}
+
+			.banner-button {
+				font-size: 1.8rem;
+				padding: 1rem 2rem;
+			}
+		}
+	}
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
 	.banner-container {
 		min-height: 80vh;
 
 		.banner-content {
-			padding-top: 8vh;
-
 			.banner-text-header {
 				font-size: 3rem;
 			}
@@ -82,14 +106,35 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 	.banner-container {
 		min-height: 60vh;
-		.banner-content {
-			padding-top: 5vh;
 
+		.banner-content {
 			.banner-text-header {
 				font-size: 2.5rem;
+			}
+
+			.banner-text-content {
+				font-size: 1.2rem;
+			}
+
+			.banner-button {
+				font-size: 1rem;
+				padding: 0.8rem 1.5rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.banner-container {
+		padding: 0 1rem;
+		min-height: 50vh;
+
+		.banner-content {
+			.banner-text-header {
+				font-size: 2rem;
 			}
 
 			.banner-text-content {
@@ -97,7 +142,7 @@
 			}
 
 			.banner-button {
-				font-size: 1.2rem;
+				font-size: 1rem;
 				padding: 0.5rem 1rem;
 			}
 		}

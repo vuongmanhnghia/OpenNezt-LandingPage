@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+// inika
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
 .matching-container {
 	background: #e3e3e3;
 
@@ -11,6 +15,9 @@
 		justify-content: center;
 
 		.matching-header {
+			font-family: "Inria Sans";
+			display: flex;
+			flex-direction: column;
 			color: #1f1f30;
 			text-align: center;
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -21,6 +28,7 @@
 		}
 
 		.matching-text-content {
+			font-family: Inika;
 			color: #323232;
 			text-align: center;
 			font-family: Inika;
@@ -31,6 +39,7 @@
 		}
 
 		.matching-box-content {
+			font-family: "Inria Sans";
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
@@ -67,6 +76,7 @@
 		}
 
 		.matching-button {
+			font-family: "Inria Sans";
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -85,13 +95,14 @@
 	}
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	.matching-container {
 		.matching-content {
-			gap: 40px;
+			padding: 5rem 0;
+			gap: 50px;
 
 			.matching-header {
-				font-size: 3rem;
+				font-size: 3.5rem;
 			}
 
 			.matching-text-content {
@@ -100,12 +111,51 @@
 
 			.matching-box-content {
 				.matching-box {
+					display: flex;
+					justify-content: center;
 					gap: 20px;
 					padding: 10px;
 
 					.matching-icon {
 						width: 100px;
 						height: 100px;
+					}
+					.matching-title {
+						font-size: 1.5rem;
+					}
+				}
+			}
+
+			.matching-button {
+				font-size: 1.5rem;
+				padding: 15px 35px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.matching-container {
+		.matching-content {
+			padding: 4rem 0;
+			gap: 40px;
+
+			.matching-header {
+				font-size: 2.5rem;
+			}
+
+			.matching-text-content {
+				font-size: 1.2rem;
+			}
+
+			.matching-box-content {
+				.matching-box {
+					gap: 20px;
+					padding: 10px;
+
+					.matching-icon {
+						width: 80px;
+						height: 80px;
 					}
 					.matching-title {
 						font-size: 1.3rem;
@@ -121,10 +171,11 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 	.matching-container {
 		.matching-content {
-			gap: 20px;
+			padding: 3rem 0;
+			gap: 30px;
 
 			.matching-header {
 				font-size: 2rem;
@@ -140,8 +191,8 @@
 					padding: 10px;
 
 					.matching-icon {
-						width: 100px;
-						height: 100px;
+						width: 70px;
+						height: 70px;
 					}
 					.matching-title {
 						font-size: 1rem;
@@ -151,6 +202,44 @@
 
 			.matching-button {
 				font-size: 1.2rem;
+				padding: 10px 25px;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.matching-container {
+		padding: 0 1rem;
+		.matching-content {
+			padding: 2rem 0;
+			gap: 20px;
+
+			.matching-header {
+				font-size: 1.5rem;
+			}
+
+			.matching-text-content {
+				font-size: 0.8rem;
+			}
+
+			.matching-box-content {
+				.matching-box {
+					gap: 5;
+					padding: 10px;
+
+					.matching-icon {
+						width: 50px;
+						height: 50px;
+					}
+					.matching-title {
+						font-size: 1rem;
+					}
+				}
+			}
+
+			.matching-button {
+				font-size: 1rem;
 				padding: 10px 25px;
 			}
 		}

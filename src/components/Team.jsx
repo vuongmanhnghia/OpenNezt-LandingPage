@@ -170,7 +170,6 @@ function Team() {
 								style={{
 									background: `url(${Huong_Lan})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
-									border: `rgba(79, 193, 232, 0.34) 4px solid`,
 								}}></div>
 							<div className="name">Assoc. Prof. Đỗ Hương Lan</div>
 							<div className="info">Deputy Director of CSIE - NEU</div>
@@ -192,7 +191,6 @@ function Team() {
 								style={{
 									background: `url(${Soren_Kirchner})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(160, 213, 104, 0.46) 4px solid`,
 								}}></div>
 							<div className="name">Prof. Soren Kirchner</div>
 							<div className="info">
@@ -216,7 +214,6 @@ function Team() {
 								style={{
 									background: `url(${Van_Thuong})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(172, 146, 235, 0.67) 4px solid`,
 								}}></div>
 							<div className="name">MSc. Vũ Văn Thương</div>
 							<div className="info">
@@ -240,7 +237,6 @@ function Team() {
 								style={{
 									background: `url(${Duc_Vinh})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(255, 206, 84, 0.49) 4px solid`,
 								}}></div>
 							<div className="name">MA. Nguyễn Đức Vinh</div>
 							<div className="info">Director of STG</div>
@@ -262,7 +258,6 @@ function Team() {
 								style={{
 									background: `url(${Van_Lich})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
-									border: `rgba(237, 85, 100, 0.72) 4px solid`,
 								}}></div>
 							<div className="name">MA. Trần Văn Lịch</div>
 							<div className="info">Director of GGT Vietnam</div>
@@ -284,7 +279,6 @@ function Team() {
 								style={{
 									background: `url(${Thi_Thuy})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(237, 85, 100, 0.72) 4px solid`,
 								}}></div>
 							<div className="name">MA. Đỗ Thị Thủy</div>
 							<div className="info">

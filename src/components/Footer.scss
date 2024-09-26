@@ -18,10 +18,15 @@
 		}
 
 		.footer__links {
+			display: flex;
+			justify-content: center;
+			gap: 2rem;
+			flex-wrap: wrap;
 			.footer__section {
 				text-align: left;
 				display: flex;
 				flex-direction: column;
+				box-sizing: border-box;
 
 				h3 {
 					display: flex;
@@ -146,6 +151,9 @@
 			}
 			.footer__links {
 				.footer__section {
+					display: flex;
+					flex-direction: column;
+
 					h3 {
 						font-size: 1.2rem;
 					}

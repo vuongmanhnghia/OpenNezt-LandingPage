@@ -135,6 +135,7 @@
 					background-position: center !important;
 					width: 20rem;
 					height: 23rem;
+					border: #aaa 4px solid;
 				}
 
 				.name {
@@ -402,25 +403,25 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 	.team-container {
 		.team-content {
 			padding: 1rem 0;
 			.team-header {
 				.team-header-text {
-					font-size: 5rem;
+					font-size: 4rem;
 				}
 
 				.line-color {
 					.line {
-						width: 5.5rem;
+						width: 4rem;
 						height: 1rem;
 					}
 				}
 			}
 
 			.team-text {
-				font-size: 1.2rem;
+				font-size: 1rem;
 			}
 
 			.line1 {
@@ -449,15 +450,96 @@
 				.box-member {
 					.avt {
 						width: 8rem;
-						height: 12rem;
+						height: 10rem;
 					}
 
 					.name {
-						font-size: 0.6rem;
+						font-size: 0.5rem;
 					}
 
 					.info {
-						font-size: 0.4rem;
+						font-size: 0.3rem;
+					}
+				}
+			}
+
+			.line2 {
+				padding: 5rem 0;
+				.rectangle {
+					width: 20rem;
+					height: 3rem;
+					border-radius: 2rem;
+					border: 0.2rem solid #000;
+					.rectangle-text {
+						font-size: 1.2rem;
+					}
+
+					.rectangle2 {
+						border-radius: 20px 0 0 20px;
+						font-size: 1.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.team-container {
+		.team-content {
+			padding: 1rem 0;
+			.team-header {
+				.team-header-text {
+					font-size: 4rem;
+				}
+
+				.line-color {
+					.line {
+						width: 4rem;
+						height: 1rem;
+					}
+				}
+			}
+
+			.team-text {
+				font-size: 1rem;
+			}
+
+			.line1 {
+				padding: 5rem 0;
+				.rectangle {
+					width: 20rem;
+					height: 3rem;
+					border-radius: 2rem;
+					border: 0.2rem solid #000;
+					.rectangle-text {
+						font-size: 1.2rem;
+					}
+
+					.rectangle2 {
+						height: 3rem;
+						border-radius: 0px 20px 20px 0px;
+						font-size: 1.2rem;
+					}
+				}
+			}
+
+			.core-team,
+			.mentor-team {
+				gap: 1rem;
+
+				.box-member {
+					.avt {
+						width: 8rem;
+						height: 10rem;
+					}
+
+					.name {
+						font-size: 0.5rem;
+					}
+
+					.info {
+						font-size: 0.3rem;
 					}
 				}
 			}
