@@ -130,20 +130,22 @@
 @media (max-width: 576px) {
 	.banner-container {
 		padding: 0 1rem;
-		min-height: 50vh;
+		padding-top: 1rem;
+		min-height: 40vh;
 
 		.banner-content {
+			gap: 0.7rem;
 			.banner-text-header {
-				font-size: 2rem;
+				font-size: 1.7rem;
 			}
 
 			.banner-text-content {
-				font-size: 1rem;
+				font-size: 0.8rem;
 			}
 
 			.banner-button {
 				font-size: 1rem;
-				padding: 0.5rem 1rem;
+				padding: 0.3rem 0.7rem;
 			}
 		}
 	}

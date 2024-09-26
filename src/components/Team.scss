@@ -1,16 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 .team-container {
 	background: #fffdf8;
 
 	.team-content {
-		padding: 5rem 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 3rem;
 		user-select: none;
+		gap: 2rem;
+
 		.team-header {
 			position: relative;
 			.team-header-text {
+				font-family: Inter;
 				z-index: 2;
 				justify-content: flex-start;
 				color: #000;
-				font-size: 8rem;
+				font-size: 7.5rem;
 				font-style: normal;
 				font-weight: 700;
 				line-height: normal;
@@ -22,7 +30,7 @@
 				display: flex;
 				align-items: center;
 				position: absolute;
-				bottom: 20px;
+				bottom: 1rem;
 				z-index: 1;
 
 				.line {
@@ -53,7 +61,8 @@
 		}
 
 		.team-text {
-			font-size: 2rem;
+			font-family: Inter;
+			font-size: 1.7rem;
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
@@ -61,6 +70,7 @@
 		}
 
 		.line1 {
+			font-family: Inter;
 			position: relative;
 			padding: 8rem 0;
 			.line {
@@ -121,9 +131,11 @@
 			flex-wrap: wrap;
 			align-items: center;
 			justify-content: center;
-			gap: 5rem;
+			gap: 2rem;
 
 			.box-member {
+				gap: 0.5rem;
+				font-family: Inter;
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
@@ -135,19 +147,22 @@
 					background-position: center !important;
 					width: 20rem;
 					height: 23rem;
-					border: #aaa 4px solid;
+					border: #e3e3e3 4px solid;
 				}
 
 				.name {
+					width: 20rem;
 					color: #010101;
 					font-size: 1.5rem;
 					font-style: normal;
 					font-weight: 700;
 					line-height: normal;
 					text-align: left;
+					text-wrap: wrap;
 				}
 
 				.info {
+					width: 20rem;
 					color: #010101;
 					font-size: 1rem;
 					font-style: normal;
@@ -155,11 +170,18 @@
 					text-align: left;
 					line-height: normal;
 					padding-bottom: 5px;
+					text-wrap: wrap;
+				}
+
+				.linked {
+					width: 1.5rem;
+					height: 1.5rem;
 				}
 			}
 		}
 
 		.line2 {
+			font-family: Inter;
 			position: relative;
 			padding: 8rem 0;
 			.line {
@@ -216,54 +238,30 @@
 	}
 }
 
-@media (min-width: 1130px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	.team-container {
 		.team-content {
-			.core-team,
-			.mentor-team {
-				gap: 4rem;
-				.box-member {
-					.avt {
-						width: 15rem;
-						height: 20rem;
-					}
-
-					.name {
-						font-size: 1.1rem;
-					}
-
-					.info {
-						font-size: 0.7rem;
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (min-width: 992px) and (max-width: 1130px) {
-	.team-container {
-		.team-content {
-			padding: 4rem 0;
+			padding: 3rem;
+			gap: 1.5rem;
 			.team-header {
 				.team-header-text {
-					font-size: 5rem;
+					font-size: 6rem;
 				}
 
 				.line-color {
 					.line {
-						width: 5.5rem;
+						width: 6.5rem;
 						height: 1rem;
 					}
 				}
 			}
 
 			.team-text {
-				font-size: 1.2rem;
+				font-size: 1.3rem;
 			}
 
 			.line1 {
-				padding: 5rem 0;
+				padding: 6rem 0;
 				.rectangle {
 					width: 20rem;
 					height: 3rem;
@@ -283,26 +281,29 @@
 
 			.core-team,
 			.mentor-team {
-				gap: 3rem;
+				gap: 1.5rem;
 
 				.box-member {
+					gap: 0.4rem;
 					.avt {
-						width: 13rem;
-						height: 17rem;
+						width: 17rem;
+						height: 20rem;
 					}
 
 					.name {
-						font-size: 0.9rem;
+						width: 17rem;
+						font-size: 1.2rem;
 					}
 
 					.info {
-						font-size: 0.5rem;
+						width: 17rem;
+						font-size: 0.8rem;
 					}
 				}
 			}
 
 			.line2 {
-				padding: 5rem 0;
+				padding: 6rem 0;
 				.rectangle {
 					width: 20rem;
 					height: 3rem;
@@ -325,77 +326,88 @@
 @media (min-width: 768px) and (max-width: 992px) {
 	.team-container {
 		.team-content {
-			padding: 3rem 0;
+			padding: 1.5rem;
+			gap: 1rem;
 			.team-header {
 				.team-header-text {
-					font-size: 5rem;
+					font-size: 4.5rem;
 				}
 
 				.line-color {
+					bottom: 0.5rem;
 					.line {
 						width: 5.5rem;
-						height: 1rem;
+						height: 0.9rem;
 					}
 				}
 			}
 
 			.team-text {
-				font-size: 1.2rem;
+				font-size: 1rem;
 			}
 
 			.line1 {
-				padding: 5rem 0;
+				padding: 3rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
+					width: 12rem;
+					height: 2.2rem;
+					border-radius: 1.5rem;
 					border: 0.2rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.7rem;
 					}
 
 					.rectangle2 {
-						height: 3rem;
+						height: 2.2rem;
 						border-radius: 0px 20px 20px 0px;
-						font-size: 1.2rem;
+						font-size: 0.7rem;
 					}
 				}
 			}
 
 			.core-team,
 			.mentor-team {
-				gap: 3rem;
+				gap: 1rem;
 
 				.box-member {
+					gap: 0.3rem;
 					.avt {
-						width: 12rem;
-						height: 15rem;
+						width: 13rem;
+						height: 16rem;
 					}
 
 					.name {
-						font-size: 0.9rem;
+						width: 13rem;
+						font-size: 1rem;
 					}
 
 					.info {
-						font-size: 0.5rem;
+						width: 13rem;
+						font-size: 0.6rem;
+					}
+
+					.linked {
+						width: 0.8rem;
+						height: 0.8rem;
 					}
 				}
 			}
 
 			.line2 {
-				padding: 5rem 0;
+				padding: 3rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
+					width: 12rem;
+					height: 2.2rem;
+					border-radius: 1.5rem;
 					border: 0.2rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.7rem;
 					}
 
 					.rectangle2 {
 						border-radius: 20px 0 0 20px;
-						font-size: 1.2rem;
+						font-size: 0.7rem;
+						height: 2.2rem;
 					}
 				}
 			}
@@ -406,77 +418,96 @@
 @media (min-width: 576px) and (max-width: 768px) {
 	.team-container {
 		.team-content {
-			padding: 1rem 0;
+			padding: 1rem;
+			gap: 0.5rem;
 			.team-header {
 				.team-header-text {
-					font-size: 4rem;
+					font-size: 3.2rem;
 				}
 
 				.line-color {
+					bottom: 0.5rem;
 					.line {
-						width: 4rem;
-						height: 1rem;
+						width: 3.5rem;
+						height: 0.5rem;
 					}
 				}
 			}
 
 			.team-text {
-				font-size: 1rem;
+				font-size: 0.7rem;
 			}
 
 			.line1 {
-				padding: 5rem 0;
+				.line {
+					width: 100%;
+					height: 0.15rem;
+				}
+				padding: 2rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
+					width: 8.5rem;
+					height: 1.7rem;
+					border-radius: 1rem;
+					border: 0.15rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.5rem;
 					}
 
 					.rectangle2 {
-						height: 3rem;
 						border-radius: 0px 20px 20px 0px;
-						font-size: 1.2rem;
+						font-size: 0.5rem;
+						height: 2.2rem;
 					}
 				}
 			}
 
 			.core-team,
 			.mentor-team {
-				gap: 2rem;
+				gap: 0.7rem;
 
 				.box-member {
+					gap: 0.2rem;
 					.avt {
-						width: 8rem;
-						height: 10rem;
+						width: 10rem;
+						height: 13rem;
 					}
 
 					.name {
-						font-size: 0.5rem;
+						width: 10rem;
+						font-size: 0.75rem;
 					}
 
 					.info {
-						font-size: 0.3rem;
+						width: 10rem;
+						font-size: 0.45rem;
+					}
+
+					.linked {
+						width: 0.7rem;
+						height: 0.7rem;
 					}
 				}
 			}
 
 			.line2 {
-				padding: 5rem 0;
+				.line {
+					width: 100%;
+					height: 0.15rem;
+				}
+				padding: 3rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
+					width: 8.5rem;
+					height: 1.7rem;
+					border-radius: 1rem;
+					border: 0.15rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.5rem;
 					}
 
 					.rectangle2 {
 						border-radius: 20px 0 0 20px;
-						font-size: 1.2rem;
+						font-size: 0.5rem;
+						height: 2.2rem;
 					}
 				}
 			}
@@ -487,77 +518,96 @@
 @media (max-width: 576px) {
 	.team-container {
 		.team-content {
-			padding: 1rem 0;
+			padding: 1rem;
+			gap: 0.5rem;
 			.team-header {
 				.team-header-text {
-					font-size: 4rem;
+					font-size: 2.5rem;
 				}
 
 				.line-color {
+					bottom: 0.5rem;
 					.line {
-						width: 4rem;
-						height: 1rem;
+						width: 3.2rem;
+						height: 0.4rem;
 					}
 				}
 			}
 
 			.team-text {
-				font-size: 1rem;
+				font-size: 0.55rem;
 			}
 
 			.line1 {
-				padding: 5rem 0;
+				.line {
+					width: 100%;
+					height: 0.15rem;
+				}
+				padding: 2rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
+					width: 8.5rem;
+					height: 1.7rem;
+					border-radius: 1rem;
+					border: 0.15rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.5rem;
 					}
 
 					.rectangle2 {
-						height: 3rem;
 						border-radius: 0px 20px 20px 0px;
-						font-size: 1.2rem;
+						font-size: 0.5rem;
+						height: 2.2rem;
 					}
 				}
 			}
 
 			.core-team,
 			.mentor-team {
-				gap: 1rem;
+				gap: 0.7rem;
 
 				.box-member {
+					gap: 0.2rem;
 					.avt {
-						width: 8rem;
-						height: 10rem;
+						width: 10rem;
+						height: 13rem;
 					}
 
 					.name {
-						font-size: 0.5rem;
+						width: 10rem;
+						font-size: 0.75rem;
 					}
 
 					.info {
-						font-size: 0.3rem;
+						width: 10rem;
+						font-size: 0.45rem;
+					}
+
+					.linked {
+						width: 0.7rem;
+						height: 0.7rem;
 					}
 				}
 			}
 
 			.line2 {
-				padding: 5rem 0;
+				.line {
+					width: 100%;
+					height: 0.15rem;
+				}
+				padding: 3rem 0;
 				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
+					width: 8.5rem;
+					height: 1.7rem;
+					border-radius: 1rem;
+					border: 0.15rem solid #000;
 					.rectangle-text {
-						font-size: 1.2rem;
+						font-size: 0.5rem;
 					}
 
 					.rectangle2 {
 						border-radius: 20px 0 0 20px;
-						font-size: 1.2rem;
+						font-size: 0.5rem;
+						height: 2.2rem;
 					}
 				}
 			}

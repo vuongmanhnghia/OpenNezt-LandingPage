@@ -31,11 +31,23 @@ function Team() {
 					</div>
 					<div className="team-text">
 						At OpenNezt, we value{" "}
-						<span style={{ color: `#3891AF` }}>diversity</span>,{" "}
-						<span style={{ color: `#CE3F4D` }}>innovation</span>, and
-						<span style={{ color: `#C39B37` }}>collaboration</span>.<br />
+						<span style={{ color: `#3891AF`, fontWeight: "700" }}>
+							diversity
+						</span>
+						,{" "}
+						<span style={{ color: `#CE3F4D`, fontWeight: "700" }}>
+							innovation
+						</span>
+						, and{" "}
+						<span style={{ color: `#C39B37`, fontWeight: "700" }}>
+							collaboration
+						</span>
+						.
+						<br />
 						Meet our global team of experts committed to{" "}
-						<span style={{ color: `#7DA553` }}>revolutionizing</span>
+						<span style={{ color: `#7DA553`, fontWeight: "700" }}>
+							revolutionizing{" "}
+						</span>
 						the startup ecosystem.
 					</div>
 					<div className="line1">
@@ -51,11 +63,12 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Viet_Anh})`,
-									border: `rgba(79, 193, 232, 0.34) 4px solid`,
+									border: `rgba(79, 193, 232, 1) 4px solid`,
 								}}></div>
 							<div className="name">Chu Việt Anh</div>
 							<div className="info">Founder - Head of Production</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -73,11 +86,12 @@ function Team() {
 								style={{
 									background: `url(${Gia_Bach})`,
 									// backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(160, 213, 104, 0.46) 4px solid`,
+									border: `rgba(160, 213, 104, 1) 4px solid`,
 								}}></div>
 							<div className="name">Nguyễn Hoàng Gia Bách</div>
 							<div className="info">Head of Finance</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -94,12 +108,13 @@ function Team() {
 								className="avt"
 								style={{
 									background: `url(${Phuong_Trang})`,
-									backgroundPosition: `calc(50% - 0.5px) calc(-5px)`,
-									border: `rgba(172, 146, 235, 0.67) 4px solid`,
+									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
+									border: `rgba(172, 146, 235, 1) 4px solid`,
 								}}></div>
 							<div className="name">Nguyễn Phương Trang</div>
 							<div className="info">Head of Marketing</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -117,11 +132,12 @@ function Team() {
 								style={{
 									background: `url(${Hoang})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
-									border: `rgba(255, 206, 84, 0.49) 4px solid`,
+									border: `rgba(255, 206, 84, 1) 4px solid`,
 								}}></div>
 							<div className="name">Nguyễn Huy Hoàng</div>
 							<div className="info">Backend Developer</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -139,11 +155,12 @@ function Team() {
 								style={{
 									background: `url(${Nghia})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(-50px)`,
-									border: `rgba(237, 85, 100, 0.72) 4px solid`,
+									border: `rgba(237, 85, 100, 1) 4px solid`,
 								}}></div>
 							<div className="name">Vương Mạnh Nghĩa</div>
 							<div className="info">DevOps</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -174,6 +191,7 @@ function Team() {
 							<div className="name">Assoc. Prof. Đỗ Hương Lan</div>
 							<div className="info">Deputy Director of CSIE - NEU</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -197,6 +215,7 @@ function Team() {
 								MBA Training Expert - Andrews University
 							</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -220,6 +239,7 @@ function Team() {
 								Founder of ZentSoft Software Solutions
 							</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -241,6 +261,7 @@ function Team() {
 							<div className="name">MA. Nguyễn Đức Vinh</div>
 							<div className="info">Director of STG</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -262,6 +283,7 @@ function Team() {
 							<div className="name">MA. Trần Văn Lịch</div>
 							<div className="info">Director of GGT Vietnam</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"
@@ -285,6 +307,7 @@ function Team() {
 								Marketing and Business Development Expert
 							</div>
 							<svg
+								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
 								width="30"
 								height="30"

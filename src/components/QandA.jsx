@@ -23,9 +23,13 @@ const QAndA = () => {
 							onClick={() => toggleAnswer(index)}>
 							<span className="icon">
 								{openAnswers[index] ? (
-									<i class="fa-solid fa-chevron-up"></i>
+									<i
+										class="fa-solid fa-chevron-up"
+										style={{ color: `#40BCD0` }}></i>
 								) : (
-									<i className="fa-solid fa-chevron-down"></i>
+									<i
+										className="fa-solid fa-chevron-down"
+										style={{ color: `#40BCD0` }}></i>
 								)}
 							</span>
 						</button>
