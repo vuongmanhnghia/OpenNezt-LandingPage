@@ -97,7 +97,7 @@
 	text-wrap: nowrap;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
 	.nav-menu {
 		gap: 2rem;
 	}
@@ -107,12 +107,56 @@
 	}
 
 	.nav-item {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		font-weight: 700;
 	}
 
 	.get-started {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
+		color: #1f1f30;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+
+		border-radius: 0.5rem;
+		border: 1px solid #000;
+		background: #f2b538;
+
+		padding: 0.4em 1rem;
+		text-wrap: nowrap;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.navbar {
+		.navbar-content {
+			.navbar-brand {
+				max-width: 230px;
+				min-height: 9vh;
+				width: 100%;
+			}
+
+			.navbar-button {
+				font-size: 2rem;
+			}
+		}
+	}
+
+	.nav-menu {
+		gap: 2rem;
+	}
+
+	.navbar-nav {
+		gap: 2rem;
+	}
+
+	.nav-item {
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+
+	.get-started {
+		font-size: 1.1rem;
 		color: #1f1f30;
 		font-style: normal;
 		font-weight: 700;

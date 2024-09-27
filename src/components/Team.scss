@@ -131,7 +131,8 @@
 			flex-wrap: wrap;
 			align-items: center;
 			justify-content: center;
-			gap: 2rem;
+			gap: auto !important;
+			gap: 5rem;
 
 			.box-member {
 				gap: 0.5rem;
@@ -145,8 +146,8 @@
 					background-size: cover !important;
 					background-repeat: no-repeat !important;
 					background-position: center !important;
-					width: 20rem;
-					height: 23rem;
+					width: 18rem;
+					height: 20rem;
 					border: #e3e3e3 4px solid;
 				}
 
@@ -164,7 +165,7 @@
 				.info {
 					width: 20rem;
 					color: #010101;
-					font-size: 1rem;
+					font-size: 0.9rem;
 					font-style: normal;
 					font-weight: 400;
 					text-align: left;
@@ -238,6 +239,34 @@
 	}
 }
 
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.team-container {
+		.team-content {
+			.core-team,
+			.mentor-team {
+				gap: 4rem;
+				.box-member {
+					gap: 0.4rem;
+					.avt {
+						width: 16rem;
+						height: 18rem;
+					}
+
+					.name {
+						width: 17rem;
+						font-size: 1.2rem;
+					}
+
+					.info {
+						width: 17rem;
+						font-size: 0.8rem;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
 	.team-container {
 		.team-content {
@@ -281,23 +310,23 @@
 
 			.core-team,
 			.mentor-team {
-				gap: 1.5rem;
+				gap: 3rem;
 
 				.box-member {
 					gap: 0.4rem;
 					.avt {
-						width: 17rem;
-						height: 20rem;
+						width: 14rem;
+						height: 16rem;
 					}
 
 					.name {
-						width: 17rem;
-						font-size: 1.2rem;
+						width: 15rem;
+						font-size: 1.1rem;
 					}
 
 					.info {
-						width: 17rem;
-						font-size: 0.8rem;
+						width: 15rem;
+						font-size: 0.7rem;
 					}
 				}
 			}
@@ -367,23 +396,23 @@
 
 			.core-team,
 			.mentor-team {
-				gap: 1rem;
+				gap: 2rem;
 
 				.box-member {
 					gap: 0.3rem;
 					.avt {
-						width: 13rem;
-						height: 16rem;
+						width: 10rem;
+						height: 13rem;
 					}
 
 					.name {
-						width: 13rem;
-						font-size: 1rem;
+						width: 12rem;
+						font-size: 0.9rem;
 					}
 
 					.info {
-						width: 13rem;
-						font-size: 0.6rem;
+						width: 12rem;
+						font-size: 0.5rem;
 					}
 
 					.linked {
@@ -463,23 +492,23 @@
 
 			.core-team,
 			.mentor-team {
-				gap: 0.7rem;
+				gap: 2rem 1rem;
 
 				.box-member {
 					gap: 0.2rem;
 					.avt {
-						width: 10rem;
-						height: 13rem;
+						width: 8rem;
+						height: 10rem;
 					}
 
 					.name {
-						width: 10rem;
-						font-size: 0.75rem;
+						width: 9rem;
+						font-size: 0.7rem;
 					}
 
 					.info {
-						width: 10rem;
-						font-size: 0.45rem;
+						width: 9rem;
+						font-size: 0.4rem;
 					}
 
 					.linked {
@@ -563,23 +592,23 @@
 
 			.core-team,
 			.mentor-team {
-				gap: 0.7rem;
+				gap: 2rem;
 
 				.box-member {
 					gap: 0.2rem;
 					.avt {
-						width: 10rem;
-						height: 13rem;
+						width: 8rem;
+						height: 10rem;
 					}
 
 					.name {
-						width: 10rem;
-						font-size: 0.75rem;
+						width: 8rem;
+						font-size: 0.6rem;
 					}
 
 					.info {
-						width: 10rem;
-						font-size: 0.45rem;
+						width: 9rem;
+						font-size: 0.4rem;
 					}
 
 					.linked {
