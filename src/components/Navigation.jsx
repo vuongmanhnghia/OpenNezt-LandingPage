@@ -6,7 +6,7 @@ const Navigation = (props) => {
 	return (
 		<>
 			<nav className="navbar navbar-expand-lg navbar-light bg-light fixed">
-				<div className="navbar-content container container-fluid">
+				<div className="navbar-content container-fluid">
 					<div
 						className="navbar-brand"
 						style={{ background: `url(${OpenNeztLogoWhite})` }}></div>

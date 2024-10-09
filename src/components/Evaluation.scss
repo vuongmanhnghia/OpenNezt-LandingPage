@@ -1,30 +1,18 @@
-.matching-container {
+.evaluation-container {
 	position: relative;
 	width: 100%;
-	height: 69rem;
+	height: 81.3125rem;
 	background: transparent;
-	padding: 2rem 0;
+	padding-top: 25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background: #050716;
 
-	.matching-background {
+	.evaluation-text-name {
 		z-index: 1;
-		position: absolute;
-		top: -8rem;
-		min-width: 200rem;
-		width: 100%;
-		height: 85rem;
-		transform: rotate(-7.104deg);
-		flex-shrink: 0;
-		fill: #090c1c;
-		background: #090c1c;
-	}
-
-	.matching-text-name {
-		z-index: 2;
 		align-self: stretch;
-		color: #227588;
+		color: #2a50a8;
 		text-align: center;
 		font-family: Tahoma;
 		font-size: 1.86938rem;
@@ -34,8 +22,8 @@
 		margin-bottom: 1rem;
 	}
 
-	.matching-text-header {
-		z-index: 2;
+	.evaluation-text-header {
+		z-index: 1;
 		align-self: stretch;
 		color: #fff;
 		font-family: Tahoma;
@@ -46,17 +34,17 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.matching-line {
-		z-index: 2;
+	.evaluation-line {
+		z-index: 1;
 		width: 13.25rem;
 		height: 1rem;
 		flex-shrink: 0;
 		stroke-width: 0.5px;
-		stroke: #2554af;
+		stroke: #183367;
 	}
 
-	.matching-text-content {
-		z-index: 2;
+	.evaluation-text-content {
+		z-index: 1;
 		margin-top: 1.5rem;
 		margin-bottom: 8rem;
 		width: 64.875rem;
@@ -70,29 +58,28 @@
 		line-height: normal;
 	}
 
-	.matching-content {
+	.evaluation-content {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 3rem 15rem;
 		width: calc(15rem + (25.875rem * 2));
 
-		.matching-box {
-			z-index: 2;
+		.evaluation-box {
 			position: relative;
 			width: 25.875rem;
 			height: 13.75rem;
 			border-radius: 0.6875rem;
-			border: var(--stroke-weight-1, 1px) solid #227588;
+			border: var(--stroke-weight-1, 1px) solid #2a50a8;
 			background: #d9d9d9;
-			box-shadow: 0px 0px 8px 5px #195664;
+			box-shadow: 0px 0px 8px 5px #151e49;
 			background: transparent;
 			padding-top: 1.5rem;
 			padding-left: 1.5rem;
 			text-align: left;
 			overflow: hidden;
 
-			.matching-box-header {
-				color: #227588;
+			.evaluation-box-header {
+				color: #2a50a8;
 				text-align: center;
 				font-family: Tahoma;
 				font-size: 1.39194rem;
@@ -104,7 +91,7 @@
 				margin-bottom: 1rem;
 			}
 
-			.matching-box-content {
+			.evaluation-box-content {
 				width: 16.5rem;
 				color: #a1a0ab;
 				font-family: Tahoma;
@@ -127,25 +114,25 @@
 					width: 2.9375rem;
 					height: 3.8125rem;
 					flex-shrink: 0;
-					border: var(--stroke-weight-1, 2px) solid #227588;
+					border: var(--stroke-weight-1, 2px) solid #2a50a8;
 					border-radius: 4px;
 				}
 			}
 
-			.matching-box-circle {
+			.evaluation-box-circle {
 				background-color: #090c1c;
 				position: absolute;
 				right: -1.5rem;
 				bottom: -1.5rem;
 				z-index: 2;
-				border: var(--stroke-weight-1, 1px) solid #227588;
+				border: var(--stroke-weight-1, 1px) solid #2a50a8;
 				border-radius: 50%;
 				width: 6.9375rem;
 				height: 6.625rem;
 				fill: #d9d9d9;
 			}
 
-			.matching-box-icon {
+			.evaluation-box-icon {
 				width: 2rem;
 				height: 2rem;
 				position: absolute;

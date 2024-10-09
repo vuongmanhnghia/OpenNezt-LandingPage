@@ -10,6 +10,8 @@ import Subscribe from "./Subscribe";
 import LearnMore from "./LearnMore";
 import Team from "./Team";
 import Navigation from "./Navigation";
+import OnBoarding from "./On-boarding";
+import Evaluation from "./Evaluation";
 function App() {
 	const QandARef = useRef(null);
 	const BannerRef = useRef(null);
@@ -35,7 +37,9 @@ function App() {
 			<div ref={BannerRef}>
 				<Banner />
 			</div>
+			<OnBoarding />
 			<Matching />
+			<Evaluation />
 			<Subscribe />
 			<LearnMore />
 			<div ref={TeamRef}>
