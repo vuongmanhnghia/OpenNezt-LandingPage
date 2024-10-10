@@ -42,7 +42,7 @@ function App() {
 			<Evaluation />
 			<LearnMore />
 			<Subscribe />
-			
+
 			<div ref={TeamRef}>
 				<Team />
 			</div>

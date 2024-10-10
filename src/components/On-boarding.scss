@@ -1,9 +1,9 @@
 .on-boarding-container {
 	position: relative;
 	width: 100%;
-	height: 81.3125rem;
 	background: linear-gradient(180deg, #00082d 0%, #02050c 49.16%);
 	padding: 10rem 0;
+	padding-bottom: 20rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -141,7 +141,7 @@
 	}
 
 	.page-2 {
-		z-index: 1000;
+		z-index: 999;
 		position: absolute;
 		bottom: 0;
 		width: 5.31431rem;
@@ -166,6 +166,94 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+	.on-boarding-container {
+		padding-top: 8rem;
+		padding-bottom: 2rem;
+		height: 60.98438rem;
+
+		.on-boarding-text-name {
+			font-size: 1.402rem;
+		}
+
+		.on-boarding-text-header {
+			font-size: 2.142rem;
+		}
+
+		.on-boarding-line {
+			width: 9.9375rem;
+		}
+
+		.on-boarding-text-content {
+			font-size: 0.99681rem;
+			width: 48.65625rem;
+			height: 1.26563rem;
+			margin-top: 1.3rem;
+			margin-bottom: 6rem;
+		}
+
+		.on-boarding-content {
+			width: calc(12rem + (19.40625rem * 2));
+			gap: 2rem 12rem;
+
+			.on-boarding-box {
+				padding-top: 1.5rem;
+				padding-left: 1.5rem;
+				width: 19.40625rem;
+				height: 10.3125rem;
+
+				.on-boarding-box-header {
+					font-size: 1.04394rem;
+				}
+
+				.on-boarding-box-content {
+					font-size: 0.811rem;
+					width: 12.375rem;
+				}
+
+				.subtract {
+					z-index: 1;
+					position: absolute;
+					right: -1rem;
+					bottom: -1.8rem;
+					display: flex;
+					flex-wrap: wrap;
+					width: calc(1.5rem + (2.20313rem * 2));
+					gap: 1rem 1.5rem;
+					.subtract-rectangle {
+						width: 2.20313rem;
+						height: 2.85938rem;
+						flex-shrink: 0;
+						border: var(--stroke-weight-1, 2px) solid #183367;
+						border-radius: 4px;
+					}
+				}
+
+				.on-boarding-box-circle {
+					width: 5.20313rem;
+					height: 4.96875rem;
+					right: -1rem;
+					bottom: -1rem;
+				}
+
+				.on-boarding-box-icon {
+					right: 1.1rem;
+					bottom: 1.1rem;
+					width: 1.5rem;
+					height: 1.5rem;
+				}
+			}
+		}
+
+		.page-2 {
+			font-size: 1.934rem;
+			width: 3.98569rem;
+			height: 3.93713rem;
+			bottom: 4.5rem;
 		}
 	}
 }

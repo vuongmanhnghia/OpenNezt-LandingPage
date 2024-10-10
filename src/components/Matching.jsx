@@ -5,7 +5,8 @@ function Matching() {
 	return (
 		<>
 			<div className="matching-container">
-				<div className="matching-background"></div>
+				<div className="matching-background-1"></div>
+				<div className="matching-background-2"></div>
 				<div className="matching-text-name">Matching & Exploration</div>
 				<div className="matching-text-header">
 					Start finding the Ideal Co-founder
@@ -142,7 +143,7 @@ function Matching() {
 					</div>
 				</div>
 				<svg
-					className="page-2"
+					className="page-3"
 					xmlns="http://www.w3.org/2000/svg"
 					width="86"
 					height="84"
