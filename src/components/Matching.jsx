@@ -159,7 +159,7 @@ function Matching() {
 						y="55%"
 						text-anchor="middle"
 						dominant-baseline="middle">
-						2
+						3
 					</text>
 				</svg>
 			</div>

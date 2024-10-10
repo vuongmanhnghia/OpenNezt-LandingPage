@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./QAndA.scss";
+import "./QandA.scss";
 
 const QAndA = () => {
 	const [openAnswers, setOpenAnswers] = useState(Array(8).fill(false)); // Mảng lưu trạng thái hiển thị của các câu trả lời

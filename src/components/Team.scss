@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .team-container {
-	background: #fffdf8;
+	background: #171B36;
 
 	.team-content {
 		display: flex;
@@ -17,13 +17,13 @@
 				font-family: Inter;
 				z-index: 2;
 				justify-content: flex-start;
-				color: #000;
+				color: #fff;
 				font-size: 7.5rem;
 				font-style: normal;
 				font-weight: 700;
 				line-height: normal;
 				position: relative;
-				text-align: left;
+				text-align: center;
 			}
 
 			.line-color {
@@ -146,14 +146,18 @@
 					background-size: cover !important;
 					background-repeat: no-repeat !important;
 					background-position: center !important;
-					width: 18rem;
-					height: 20rem;
+					// width: 18rem;
+					// height: 20rem;
+					width: 401.382px !important;
+					height: 403.975px !important;
+					flex-shrink: 0 !important;
 					border: #e3e3e3 4px solid;
+					border-radius: 200.69px;
 				}
 
 				.name {
 					width: 20rem;
-					color: #010101;
+					color: #ffffff;
 					font-size: 1.5rem;
 					font-style: normal;
 					font-weight: 700;
@@ -164,7 +168,7 @@
 
 				.info {
 					width: 20rem;
-					color: #010101;
+					color: #ffffff;
 					font-size: 0.9rem;
 					font-style: normal;
 					font-weight: 400;
@@ -177,6 +181,7 @@
 				.linked {
 					width: 1.5rem;
 					height: 1.5rem;
+					fill:#ffffff;
 				}
 			}
 		}

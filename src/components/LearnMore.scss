@@ -43,30 +43,81 @@
 
 			.learnmore-item {
 				display: flex;
-				align-items: center;
-				gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 547px;
+  height: 414px;
 
-				.learnmore-icon {
-					width: 3rem;
-					height: 3rem;
-					display: flex;
-					justify-content: center;
-					align-items: center;
+  .learnmore-icon {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.svg-container{
+	position: relative;
+}
+				.learnmore-in-icon {
+					
+					position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+					
+
 				}
-
 				.item-text {
-					color: #fff;
-					text-align: center;
-					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-					font-size: 2rem;
-					font-style: normal;
-					font-weight: 700;
-					line-height: normal;
-				}
+					position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #5FA7E7;
+
+font-family: Tahoma;
+
+font-style: normal;
+
+  font-family: "Tahoma-Bold", Helvetica;
+  font-size: 33.4px;
+  font-weight: 700;
+ 
+
+  line-height: normal;
+
+  text-align: center;
+  
+  white-space: nowrap;
+				  }
+				  .item-des{
+					position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  text-align: center;
+					color: #c8c5c7;
+  font-family: "Inria Sans-Regular", Helvetica;
+  font-size: 22.8px;
+  font-weight: 400;
+
+
+  line-height: normal;
+
+  text-align: center;
+
+  width: 487px;
+  }
 			}
 		}
 
-		.btn-primary {
+		.button-learn {
 			font-family: "Inria Sans";
 			display: flex;
 			justify-content: center;
@@ -75,8 +126,8 @@
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			flex-shrink: 0;
 			border-radius: 1rem;
-			background: #fbc4c4;
-			color: #1f1f30;
+			background: #232537;
+			color: #ffffff;
 			font-size: 2rem;
 			font-style: normal;
 			font-weight: 700;
@@ -98,7 +149,7 @@
 
 			.learnmore-title {
 				margin-bottom: 1.5rem;
-				min-height: 12vh;
+				min-height: 4vh;
 			}
 
 			.learnmore-list {

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./App.css";
 import Banner from "./Banner";
 import Matching from "./Matching";
-import QAndA from "./QAndA";
+import QAndA from "./QandA";
 import "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Footer";
@@ -40,8 +40,9 @@ function App() {
 			<OnBoarding />
 			<Matching />
 			<Evaluation />
-			<Subscribe />
 			<LearnMore />
+			<Subscribe />
+			
 			<div ref={TeamRef}>
 				<Team />
 			</div>
