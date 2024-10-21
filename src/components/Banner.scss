@@ -22,6 +22,7 @@
 		gap: 2.5rem;
 
 		.banner-text-header {
+			width: 100%;
 			font-family: "Instrument Sans";
 			display: flex;
 			flex-direction: column;
@@ -131,68 +132,67 @@
 	}
 }
 
-// @media (min-width: 768px) and (max-width: 992px) {
-// 	.banner-container {
-// 		min-height: 80vh;
+@media (min-width: 768px) and (max-width: 992px) {
+	.banner-container {
+		padding: 0 3rem;
+		height: 53.1rem;
 
-// 		.banner-content {
-// 			.banner-text-header {
-// 				font-size: 3rem;
-// 			}
+		.banner-content {
+			.banner-text-header {
+				width: 38.47294rem;
+				font-size: 4rem;
+			}
 
-// 			.banner-text-content {
-// 				font-size: 1.2rem;
-// 			}
+			.banner-text-content {
+				font-size: 2.39856rem;
+			}
 
-// 			.banner-button {
-// 				font-size: 1.5rem;
-// 				padding: 0.8rem 1.5rem;
-// 			}
-// 		}
-// 	}
-// }
+			.banner-button {
+				font-size: 2.13394rem;
+				width: 21.63331rem;
+				height: 6.20219rem;
+			}
+		}
 
-// @media (min-width: 576px) and (max-width: 768px) {
-// 	.banner-container {
-// 		min-height: 60vh;
+		.page-1 {
+			font-size: 1.934rem;
+			width: 3.98569rem;
+			height: 3.93713rem;
+			bottom: -2rem;
+		}
+	}
+}
 
-// 		.banner-content {
-// 			.banner-text-header {
-// 				font-size: 2.5rem;
-// 			}
+@media (min-width: 320px) and (max-width: 480px) {
+	.banner-container {
+		padding: 0 1rem;
+		height: 27rem;
 
-// 			.banner-text-content {
-// 				font-size: 1.2rem;
-// 			}
+		.banner-content {
+			gap: 1rem;
 
-// 			.banner-button {
-// 				font-size: 1rem;
-// 				padding: 0.8rem 1.5rem;
-// 			}
-// 		}
-// 	}
-// }
+			.banner-text-header {
+				width: 100%;
+				font-size: 2rem;
+			}
 
-// @media (max-width: 576px) {
-// 	.banner-container {
-// 		padding: 0 1rem;
-// 		padding-top: 1rem;
-// 		min-height: 40vh;
+			.banner-text-content {
+				font-size: 1rem;
+			}
 
-// 		.banner-content {
-// 			gap: 0.7rem;
-// 			.banner-text-header {
-// 				font-size: 1.7rem;
-// 			}
+			.banner-button {
+				font-size: 1.08506rem;
+				width: 11rem;
+				height: 3.15369rem;
+				border-radius: 8px;
+			}
+		}
 
-// 			.banner-text-content {
-// 				font-size: 0.8rem;
-// 			}
-
-// 			.banner-button {
-// 				font-size: 1rem;
-// 				padding: 0.3rem 0.7rem;
-// 			}
-// 		}
-// 	}
-// }
+		.page-1 {
+			font-size: 1.934rem;
+			width: 3.98569rem;
+			height: 3.93713rem;
+			bottom: -2rem;
+		}
+	}
+}

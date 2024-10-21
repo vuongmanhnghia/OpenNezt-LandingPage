@@ -283,3 +283,101 @@
 		}
 	}
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.matching-container {
+		padding-top: 10rem;
+		padding-bottom: 8rem;
+		height: auto;
+
+		.matching-background-1 {
+			top: -8rem;
+			height: 8rem;
+		}
+
+		.matching-background-2 {
+			bottom: -7.9rem;
+			height: 8rem;
+		}
+
+		.matching-text-name {
+			font-size: 2.81994rem;
+		}
+
+		.matching-text-header {
+			font-size: 2.67069rem;
+		}
+
+		.matching-line {
+			width: 14.78881rem;
+		}
+
+		.matching-text-content {
+			font-size: 1.565rem;
+			width: 39.39631rem;
+			height: 3.75781rem;
+			margin-top: 1.3rem;
+			margin-bottom: 10rem;
+		}
+
+		.matching-content {
+			width: 41.41006rem;
+			gap: 3rem;
+
+			.matching-box {
+				padding-top: 2.5rem;
+				padding-left: 2.5rem;
+				width: 41.41006rem;
+				height: 21.90144rem;
+
+				.matching-box-header {
+					font-size: 2.21713rem;
+				}
+
+				.matching-box-content {
+					font-size: 1.72238rem;
+					width: 26.54706rem;
+				}
+
+				.subtract {
+					z-index: 1;
+					position: absolute;
+					right: -2.5rem;
+					bottom: -3rem;
+					display: flex;
+					flex-wrap: wrap;
+					width: calc(3rem + (4.70113rem * 2));
+					gap: 2rem 3rem;
+					.subtract-rectangle {
+						width: 4.70113rem;
+						height: 6.07269rem;
+						flex-shrink: 0;
+						border: var(--stroke-weight-1, 2px) solid #227588;
+						border-radius: 6px;
+					}
+				}
+
+				.matching-box-circle {
+					width: 11.10269rem;
+					height: 10.5525rem;
+					right: -2.5rem;
+					bottom: -1.5rem;
+				}
+
+				.matching-box-icon {
+					right: 2rem;
+					bottom: 2.5rem;
+					width: 3.27294rem;
+					height: 3.15169rem;
+				}
+			}
+		}
+
+		.page-3 {
+			font-size: 1.934rem;
+			width: 3.98569rem;
+			height: 3.93713rem;
+			bottom: -5.8rem;
+		}
+	}
+}

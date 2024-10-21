@@ -40,7 +40,7 @@ function App() {
 			<OnBoarding />
 			<Matching />
 			<Evaluation />
-			<LearnMore />
+			{/* <LearnMore />
 			<Subscribe />
 
 			<div ref={TeamRef}>
@@ -49,7 +49,7 @@ function App() {
 			<div ref={QandARef}>
 				<QAndA />
 			</div>
-			<Footer />
+			<Footer /> */}
 		</>
 	);
 }

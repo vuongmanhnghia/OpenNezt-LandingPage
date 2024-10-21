@@ -253,3 +253,91 @@
 		}
 	}
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.evaluation-container {
+		padding-top: 15rem;
+		padding-bottom: 10rem;
+		height: auto;
+
+		.evaluation-text-name {
+			font-size: 2.81994rem;
+		}
+
+		.evaluation-text-header {
+			font-size: 2.67069rem;
+		}
+
+		.evaluation-line {
+			width: 14.78881rem;
+		}
+
+		.evaluation-text-content {
+			font-size: 1.565rem;
+			width: 42.18438rem;
+			height: 2.06075rem;
+			margin-top: 1.3rem;
+			margin-bottom: 10rem;
+		}
+
+		.evaluation-content {
+			width: 41.41006rem;
+			gap: 3rem;
+
+			.evaluation-box {
+				padding-top: 3rem;
+				padding-left: 4rem;
+				width: 41.41006rem;
+				height: 21.90144rem;
+
+				.evaluation-box-header {
+					font-size: 2.21713rem;
+				}
+
+				.evaluation-box-content {
+					font-size: 1.72238rem;
+					width: 25.33488rem;
+				}
+
+				.subtract {
+					z-index: 1;
+					position: absolute;
+					right: -2.5rem;
+					bottom: -3rem;
+					display: flex;
+					flex-wrap: wrap;
+					width: calc(3rem + (4.70113rem * 2));
+					gap: 2rem 3rem;
+					.subtract-rectangle {
+						width: 4.70113rem;
+						height: 6.07269rem;
+						flex-shrink: 0;
+						border: var(--stroke-weight-1, 3px) solid #183367;
+						border-radius: 6px;
+					}
+				}
+
+				.evaluation-box-circle {
+					width: 11.10269rem;
+					height: 10.5525rem;
+					right: -2.5rem;
+					bottom: -1.5rem;
+				}
+
+				.evaluation-box-icon {
+					right: 2rem;
+					bottom: 2.5rem;
+					width: 3.27294rem;
+					height: 3.15169rem;
+				}
+			}
+		}
+
+		.page-2 {
+			font-size: 1.934rem;
+			width: 3.98569rem;
+			height: 3.93713rem;
+			bottom: 2rem;
+		}
+	}
+}
