@@ -39,7 +39,7 @@
 		width: 13.25rem;
 		height: 1rem;
 		flex-shrink: 0;
-		stroke-width: 0.5px;
+		strokewidth: 0.5px;
 		stroke: #183367;
 	}
 
@@ -140,37 +140,8 @@
 				bottom: 1.3rem;
 				z-index: 3;
 				flex-shrink: 0;
-				stroke-width: 2.462px;
+				strokewidth: 2.462px;
 			}
-		}
-	}
-
-	.page-2 {
-		z-index: 999;
-		position: absolute;
-		bottom: 0;
-		width: 5.31431rem;
-		height: 5.2495rem;
-		fill: #0f1b33;
-		stroke-width: 3.111px;
-		stroke: #227588;
-		color: #227588;
-		text-align: center;
-		font-family: Inter;
-		font-size: 2.57869rem;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-		right: 50%;
-		transform: translateX(50%);
-		bottom: -3rem;
-
-		text {
-			fill: #227588;
-			position: absolute;
-			display: flex;
-			justify-content: center;
-			align-items: center;
 		}
 	}
 }
@@ -244,17 +215,93 @@
 				}
 			}
 		}
+	}
+}
 
-		.page-2 {
-			font-size: 1.934rem;
-			width: 3.98569rem;
-			height: 3.93713rem;
-			bottom: 4.5rem;
+@media (min-width: 1024px) and (max-width: 1440px) {
+	.evaluation-container {
+		padding-top: 8rem;
+		padding-bottom: 10rem;
+
+		.evaluation-text-name {
+			font-size: 0.997rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.evaluation-text-header {
+			font-size: 1.52319rem;
+			margin-bottom: 1rem;
+		}
+
+		.evaluation-line {
+			width: 7.06669rem;
+		}
+
+		.evaluation-text-content {
+			font-size: 0.70881rem;
+			width: 34.6rem;
+			height: 0.9rem;
+			margin-top: 1rem;
+			margin-bottom: 5rem;
+		}
+
+		.evaluation-content {
+			width: calc(8rem + (13.8rem * 2));
+			gap: 2rem 8rem;
+
+			.evaluation-box {
+				padding-top: 1.2rem;
+				padding-left: 1.2rem;
+				width: 13.8rem;
+				height: 7.33331rem;
+
+				.evaluation-box-header {
+					font-size: 0.74238rem;
+					margin-bottom: 0.7rem;
+				}
+
+				.evaluation-box-content {
+					font-size: 0.57669rem;
+					width: 8rem;
+				}
+
+				.subtract {
+					z-index: 1;
+					position: absolute;
+					right: -1.5rem;
+					bottom: -1.5rem;
+					display: flex;
+					flex-wrap: wrap;
+					width: calc(1.3rem + (2.20313rem * 2));
+					gap: 0.8rem 1.3rem;
+					.subtract-rectangle {
+						width: 1.8rem;
+						height: 2.4rem;
+						flex-shrink: 0;
+						border: var(--stroke-weight-1, 2px) solid #183367;
+						border-radius: 4px;
+					}
+				}
+
+				.evaluation-box-circle {
+					width: 4.5rem;
+					height: 4.2rem;
+					right: -0.8rem;
+					bottom: -0.8rem;
+				}
+
+				.evaluation-box-icon {
+					right: 1.1rem;
+					bottom: 1.1rem;
+					width: 1.06669rem;
+					height: 1.06669rem;
+				}
+			}
 		}
 	}
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.evaluation-container {
 		padding-top: 15rem;
 		padding-bottom: 10rem;
@@ -332,12 +379,88 @@
 				}
 			}
 		}
+	}
+}
 
-		.page-2 {
-			font-size: 1.934rem;
-			width: 3.98569rem;
-			height: 3.93713rem;
-			bottom: 2rem;
+@media (max-width: 768px) {
+	.evaluation-container {
+		padding-top: 8rem;
+		padding-bottom: 7rem;
+		height: auto;
+
+		.evaluation-text-name {
+			font-size: 1.43388rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.evaluation-text-header {
+			font-size: 1.358rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.evaluation-line {
+			width: 7.51975rem;
+		}
+
+		.evaluation-text-content {
+			font-size: 0.79575rem;
+			width: 21.44969rem;
+			height: 1.04781rem;
+			margin-top: 0.5rem;
+			margin-bottom: 5rem;
+		}
+
+		.evaluation-content {
+			gap: 2rem;
+			width: 21.056rem;
+
+			.evaluation-box {
+				padding-top: 1.2rem;
+				padding-left: 1.3rem;
+				width: 21.056rem;
+				height: 11.13631rem;
+
+				.evaluation-box-header {
+					font-size: 1.12738rem;
+				}
+
+				.evaluation-box-content {
+					font-size: 0.87581rem;
+					width: 12.88213rem;
+				}
+
+				.subtract {
+					z-index: 1;
+					position: absolute;
+					right: -4.3rem;
+					bottom: -2rem;
+					display: flex;
+					flex-wrap: wrap;
+					width: calc((4.70113rem * 2));
+					gap: 1rem 1.5rem;
+					.subtract-rectangle {
+						width: 2.39044rem;
+						height: 3.08781rem;
+						flex-shrink: 0;
+						border: var(--stroke-weight-1, 2px) solid #183367;
+						border-radius: 4px;
+					}
+				}
+
+				.evaluation-box-circle {
+					width: 5.64544rem;
+					height: 5.36569rem;
+					right: -1.3rem;
+					bottom: -1rem;
+				}
+
+				.evaluation-box-icon {
+					right: 1rem;
+					bottom: 1.2rem;
+					width: 1.66419rem;
+					height: 1.60256rem;
+				}
+			}
 		}
 	}
 }

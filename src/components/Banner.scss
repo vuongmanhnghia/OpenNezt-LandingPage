@@ -42,7 +42,7 @@
 		.banner-text-content {
 			text-align: left;
 			color: #fff;
-			-webkit-text-stroke-width: 1;
+			-webkit-text-strokewidth: 1;
 			-webkit-text-stroke-color: #000;
 			font-family: Tahoma;
 			font-size: 3.11225rem;
@@ -79,7 +79,7 @@
 		width: 5.31431rem;
 		height: 5.2495rem;
 		fill: #0f1b33;
-		stroke-width: 3.111px;
+		strokewidth: 3.111px;
 		stroke: #245d90;
 		color: #245d90;
 		text-align: center;
@@ -132,6 +132,41 @@
 	}
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+	.banner-container {
+		padding: 0 6rem;
+		height: 31.26669rem;
+
+		.banner-content {
+			padding-top: 3rem;
+			gap: 1.5rem;
+			.banner-text-header {
+				font-size: 3.09044rem;
+			}
+
+			.banner-text-content {
+				font-size: 1.65988rem;
+			}
+
+			.banner-button {
+				font-size: 1.43356rem;
+				width: 14.53331rem;
+				height: 4.16669rem;
+				border-radius: 0.51056rem;
+				background: var(--color-orange-58, #f2b538);
+				box-shadow: 0px 2.133px 2.133px 0px rgba(0, 0, 0, 0.25);
+			}
+		}
+
+		.page-1 {
+			font-size: 1.37531rem;
+			width: 2.83431rem;
+			height: 2.79975rem;
+			bottom: -1.5rem;
+		}
+	}
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
 	.banner-container {
 		padding: 0 3rem;
@@ -163,21 +198,23 @@
 	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 768px) {
 	.banner-container {
 		padding: 0 1rem;
-		height: 27rem;
+		padding-top: 1.5rem;
+		height: calc(27rem + 3.875rem);
+		min-height: 50vh;
 
 		.banner-content {
 			gap: 1rem;
 
 			.banner-text-header {
 				width: 100%;
-				font-size: 2rem;
+				font-size: 2.32425rem;
 			}
 
 			.banner-text-content {
-				font-size: 1rem;
+				font-size: 1.21963rem;
 			}
 
 			.banner-button {
@@ -189,9 +226,9 @@
 		}
 
 		.page-1 {
-			font-size: 1.934rem;
-			width: 3.98569rem;
-			height: 3.93713rem;
+			font-size: 1.7945rem;
+			width: 3.69825rem;
+			height: 3.65313rem;
 			bottom: -2rem;
 		}
 	}
