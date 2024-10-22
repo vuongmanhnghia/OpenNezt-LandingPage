@@ -24,15 +24,7 @@
 			line-height: normal;
 		}
 
-		.learnmore-title {
-			z-index: 1;
-			background-size: contain !important;
-			background-repeat: no-repeat !important;
-			background-position: center !important;
-			min-height: 15vh;
-			width: 100%;
-			margin-bottom: 2rem;
-		}
+		
 
 		.learnmore-list {
 			font-family: "Inria Sans";
@@ -136,155 +128,268 @@ font-style: normal;
 		}
 	}
 }
-
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width:1440px) {
+	.learnmore-title {
+		z-index: 1;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		min-height: 15vh;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
 	.learnmore-container {
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-position: center calc(50% + 4rem);
+	
 		.learnmore-content {
-			padding: 3rem 4rem;
-			gap: 2.5rem;
-
-			.learnmore-header {
-				font-size: 2.5rem;
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  user-select: none;
+		  padding: 2rem;
+		  gap: 2rem; 
+	
+		  .learnmore-header {
+			font-family: "Inria Sans";
+			color: #fff;
+			text-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+			font-size: 2.5rem;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		  }
+	
+		  .learnmore-title {
+			z-index: 1;
+			background-size: contain !important;
+			background-repeat: no-repeat !important;
+			background-position: center !important;
+			min-height: 10vh; 
+			width: 100%;
+			margin-bottom: 1.5rem;
+		  }
+	
+		  .learnmore-list {
+			font-family: "Inria Sans";
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			gap: 2rem;
+	
+			.learnmore-item {
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  position: relative;
+			  width: 450px; 
+			  height: 350px;
+	
+			  .learnmore-icon {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			  }
+	
+			  .svg-container {
+				position: relative;
+			  }
+	
+			  .learnmore-in-icon {
+				position: absolute;
+				top: 28%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			  }
+	
+			  .item-text {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				font-size: 1.5rem; 
+				font-weight: 700;
+				line-height: normal;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				color: #5FA7E7;
+				font-family: "Tahoma-Bold", Helvetica;
+				text-align: center;
+				white-space: nowrap;
+			  }
+	
+			  .item-des {
+				position: absolute;
+				top: 75%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				color: #c8c5c7;
+				font-family: "Inria Sans-Regular", Helvetica;
+				font-size: 18px; 
+				font-weight: 400;
+				line-height: normal;
+				text-align: center;
+				width: 400px; 
+			  }
 			}
-
-			.learnmore-title {
-				margin-bottom: 1.5rem;
-				min-height: 4vh;
-			}
-
-			.learnmore-list {
-				gap: 1.2rem;
-				.learnmore-item {
-					gap: 1rem;
-
-					.learnmore-icon {
-						width: 40px;
-						height: 40px;
-					}
-					.item-text {
-						font-size: 1.5rem;
-					}
-				}
-			}
-
-			.btn-primary {
-				font-size: 1.2rem;
-				padding: 0.5rem 1.5rem;
-				border-radius: 0.5rem;
-			}
+		  }
+	
+		  .button-learn {
+			font-family: "Inria Sans";
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: none;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			flex-shrink: 0;
+			border-radius: 1rem;
+			background: #232537;
+			color: #ffffff;
+			font-size: 1.8rem; 
+			font-weight: 700;
+			line-height: normal;
+			padding: 0.8rem 1.5rem;
+		  }
 		}
+	  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.learnmore-title {
+		z-index: 1;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		min-height: 15vh;
+		width: 120%;
+		margin-bottom: 2rem;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (max-width: 768px) {
 	.learnmore-container {
-		.learnmore-content {
-			padding: 2rem 3rem;
-			.learnmore-header {
-				font-size: 2.2rem;
-			}
-
-			.learnmore-title {
-				margin-bottom: 1rem;
-				min-height: 10vh;
-			}
-
-			.learnmore-list {
-				gap: 1rem;
-				.learnmore-item {
-					gap: 0.5rem;
-
-					.learnmore-icon {
-						width: 30px;
-						height: 30px;
-					}
-					.item-text {
-						font-size: 1.3rem;
-					}
-				}
-			}
-
-			.btn-primary {
-				font-size: 1rem;
-				padding: 0.5rem 1.5rem;
-				border-radius: 0.5rem;
-			}
+	  background-size: cover !important;
+	  background-repeat: no-repeat !important;
+	  background-position: center calc(50% + 4rem);
+  
+	  .learnmore-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		user-select: none;
+		padding: 1rem;
+		gap: 1rem;
+  
+		.learnmore-header {
+		  font-family: "Inria Sans";
+		  color: #fff;
+		  text-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+		  font-size: 1.5rem;
+		  font-style: normal;
+		  font-weight: 700;
+		  line-height: normal;
 		}
-	}
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-	.learnmore-container {
-		.learnmore-content {
-			gap: 1.5rem;
-			padding: 1.5rem;
-			.learnmore-header {
-				font-size: 1.7rem;
-			}
-
-			.learnmore-title {
-				margin-bottom: 0.7rem;
-				min-height: 8vh;
-			}
-
-			.learnmore-list {
-				gap: 1rem;
-				.learnmore-item {
-					gap: 0.3rem;
-
-					.learnmore-icon {
-						width: 25px;
-						height: 25px;
-					}
-					.item-text {
-						font-size: 1.1rem;
-					}
-				}
-			}
-
-			.btn-primary {
-				font-size: 1rem;
-				padding: 0.5rem 1.5rem;
-				border-radius: 0.5rem;
-			}
+  
+		.learnmore-title {
+		  z-index: 1;
+		  background-size: contain !important;
+		  background-repeat: no-repeat !important;
+		  background-position: center !important;
+		  min-height: 10vh;
+		  width: 40%;
+		  margin-bottom: 1rem;
 		}
-	}
-}
-
-@media (max-width: 576px) {
-	.learnmore-container {
-		.learnmore-content {
-			gap: 1rem;
-			padding: 1rem;
-			.learnmore-header {
-				font-size: 1.2rem;
+  
+		.learnmore-list {
+		  font-family: "Inria Sans";
+		  display: flex;
+		  flex-direction: column; 
+		  justify-content: center;
+		  align-items: center; 
+		  gap: 1rem;
+  
+		  .learnmore-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			width: 100%;
+			max-width: 350px; 
+			height: auto;
+			flex-direction: column; 
+  
+			.learnmore-icon {
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
 			}
-
-			.learnmore-title {
-				margin-bottom: 0.5rem;
-				min-height: 6vh;
+  
+			.svg-container {
+			  position: relative;
 			}
-
-			.learnmore-list {
-				gap: 0.3rem;
-				.learnmore-item {
-					gap: 0.2rem;
-
-					.learnmore-icon {
-						width: 15px;
-						height: 15px;
-					}
-					.item-text {
-						font-size: 0.8rem;
-					}
-				}
+  
+			.learnmore-in-icon {
+			  position: absolute;
+			  top: 25%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
 			}
-
-			.btn-primary {
-				font-size: 0.8rem;
-				padding: 0.3rem 0.8rem;
-				border-radius: 0.5rem;
+  
+			.item-text {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			  font-size: 1rem;
+			  font-weight: 700;
+			  line-height: normal;
+			  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			  color: #5FA7E7;
+			  font-family: "Tahoma-Bold", Helvetica;
+			  text-align: center;
 			}
+  
+			.item-des {
+			  position: absolute;
+			  top: 70%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			  color: #c8c5c7;
+			  font-family: "Inria Sans-Regular", Helvetica;
+			  font-size: 14px;
+			  font-weight: 400;
+			  line-height: normal;
+			  text-align: center;
+			  width: 250px;
+			}
+		  }
 		}
+  
+		.button-learn {
+		  font-family: "Inria Sans";
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  border: none;
+		  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		  flex-shrink: 0;
+		  border-radius: 1rem;
+		  background: #232537;
+		  color: #ffffff;
+		  font-size: 1.2rem;
+		  font-weight: 700;
+		  line-height: normal;
+		  padding: 0.5rem 1rem;
+		}
+	  }
 	}
-}
+  }
+  

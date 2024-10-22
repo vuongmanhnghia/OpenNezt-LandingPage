@@ -243,408 +243,270 @@
 		}
 	}
 }
-
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1024px) {
 	.team-container {
-		.team-content {
-			.core-team,
-			.mentor-team {
-				gap: 4rem;
-				.box-member {
-					gap: 0.4rem;
-					.avt {
-						width: 16rem;
-						height: 18rem;
-					}
-
-					.name {
-						width: 17rem;
-						font-size: 1.2rem;
-					}
-
-					.info {
-						width: 17rem;
-						font-size: 0.8rem;
-					}
-				}
+	  background: #171b36;
+  
+	  .team-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 3rem;
+		user-select: none;
+		gap: 2rem;
+  
+		.team-header {
+		  position: relative;
+  
+		  .team-header-text {
+			font-family: Inter;
+			z-index: 2;
+			justify-content: flex-start;
+			color: #fff;
+			font-size: 7.5rem;
+			font-weight: 700;
+			text-align: center;
+		  }
+  
+		  .line-color {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			bottom: 1rem;
+			z-index: 1;
+  
+			.line {
+			  width: 8.5rem;
+			  height: 2rem;
 			}
+  
+			.purple {
+			  background: #ac92eb;
+			}
+  
+			.blue {
+			  background: #4fc1e8;
+			}
+  
+			.green {
+			  background: #a0d568;
+			}
+  
+			.yellow {
+			  background: #ffce54;
+			}
+  
+			.red {
+			  background: #ed5564;
+			}
+		  }
 		}
-	}
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-	.team-container {
-		.team-content {
-			padding: 3rem;
-			gap: 1.5rem;
-			.team-header {
-				.team-header-text {
-					font-size: 6rem;
-				}
-
-				.line-color {
-					.line {
-						width: 6.5rem;
-						height: 1rem;
-					}
-				}
-			}
-
-			.team-text {
-				font-size: 1.3rem;
-			}
-
-			.line1 {
-				padding: 6rem 0;
-				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
-					.rectangle-text {
-						font-size: 1.2rem;
-					}
-
-					.rectangle2 {
-						height: 3rem;
-						border-radius: 0px 20px 20px 0px;
-						font-size: 1.2rem;
-					}
-				}
-			}
-
-			.core-team,
-			.mentor-team {
-				gap: 3rem;
-
-				.box-member {
-					gap: 0.4rem;
-					.avt {
-						width: 14rem;
-						height: 16rem;
-					}
-
-					.name {
-						width: 15rem;
-						font-size: 1.1rem;
-					}
-
-					.info {
-						width: 15rem;
-						font-size: 0.7rem;
-					}
-				}
-			}
-
-			.line2 {
-				padding: 6rem 0;
-				.rectangle {
-					width: 20rem;
-					height: 3rem;
-					border-radius: 2rem;
-					border: 0.2rem solid #000;
-					.rectangle-text {
-						font-size: 1.2rem;
-					}
-
-					.rectangle2 {
-						border-radius: 20px 0 0 20px;
-						font-size: 1.2rem;
-					}
-				}
-			}
+  
+		.team-text {
+		  font-family: Inter;
+		  font-size: 1.7rem;
+		  font-weight: 400;
+		  text-align: left;
 		}
-	}
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-	.team-container {
-		.team-content {
-			padding: 1.5rem;
-			gap: 1rem;
-			.team-header {
-				.team-header-text {
-					font-size: 4.5rem;
-				}
-
-				.line-color {
-					bottom: 0.5rem;
-					.line {
-						width: 5.5rem;
-						height: 0.9rem;
-					}
-				}
-			}
-
-			.team-text {
-				font-size: 1rem;
-			}
-
-			.line1 {
-				padding: 3rem 0;
-				.rectangle {
-					width: 12rem;
-					height: 2.2rem;
-					border-radius: 1.5rem;
-					border: 0.2rem solid #000;
-					.rectangle-text {
-						font-size: 0.7rem;
-					}
-
-					.rectangle2 {
-						height: 2.2rem;
-						border-radius: 0px 20px 20px 0px;
-						font-size: 0.7rem;
-					}
-				}
-			}
-
-			.core-team,
-			.mentor-team {
-				gap: 2rem;
-
-				.box-member {
-					gap: 0.3rem;
-					.avt {
-						width: 10rem;
-						height: 13rem;
-					}
-
-					.name {
-						width: 12rem;
-						font-size: 0.9rem;
-					}
-
-					.info {
-						width: 12rem;
-						font-size: 0.5rem;
-					}
-
-					.linked {
-						width: 0.8rem;
-						height: 0.8rem;
-					}
-				}
-			}
-
-			.line2 {
-				padding: 3rem 0;
-				.rectangle {
-					width: 12rem;
-					height: 2.2rem;
-					border-radius: 1.5rem;
-					border: 0.2rem solid #000;
-					.rectangle-text {
-						font-size: 0.7rem;
-					}
-
-					.rectangle2 {
-						border-radius: 20px 0 0 20px;
-						font-size: 0.7rem;
-						height: 2.2rem;
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-	.team-container {
-		.team-content {
-			padding: 1rem;
+  
+		.core-team, .mentor-team {
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-items: center;
+		  justify-content: center;
+		  gap: 5rem;
+  
+		  .box-member {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
 			gap: 0.5rem;
-			.team-header {
-				.team-header-text {
-					font-size: 3.2rem;
-				}
-
-				.line-color {
-					bottom: 0.5rem;
-					.line {
-						width: 3.5rem;
-						height: 0.5rem;
-					}
-				}
+  
+			.avt {
+			  width: 401.382px;
+			  height: 403.975px;
+			  background-size: cover !important;
+			  background-repeat: no-repeat !important;
+			  background-position: center !important;
+			  border: #e3e3e3 4px solid;
+			  border-radius: 200.69px;
 			}
-
-			.team-text {
-				font-size: 0.7rem;
+  
+			.name {
+			  width: 20rem;
+			  color: #ffffff;
+			  font-size: 1.5rem;
+			  font-weight: 700;
+			  text-align: left;
+			  text-wrap: wrap;
 			}
-
-			.line1 {
-				.line {
-					width: 100%;
-					height: 0.15rem;
-				}
-				padding: 2rem 0;
-				.rectangle {
-					width: 8.5rem;
-					height: 1.7rem;
-					border-radius: 1rem;
-					border: 0.15rem solid #000;
-					.rectangle-text {
-						font-size: 0.5rem;
-					}
-
-					.rectangle2 {
-						border-radius: 0px 20px 20px 0px;
-						font-size: 0.5rem;
-						height: 2.2rem;
-					}
-				}
+  
+			.info {
+			  width: 20rem;
+			  color: #ffffff;
+			  font-size: 0.9rem;
+			  font-weight: 400;
+			  text-align: left;
+			  text-wrap: wrap;
+			  padding-bottom: 5px;
 			}
-
-			.core-team,
-			.mentor-team {
-				gap: 2rem 1rem;
-
-				.box-member {
-					gap: 0.2rem;
-					.avt {
-						width: 8rem;
-						height: 10rem;
-					}
-
-					.name {
-						width: 9rem;
-						font-size: 0.7rem;
-					}
-
-					.info {
-						width: 9rem;
-						font-size: 0.4rem;
-					}
-
-					.linked {
-						width: 0.7rem;
-						height: 0.7rem;
-					}
-				}
+  
+			.linked {
+			  width: 1.5rem;
+			  height: 1.5rem;
+			  fill: #ffffff;
 			}
-
-			.line2 {
-				.line {
-					width: 100%;
-					height: 0.15rem;
-				}
-				padding: 3rem 0;
-				.rectangle {
-					width: 8.5rem;
-					height: 1.7rem;
-					border-radius: 1rem;
-					border: 0.15rem solid #000;
-					.rectangle-text {
-						font-size: 0.5rem;
-					}
-
-					.rectangle2 {
-						border-radius: 20px 0 0 20px;
-						font-size: 0.5rem;
-						height: 2.2rem;
-					}
-				}
-			}
+		  }
 		}
+	  }
 	}
-}
-
-@media (max-width: 576px) {
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
 	.team-container {
-		.team-content {
-			padding: 1rem;
-			gap: 0.5rem;
-			.team-header {
-				.team-header-text {
-					font-size: 2.5rem;
-				}
-
-				.line-color {
-					bottom: 0.5rem;
-					.line {
-						width: 3.2rem;
-						height: 0.4rem;
-					}
-				}
+	  background: #171b36;
+  
+	  .team-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 2rem;
+		user-select: none;
+		gap: 1.5rem;
+  
+		.team-header {
+		  position: relative;
+  
+		  .team-header-text {
+			font-family: Inter;
+			z-index: 2;
+			justify-content: flex-start;
+			color: #fff;
+			font-size: 5rem; 
+			font-weight: 700;
+			text-align: center;
+		  }
+  
+		  .line-color {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			bottom: 1rem;
+			z-index: 1;
+  
+			.line {
+			  width: 6.5rem; 
+			  height: 1.5rem; 
 			}
-
-			.team-text {
-				font-size: 0.55rem;
-			}
-
-			.line1 {
-				.line {
-					width: 100%;
-					height: 0.15rem;
-				}
-				padding: 2rem 0;
-				.rectangle {
-					width: 8.5rem;
-					height: 1.7rem;
-					border-radius: 1rem;
-					border: 0.15rem solid #000;
-					.rectangle-text {
-						font-size: 0.5rem;
-					}
-
-					.rectangle2 {
-						border-radius: 0px 20px 20px 0px;
-						font-size: 0.5rem;
-						height: 2.2rem;
-					}
-				}
-			}
-
-			.core-team,
-			.mentor-team {
-				gap: 2rem;
-
-				.box-member {
-					gap: 0.2rem;
-					.avt {
-						width: 8rem;
-						height: 10rem;
-					}
-
-					.name {
-						width: 8rem;
-						font-size: 0.6rem;
-					}
-
-					.info {
-						width: 9rem;
-						font-size: 0.4rem;
-					}
-
-					.linked {
-						width: 0.7rem;
-						height: 0.7rem;
-					}
-				}
-			}
-
-			.line2 {
-				.line {
-					width: 100%;
-					height: 0.15rem;
-				}
-				padding: 3rem 0;
-				.rectangle {
-					width: 8.5rem;
-					height: 1.7rem;
-					border-radius: 1rem;
-					border: 0.15rem solid #000;
-					.rectangle-text {
-						font-size: 0.5rem;
-					}
-
-					.rectangle2 {
-						border-radius: 20px 0 0 20px;
-						font-size: 0.5rem;
-						height: 2.2rem;
-					}
-				}
-			}
+		  }
 		}
+  
+		.team-text {
+		  font-family: Inter;
+		  font-size: 1.4rem; 
+		  font-weight: 400;
+		  text-align: left;
+		}
+  
+		.core-team, .mentor-team {
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-items: center;
+		  justify-content: center;
+		  gap: 3rem;
+  
+		  .box-member {
+			.avt {
+			  width: 350px;
+			  height: 350px;
+			}
+  
+			.name {
+			  font-size: 1.3rem;
+			}
+  
+			.info {
+			  font-size: 0.8rem;
+			}
+		  }
+		}
+	  }
 	}
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+	.team-container {
+	  background: #171b36;
+  
+	  .team-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 1rem;
+		user-select: none;
+		gap: 1rem;
+  
+		.team-header {
+		  position: relative;
+  
+		  .team-header-text {
+			font-family: Inter;
+			z-index: 2;
+			justify-content: flex-start;
+			color: #fff;
+			font-size: 3.5rem; 
+			font-weight: 700;
+			text-align: center;
+		  }
+  
+		  .line-color {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			bottom: 1rem;
+			z-index: 1;
+  
+			.line {
+			  width: 5rem; 
+			  height: 1rem; 
+			}
+		  }
+		}
+  
+		.team-text {
+		  font-family: Inter;
+		  font-size: 1.2rem; 
+		  font-weight: 400;
+		  text-align: left;
+		}
+  
+		.core-team, .mentor-team {
+		  display: flex;
+		  flex-direction: column; 
+		  align-items: center;
+		  gap: 2rem;
+  
+		  .box-member {
+			.avt {
+			  width: 280px; 
+			  height: 280px;
+			  
+
+			}
+  
+			.name {
+			  font-size: 2.2rem;
+			  text-align: center; 
+			}
+  
+			.info {
+			  font-size: 1.7rem;
+			  text-align: center; 
+			}
+		  }
+		}
+	  }
+	}
+  }
+  
