@@ -5,7 +5,7 @@ import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
 const Navigation = (props) => {
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light fixed">
+			<nav className="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light fixed">
 				<div className="navbar-content container-fluid">
 					<div
 						className="navbar-brand"
