@@ -12,6 +12,7 @@ import Team from "./Team";
 import Navigation from "./Navigation";
 import OnBoarding from "./On-boarding";
 import Evaluation from "./Evaluation";
+import Nav from "./Nav";
 function App() {
 	const QandARef = useRef(null);
 	const BannerRef = useRef(null);
@@ -29,7 +30,7 @@ function App() {
 
 	return (
 		<>
-			<Navigation
+			<Nav
 				scrollToBanner={scrollToBanner}
 				scrollToQandA={scrollToQandA}
 				scrollToTeam={scrollToTeam}
