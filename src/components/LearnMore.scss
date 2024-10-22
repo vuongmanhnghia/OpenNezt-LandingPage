@@ -269,6 +269,7 @@ font-style: normal;
 		width: 120%;
 		margin-bottom: 2rem;
 	}
+	// .learnmore-icon{}
 }
 
 @media screen and (max-width: 768px) {
@@ -320,7 +321,7 @@ font-style: normal;
 			align-items: center;
 			position: relative;
 			width: 100%;
-			max-width: 350px; 
+			max-width: 300px; 
 			height: auto;
 			flex-direction: column; 
   
@@ -328,6 +329,7 @@ font-style: normal;
 			  display: flex;
 			  justify-content: center;
 			  align-items: center;
+			  width: 430px;
 			}
   
 			.svg-container {
