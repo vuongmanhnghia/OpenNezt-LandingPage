@@ -2,53 +2,50 @@ import React, { useState } from "react";
 import "./QandA.scss";
 
 const QAndA = () => {
-	const [openAnswers, setOpenAnswers] = useState(Array(8).fill(false)); // Mảng lưu trạng thái hiển thị của các câu trả lời
+    const [openAnswers, setOpenAnswers] = useState(Array(8).fill(false)); // Mảng lưu trạng thái hiển thị của các câu trả lời
 
-	const toggleAnswer = (index) => {
-		const updatedAnswers = [...openAnswers];
-		updatedAnswers[index] = !updatedAnswers[index]; // Toggle trạng thái của câu hỏi được chọn
-		setOpenAnswers(updatedAnswers);
-	};
+    const toggleAnswer = (index) => {
+        const updatedAnswers = [...openAnswers];
+        updatedAnswers[index] = !updatedAnswers[index]; // Toggle trạng thái của câu hỏi được chọn
+        setOpenAnswers(updatedAnswers);
+    };
 
-	return (
-		<div className="qanda container">
-			<div className="hero_title">Frequently Asked Questions</div>
-			{questions.map((question, index) => (
-				<div key={index} className="color">
-					<div className="question-header">
-						<div className="big_title">{question.title}</div>
-						<button
-							className="toggle-btn"
-							style={{ background: "none", border: "none" }}
-							onClick={() => toggleAnswer(index)}>
-							<span className="icon">
-								{openAnswers[index] ? (
-									<i
-										className="fa-solid fa-chevron-up"
-										style={{ color: `#40BCD0` }}></i>
-								) : (
-									<i
-										className="fa-solid fa-chevron-down"
-										style={{ color: `#40BCD0` }}></i>
-								)}
-							</span>
-						</button>
-					</div>
-					{openAnswers[index] && (
-						<>
-							<div className="answer-line"></div>
-							<div className="answer" id={`answer-${index}`}>
-								<p>{question.answer}</p>
-							</div>
-						</>
-					)}
-				</div>
-			))}
-		</div>
-	);
+    return (
+        <div className="qanda container">
+            <div className="hero_title">Frequently Asked Questions</div>
+            {questions.map((question, index) => (
+                <div key={index} className="color">
+                    <div className="question-header">
+                        <div className="big_title">{question.title}</div>
+                        <button
+                            className="toggle-btn"
+                            style={{ background: "none", border: "none" }}
+                            onClick={() => toggleAnswer(index)}>
+                            <span className="icon">
+                                {openAnswers[index] ? (
+                                    <i
+                                        className="fa-solid fa-chevron-up"
+                                        style={{ color: `#40BCD0`, transition: 'transform 0.3s ease' }}></i>
+                                ) : (
+                                    <i
+                                        className="fa-solid fa-chevron-down"
+                                        style={{ color: `#40BCD0`, transition: 'transform 0.3s ease' }}></i>
+                                )}
+                            </span>
+                        </button>
+                    </div>
+                    <div className={`answer-container ${openAnswers[index] ? 'open' : ''}`}>
+                        <div className="answer-line"></div>
+                        <div className="answer">
+                            <p>{question.answer}</p>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
 };
 
-// Dữ liệu câu hỏi và câu trả lời
 const questions = [
 	{
 		title: "What is OpenNezt’s Co-Founder Matching feature?",
