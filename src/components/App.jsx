@@ -9,7 +9,6 @@ import Footer from "./Footer";
 import Subscribe from "./Subscribe";
 import LearnMore from "./LearnMore";
 import Team from "./Team";
-import Navigation from "./Navigation";
 import OnBoarding from "./On-boarding";
 import Evaluation from "./Evaluation";
 import Nav from "./Nav";

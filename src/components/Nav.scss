@@ -17,13 +17,14 @@
 		overflow: hidden;
 		position: relative;
 		transition: height 0.3s ease;
+		padding: 1rem 0;
 
 		.navbar-brand {
 			margin: 0;
 			padding: 0;
-			max-width: 29.0625rem;
-			width: 29.0625rem;
-			height: 4.67075rem;
+			max-width: 38.75rem;
+			width: 38.75rem;
+			height: 6.22769rem;
 			flex-shrink: 0;
 			background-size: contain !important;
 			background-position: left center !important;
@@ -48,23 +49,20 @@
 			color: #fff;
 			text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 			font-family: "Instrument Sans";
-			font-size: 1.5rem;
 			font-style: normal;
 			font-weight: 700;
 			line-height: normal;
 			align-items: center;
 			padding: 20px 0;
-			gap: 3rem;
+			gap: 3.5rem;
+			font-size: 2rem;
 
 			.get-started {
-				width: 13.6875rem;
-				height: 4.5625rem;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				color: var(--color-blue-15, #1f1f30);
 				font-family: "Inria Sans";
-				font-size: 1.82763rem;
 				font-style: normal;
 				font-weight: 700;
 				line-height: normal;
@@ -73,6 +71,63 @@
 				border: 1px solid #000;
 				background: #f2b538;
 				text-wrap: nowrap;
+				font-size: 2.43688rem;
+				width: 18.25rem;
+				height: 6.08331rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 2048px) and (max-width: 2559px) {
+	.nav-container {
+		padding: 0 50px;
+
+		.navbar-content {
+			padding: 1rem 0;
+
+			.navbar-brand {
+				max-width: 31rem;
+				width: 31rem;
+				height: 4.98213rem;
+			}
+
+			.nav-menu {
+				gap: 3.5rem;
+				font-size: 1.6rem;
+
+				.get-started {
+					font-size: 1.9495rem;
+					width: 14.6rem;
+					height: 4.86669rem;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1920px) and (max-width: 2048px) {
+	.nav-container {
+		padding: 0 50px;
+
+		.navbar-content {
+			padding: 1rem 0;
+
+			.navbar-brand {
+				max-width: 29.0625rem;
+				width: 29.0625rem;
+				height: 4.67075rem;
+			}
+
+			.nav-menu {
+				gap: 3rem;
+				font-size: 1.6rem;
+
+				.get-started {
+					font-size: 1.5rem;
+					width: 13.6875rem;
+					height: 4.5625rem;
+				}
 			}
 		}
 	}
@@ -106,7 +161,35 @@
 	}
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
+	.nav-container {
+		padding: 0 30px;
+
+		.navbar-content {
+			padding: 0;
+
+			.navbar-brand {
+				max-width: 20.58594rem;
+				width: 20.58594rem;
+				height: 3.30844rem;
+			}
+
+			.nav-menu {
+				font-size: 1.0625rem;
+
+				gap: 2rem;
+
+				.get-started {
+					font-size: 1.29456rem;
+					width: 9.69531rem;
+					height: 3.23175rem;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
 	.nav-container {
 		padding: 0 30px;
 
