@@ -46,6 +46,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 485px;
+height: 404px;
 }
 .svg-container{
 	position: relative;
@@ -96,7 +98,7 @@ font-style: normal;
   text-align: center;
 					color: #c8c5c7;
   font-family: "Inria Sans-Regular", Helvetica;
-  font-size: 22.8px;
+  font-size: 20px;
   font-weight: 400;
 
 
@@ -120,7 +122,7 @@ font-style: normal;
 			border-radius: 1rem;
 			background: #232537;
 			color: #ffffff;
-			font-size: 2rem;
+			font-size: 25.637px;
 			font-style: normal;
 			font-weight: 700;
 			line-height: normal;
@@ -134,7 +136,7 @@ font-style: normal;
 		background-size: contain !important;
 		background-repeat: no-repeat !important;
 		background-position: center !important;
-		min-height: 15vh;
+		min-height: 11vh;
 		width: 100%;
 		margin-bottom: 2rem;
 	}
@@ -169,7 +171,7 @@ font-style: normal;
 			background-size: contain !important;
 			background-repeat: no-repeat !important;
 			background-position: center !important;
-			min-height: 10vh; 
+			min-height: 7vh; 
 			width: 100%;
 			margin-bottom: 1.5rem;
 		  }
@@ -186,13 +188,15 @@ font-style: normal;
 			  justify-content: center;
 			  align-items: center;
 			  position: relative;
-			  width: 450px; 
+			  width: 400px; 
 			  height: 350px;
 	
 			  .learnmore-icon {
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				width: 361px;
+height: 310.5px;
 			  }
 	
 			  .svg-container {
@@ -230,11 +234,11 @@ font-style: normal;
 				text-align: center;
 				color: #c8c5c7;
 				font-family: "Inria Sans-Regular", Helvetica;
-				font-size: 18px; 
+				font-size: 14px; 
 				font-weight: 400;
 				line-height: normal;
 				text-align: center;
-				width: 400px; 
+				width: 300px; 
 			  }
 			}
 		  }
@@ -265,11 +269,14 @@ font-style: normal;
 		background-size: contain !important;
 		background-repeat: no-repeat !important;
 		background-position: center !important;
-		min-height: 15vh;
+		min-height: 11vh;
 		width: 100%;
 		margin-bottom: 2rem;
 	}
-	// .learnmore-icon{}
+	.learnmore-icon{
+		width: 236.267px;
+height: 220.8px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -302,7 +309,7 @@ font-style: normal;
 		  background-size: contain !important;
 		  background-repeat: no-repeat !important;
 		  background-position: center !important;
-		  min-height: 10vh;
+		  min-height: 7vh;
 		  width: 40%;
 		  margin-bottom: 1rem;
 		}
@@ -329,7 +336,8 @@ font-style: normal;
 			  display: flex;
 			  justify-content: center;
 			  align-items: center;
-			  width: 430px;
+			  	width: 200px;
+				height: 155px;
 			}
   
 			.svg-container {
@@ -338,18 +346,19 @@ font-style: normal;
   
 			.learnmore-in-icon {
 			  position: absolute;
-			  top: 25%;
+			  top: 19%;
 			  left: 50%;
 			  transform: translate(-50%, -50%);
+			  width: 50px;
 			}
   
 			.item-text {
 			  position: absolute;
-			  top: 50%;
+			  top: 42%;
 			  left: 50%;
 			  transform: translate(-50%, -50%);
 			  text-align: center;
-			  font-size: 1rem;
+			  font-size: 10px;
 			  font-weight: 700;
 			  line-height: normal;
 			  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -360,17 +369,17 @@ font-style: normal;
   
 			.item-des {
 			  position: absolute;
-			  top: 70%;
+			  top: 71%;
 			  left: 50%;
 			  transform: translate(-50%, -50%);
 			  text-align: center;
 			  color: #c8c5c7;
 			  font-family: "Inria Sans-Regular", Helvetica;
-			  font-size: 14px;
+			  font-size: 10px;
 			  font-weight: 400;
 			  line-height: normal;
 			  text-align: center;
-			  width: 250px;
+			  width: 180px;
 			}
 		  }
 		}

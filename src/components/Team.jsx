@@ -51,7 +51,10 @@ function Team() {
 						the startup ecosystem.
 					</div> */}
 					<div className="line1">
-						<div className="line"></div>
+						<div className="line">
+							<svg xmlns="http://www.w3.org/2000/svg" width="2254" height="5" viewBox="0 0 2254 5" fill="none">
+  <path d="M0.333984 2.6665L2253.67 2.6665"/>
+</svg></div>
 						<div className="rectangle">
 							<span className="rectangle-text">CORE TEAM</span>
 							<div className="rectangle2">MENTOR TEAM</div>
@@ -174,7 +177,9 @@ function Team() {
 						</div>
 					</div>
 					<div className="line2">
-						<div className="line"></div>
+						<div className="line"><svg xmlns="http://www.w3.org/2000/svg" width="2254" height="5" viewBox="0 0 2254 5" fill="none">
+  <path d="M0.333984 2.6665L2253.67 2.6665"/>
+</svg></div>
 						<div className="rectangle">
 							<div className="rectangle2">CORE TEAM</div>
 							<span className="rectangle-text">MENTOR TEAM</span>
