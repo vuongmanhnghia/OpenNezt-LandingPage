@@ -40,7 +40,7 @@ line-height: normal;
 				z-index: 1;
 
 				.line {
-					width: 8.5rem;
+					width: 50vw;
 					height: 2rem;
 				}
 
@@ -80,7 +80,7 @@ line-height: normal;
 			position: relative;
 			padding: 8rem 0;
 			.line {
-				width: 96%;
+				width: 50vw;
 				height: 0.2rem;
 				background: #000;
 			}
@@ -203,7 +203,7 @@ line-height: normal;
 			position: relative;
 			padding: 8rem 0;
 			.line {
-				width: 96%;
+				width: 50vw;
 				height: 0.2rem;
 				background: #000;
 			}
@@ -260,7 +260,7 @@ line-height: normal;
 
 			.rectangle {
 				
-				right: 8% !important;
+				right: 0vw !important;
 				
 
 			}
@@ -285,14 +285,14 @@ line-height: normal;
 }
 @media (min-width: 1440px) and (max-width:1920px) {
 	.rectangle{
-		right: 19% !important;
+		right: 0vw !important;
 	}
 	 	.box-member .avt{
 				width: 350.0958px !important;
 				height:349.3376px !important;
 			}
 			.line{
-				width: 67% !important;
+				width: 50vw !important;
 
 			}
 			.core-team,.mentor-team {
@@ -315,14 +315,14 @@ line-height: normal;
 }
 @media (min-width:1280px) and (max-width:1440px){
 	.rectangle{
-		right: 22% !important;
+		right: 0vw !important;
 	}
 	 	.box-member .avt{
 				width: 288.584px !important;
 				height:286.27925px !important;
 			}
 			.line{
-				width: 67% !important;
+				width: 50vw !important;
 
 			}
 			.core-team,.mentor-team {
@@ -345,18 +345,18 @@ line-height: normal;
 }
 @media (min-width:1024px) and (max-width:1280px){
 	.rectangle{
-		right: 28% !important;
+		right: 0vw !important;
 	}
 	 	.box-member .avt{
 				width: 282.964px !important;
 				height:284.793px !important;
 			}
 			.line{
-				width: 67% !important;
+				width: 50vw !important;
 
 			}
 			.core-team,.mentor-team {
-				width: calc(286.164px * 3 + 9rem * 2) !important;
+				width: calc(723px + 9rem * 2) !important;
 				gap: 1rem !important;
 			}
 			.name {
@@ -376,18 +376,18 @@ line-height: normal;
 }
 @media (min-width:768px) and (max-width:1024px){
 	.rectangle{
-		right: 28% !important;
+		right: 0vw !important;
 	}
 	 	.box-member .avt{
-				width: 282.964px !important;
-				height:284.793px !important;
+				width: 280.964px !important;
+				height:282.793px !important;
 			}
 			.line{
-				width: 67% !important;
+				width: 50vw !important;
 
 			}
 			.core-team,.mentor-team {
-				width: calc(286.164px * 3 + 9rem * 2) !important;
+				width: calc(233.333px * 3 + 9rem * 2) !important;
 				gap: 1rem !important;
 			}
 			.name {
@@ -407,7 +407,7 @@ line-height: normal;
 }
 @media (max-width:768px){
 	.rectangle{
-		right: 41% !important;
+		right: -1vw !important;
 		width: 19rem !important;
 	}
 	.rectangle-text{
@@ -421,11 +421,11 @@ line-height: normal;
 				height:329.917px !important;
 			}
 			.line{
-				width: 67% !important;
+				width: 50vw !important;
 
 			}
 			.core-team,.mentor-team {
-				width: calc(314.1935px * 3 - 10rem *2) !important;
+				width: calc(800px - 10rem *2) !important;
 				gap: 1rem !important;
 			}
 			.name {

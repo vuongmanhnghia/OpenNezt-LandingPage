@@ -11,7 +11,9 @@ function LearnMore() {
 				style={{ background: `#050716` }}>
 				<div className="learnmore-content">
 					<div className="learnmore-header">
-						Take your startup journey to the next level.
+					Take Your Startup Journey 
+					<br />
+					To The Next Level
 					</div>
 					<div
 						className="learnmore-title"

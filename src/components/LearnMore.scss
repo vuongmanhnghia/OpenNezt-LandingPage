@@ -112,295 +112,168 @@ font-style: normal;
 		}
 
 		.button-learn {
-			font-family: "Inria Sans";
 			display: flex;
-			justify-content: center;
-			align-items: center;
-			border: none;
-			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			flex-shrink: 0;
-			border-radius: 1rem;
-			background: #232537;
-			color: #ffffff;
-			font-size: 25.637px;
-			font-style: normal;
-			font-weight: 700;
-			line-height: normal;
-			padding: 1rem 2rem;
+height: 53.333px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+align-self: stretch;
+background: #232537;
+
+color: #FFF;
+text-align: center;
+font-family: Tahoma;
+font-size: 26.667px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 120% */
+letter-spacing: -0.267px;
 		}
 	}
 }
-@media (min-width:1440px) {
+@media (min-width:1920px) {
 	.learnmore-title {
 		z-index: 1;
 		background-size: contain !important;
 		background-repeat: no-repeat !important;
 		background-position: center !important;
-		min-height: 11vh;
-		width: 100%;
-		margin-bottom: 2rem;
+		// min-height: 11vh;
+		width: 733.268px;
+height: 117.847px;
+		// margin-bottom: 2rem;
 	}
-}
-@media (min-width: 1024px) and (max-width: 1440px) {
-	.learnmore-container {
-		background-size: cover !important;
-		background-repeat: no-repeat !important;
-		background-position: center calc(50% + 4rem);
-	
-		.learnmore-content {
-		  display: flex;
-		  flex-direction: column;
-		  align-items: center;
-		  justify-content: center;
-		  user-select: none;
-		  padding: 2rem;
-		  gap: 2rem; 
-	
-		  .learnmore-header {
-			font-family: "Inria Sans";
-			color: #fff;
-			text-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
-			font-size: 2.5rem;
-			font-style: normal;
-			font-weight: 700;
-			line-height: normal;
-		  }
-	
-		  .learnmore-title {
-			z-index: 1;
-			background-size: contain !important;
-			background-repeat: no-repeat !important;
-			background-position: center !important;
-			min-height: 7vh; 
-			width: 100%;
-			margin-bottom: 1.5rem;
-		  }
-	
-		  .learnmore-list {
-			font-family: "Inria Sans";
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			gap: 2rem;
-	
-			.learnmore-item {
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  position: relative;
-			  width: 400px; 
-			  height: 350px;
-	
-			  .learnmore-icon {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 361px;
-height: 310.5px;
-			  }
-	
-			  .svg-container {
-				position: relative;
-			  }
-	
-			  .learnmore-in-icon {
-				position: absolute;
-				top: 28%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-			  }
-	
-			  .item-text {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				text-align: center;
-				font-size: 1.5rem; 
-				font-weight: 700;
-				line-height: normal;
-				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-				color: #5FA7E7;
-				font-family: "Tahoma-Bold", Helvetica;
-				text-align: center;
-				white-space: nowrap;
-			  }
-	
-			  .item-des {
-				position: absolute;
-				top: 75%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				text-align: center;
-				color: #c8c5c7;
-				font-family: "Inria Sans-Regular", Helvetica;
-				font-size: 14px; 
-				font-weight: 400;
-				line-height: normal;
-				text-align: center;
-				width: 300px; 
-			  }
-			}
-		  }
-	
-		  .button-learn {
-			font-family: "Inria Sans";
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			border: none;
-			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			flex-shrink: 0;
-			border-radius: 1rem;
-			background: #232537;
-			color: #ffffff;
-			font-size: 1.8rem; 
-			font-weight: 700;
-			line-height: normal;
-			padding: 0.8rem 1.5rem;
-		  }
-		}
-	  }
-}
+	.learnmore-header {
+		align-self: stretch !important;
+		color: #FFF !important;
+text-align: center !important;
+text-shadow: 0px 3.105px 3.105px rgba(0, 0, 0, 0.25) !important;
+font-family: Tahoma !important;
+font-size: 66.917px !important;
+font-style: normal !important;
+font-weight: 700 !important;
+line-height: normal !important;
+	}
+	.learnmore-list {
+		 
+		gap: 3rem !important;
 
-@media (min-width: 768px) and (max-width: 1024px) {
-	.learnmore-title {
-		z-index: 1;
-		background-size: contain !important;
-		background-repeat: no-repeat !important;
-		background-position: center !important;
-		min-height: 11vh;
-		width: 100%;
-		margin-bottom: 2rem;
-	}
-	.learnmore-icon{
-		width: 236.267px;
-height: 220.8px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.learnmore-container {
-	  background-size: cover !important;
-	  background-repeat: no-repeat !important;
-	  background-position: center calc(50% + 4rem);
-  
-	  .learnmore-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		user-select: none;
-		padding: 1rem;
-		gap: 1rem;
-  
-		.learnmore-header {
-		  font-family: "Inria Sans";
-		  color: #fff;
-		  text-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
-		  font-size: 1.5rem;
-		  font-style: normal;
-		  font-weight: 700;
-		  line-height: normal;
-		}
-  
-		.learnmore-title {
-		  z-index: 1;
-		  background-size: contain !important;
-		  background-repeat: no-repeat !important;
-		  background-position: center !important;
-		  min-height: 7vh;
-		  width: 40%;
-		  margin-bottom: 1rem;
-		}
-  
-		.learnmore-list {
-		  font-family: "Inria Sans";
-		  display: flex;
-		  flex-direction: column; 
-		  justify-content: center;
-		  align-items: center; 
-		  gap: 1rem;
-  
-		  .learnmore-item {
+		.learnmore-item {
 			display: flex;
-			justify-content: center;
-			align-items: center;
-			position: relative;
-			width: 100%;
-			max-width: 300px; 
-			height: auto;
-			flex-direction: column; 
-  
-			.learnmore-icon {
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  	width: 200px;
-				height: 155px;
-			}
-  
-			.svg-container {
-			  position: relative;
-			}
-  
+justify-content: center;
+align-items: center;
+position: relative;
+width: 547px;
+height: 414px;
+
+.learnmore-icon {
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 485px;
+height: 404px;
+}
+.svg-container{
+position: relative;
+}
 			.learnmore-in-icon {
-			  position: absolute;
-			  top: 19%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-			  width: 50px;
+				
+				position: absolute;
+top: 28%;
+left: 50%;
+transform: translate(-50%, -50%);
+				
+
 			}
-  
 			.item-text {
-			  position: absolute;
-			  top: 42%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-			  text-align: center;
-			  font-size: 10px;
-			  font-weight: 700;
-			  line-height: normal;
-			  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-			  color: #5FA7E7;
-			  font-family: "Tahoma-Bold", Helvetica;
-			  text-align: center;
-			}
-  
-			.item-des {
-			  position: absolute;
-			  top: 71%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-			  text-align: center;
-			  color: #c8c5c7;
-			  font-family: "Inria Sans-Regular", Helvetica;
-			  font-size: 10px;
-			  font-weight: 400;
-			  line-height: normal;
-			  text-align: center;
-			  width: 180px;
-			}
-		  }
+				position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+text-align: center;
+font-size: 2rem;
+font-weight: 700;
+line-height: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #5FA7E7;
+
+font-family: Tahoma;
+
+font-style: normal;
+
+font-family: "Tahoma-Bold", Helvetica;
+font-size: 33.4px;
+font-weight: 700;
+
+
+line-height: normal;
+
+text-align: center;
+
+white-space: nowrap;
+			  }
+			  .item-des{
+				position: absolute;
+top: 75%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+text-align: center;
+				color: #c8c5c7;
+font-family: "Inria Sans-Regular", Helvetica;
+font-size: 20px;
+font-weight: 400;
+
+
+line-height: normal;
+
+text-align: center;
+
+width: 487px;
+}
 		}
-  
-		.button-learn {
-		  font-family: "Inria Sans";
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  border: none;
-		  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		  flex-shrink: 0;
-		  border-radius: 1rem;
-		  background: #232537;
-		  color: #ffffff;
-		  font-size: 1.2rem;
-		  font-weight: 700;
-		  line-height: normal;
-		  padding: 0.5rem 1rem;
-		}
-	  }
 	}
-  }
-  
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+	.learnmore-title {
+		z-index: 1;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		// min-height: 11vh;
+		width: 549.951px;
+height: 88.385px;
+		// margin-bottom: 2rem;
+	}
+	.learnmore-header {
+		align-self: stretch !important;
+		color: #FFF !important;
+text-align: center !important;
+text-shadow: 0px 2.329px 2.329px rgba(0, 0, 0, 0.25) !important;
+font-family: Tahoma !important;
+font-size: 50px !important;
+font-style: normal !important;
+font-weight: 700 !important;
+line-height: 60px !important; /* 120% */
+letter-spacing: -0.5px !important;
+	}
+}
+@media (max-width:390px) {
+	.learnmore-title{
+		display: none;
+	}
+	.learnmore-header {
+		width: 342px !important;
+flex-shrink: 0 !important;
+color: #FFF !important;
+text-align: center !important;
+font-family: Tahoma !important;
+font-size: 24px !important;
+font-style: normal !important;
+font-weight: 700 !important;
+line-height: 26.4px !important; /* 110% */
+letter-spacing: -0.24px !important;
+	}
+}
+
