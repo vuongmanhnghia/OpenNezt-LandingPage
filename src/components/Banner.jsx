@@ -6,19 +6,27 @@ function Banner() {
 	return (
 		<>
 			<div
-				className="banner-container flex items-center justify-center bg-cover bg-center"
+				className="flex items-center justify-center bg-center bg-cover banner-container"
 				style={{ background: `url(${OpenNezt_Background})` }}>
-				<div className="banner-content px-4 sm:px-8 md:px-12 lg:px-16">
-					<div className="banner-text-header text-center sm:text-left">
+				<div className="banner-content sm:px-8 md:px-12 lg:px-16">
+					<div className="text-center banner-text-header sm:text-left">
 						<span>Connect</span>
-						<span style={{ display: "flex", flexWrap: "nowrap" }}>
-							with the Perfect Partners.
-						</span>
+						<div
+							className="text-content-child"
+							style={{ display: "flex", flexWrap: "wrap" }}>
+							<span style={{ display: "flex", flexWrap: "no-wrap" }}>
+								with the{" "}
+							</span>
+							<span style={{ display: "flex", flexWrap: "no-wrap" }}>
+								{" "}
+								Perfect Partners.
+							</span>
+						</div>
 					</div>
 					<div className="banner-text-content">
 						Tailored Matching. Verified Profiles. Endless Opportunities
 					</div>
-					<div className="banner-button">Join the network</div>
+					<div className="banner-button">GET STARTED</div>
 				</div>
 				<svg
 					className="page-1"

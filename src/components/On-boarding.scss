@@ -2,8 +2,7 @@
 	position: relative;
 	width: 100%;
 	background: linear-gradient(180deg, #00082d 0%, #02050c 49.16%);
-	padding-top: 15rem;
-	padding-bottom: 25rem;
+	padding: 10rem 10rem 20rem 10rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -13,7 +12,7 @@
 		color: #306ee8;
 		text-align: center;
 		font-family: Tahoma;
-		font-size: 2.4925rem;
+		font-size: 2rem;
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
@@ -24,7 +23,7 @@
 		align-self: stretch;
 		color: #fff;
 		font-family: Tahoma;
-		font-size: 3.808rem;
+		font-size: 2.875rem;
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
@@ -35,18 +34,17 @@
 		width: 13.25rem;
 		height: 1rem;
 		flex-shrink: 0;
-		stroke: #2554af;
+		stroke: #2554af !important;
 	}
 
 	.on-boarding-text-content {
 		margin-top: 1.5rem;
 		margin-bottom: 8rem;
-		width: 86.5rem;
 		flex-shrink: 0;
 		color: #fff;
 		text-align: center;
 		font-family: Tahoma;
-		font-size: 1.77206rem;
+		font-size: 1.59rem;
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
@@ -55,15 +53,15 @@
 	.on-boarding-content {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 3rem 15rem;
-		width: calc(15rem + (34.5rem * 2));
+		gap: 6.25rem 21rem;
+		width: calc(21rem + (30.83331rem * 2));
 
 		.on-boarding-box {
 			border: var(--stroke-weight-1, 2px) solid #183367;
 			box-shadow: 0px 0px 8px 5px #151e49;
 			position: relative;
-			width: 34.5rem;
-			height: 18.33331rem;
+			width: 30.83331rem;
+			height: 16.66669rem;
 			border-radius: 0.73331rem;
 			background: #d9d9d9;
 			background: transparent;
@@ -76,37 +74,37 @@
 				color: #8caef2;
 				text-align: center;
 				font-family: Tahoma;
-				font-size: 2.08794rem;
+				font-size: 1.58331rem;
 				font-style: normal;
 				font-weight: 700;
 				line-height: normal;
 				display: flex;
 				justify-content: flex-start;
-				margin-bottom: 1rem;
+				margin-bottom: 1.5rem;
 			}
 
 			.on-boarding-box-content {
 				width: 23rem;
 				color: #a1a0ab;
 				font-family: Tahoma;
-				font-size: 1.622rem;
-				font-style: normal;
+				font-size: 1.3rem;
+				width: 19.75rem;
+				height: 5rem;
 				font-weight: 400;
-				line-height: normal;
 			}
 
 			.subtract {
 				z-index: 1;
 				position: absolute;
-				right: -2rem;
-				bottom: -3.5rem;
+				right: -0rem;
+				bottom: -1.5rem;
 				display: flex;
 				flex-wrap: wrap;
-				width: calc(2rem + (4.40625rem * 2));
+				width: calc(2rem + (3.16669rem * 2));
 				gap: 1rem 2rem;
 				.subtract-rectangle {
-					width: 4.40625rem;
-					height: 5.71875rem;
+					width: 3.16669rem;
+					height: 4.16669rem;
 					flex-shrink: 0;
 					border: var(--stroke-weight-1, 3px) solid #183367;
 					border-radius: 4px;
@@ -114,24 +112,24 @@
 			}
 
 			.on-boarding-box-circle {
-				border: var(--stroke-weight-1, 1px) solid #183367;
+				border: var(--stroke-weight-1, 3px) solid #183367;
 				background-color: #02050c;
 				position: absolute;
-				right: -3rem;
-				bottom: -2.5rem;
+				right: -1rem;
+				bottom: -1rem;
 				z-index: 2;
 				border-radius: 50%;
-				width: 10.40625rem;
-				height: 9.9375rem;
+				width: 7.50619rem;
+				height: 7.13425rem;
 				fill: #d9d9d9;
 			}
 
 			.on-boarding-box-icon {
-				width: 3rem;
-				height: 3rem;
+				width: 2rem;
+				height: 2rem;
 				position: absolute;
-				right: 1.5rem;
-				bottom: 1.5rem;
+				right: 2rem;
+				bottom: 1.7rem;
 				z-index: 3;
 				flex-shrink: 0;
 			}
@@ -142,20 +140,20 @@
 		z-index: 999;
 		position: absolute;
 		bottom: 0;
-		width: 7.97144rem;
-		height: 7.87425rem;
+		width: 5.33331rem;
+		height: 5.33331rem;
 		fill: #0f1b33;
 		stroke: #227588;
 		color: #227588;
 		text-align: center;
 		font-family: Inter;
-		font-size: 3rem;
+		font-size: 2.39269rem;
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
 		right: 50%;
 		transform: translateX(50%);
-		bottom: 4.5rem;
+		bottom: 5.5rem;
 
 		text {
 			fill: #227588;
@@ -167,105 +165,16 @@
 	}
 }
 
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
 	.on-boarding-container {
-		padding-top: 10rem;
-		padding-bottom: 20rem;
+		padding: 6rem 6rem 15rem 6rem;
 
 		.on-boarding-text-name {
-			font-size: 1.994rem;
+			font-size: 1.5rem;
 		}
 
 		.on-boarding-text-header {
-			font-size: 3.04638rem;
-		}
-
-		.on-boarding-line {
-			width: 14.13331rem;
-		}
-
-		.on-boarding-text-content {
-			font-size: 1.41763rem;
-			width: 69.2rem;
-			height: 1.8rem;
-			margin-top: 1.3rem;
-			margin-bottom: 6rem;
-		}
-
-		.on-boarding-content {
-			width: calc(12rem + (27.6rem * 2));
-			gap: 4rem 12rem;
-
-			.on-boarding-box {
-				padding-top: 2rem;
-				padding-left: 2rem;
-				width: 27.6rem;
-				height: 14.66669rem;
-
-				.on-boarding-box-header {
-					font-size: 1.48475rem;
-				}
-
-				.on-boarding-box-content {
-					font-size: 1.15344rem;
-					width: 16.86669rem;
-				}
-
-				.subtract {
-					z-index: 1;
-					position: absolute;
-					right: -1.5rem;
-					bottom: -2.5rem;
-					display: flex;
-					flex-wrap: wrap;
-					width: calc(2rem + (3.13331rem * 2));
-					gap: 1rem 2rem;
-					.subtract-rectangle {
-						width: 3.13331rem;
-						height: 4.06669rem;
-						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
-						border-radius: 4px;
-					}
-				}
-
-				.on-boarding-box-circle {
-					width: 7.4rem;
-					height: 7.06669rem;
-					right: -1.5rem;
-					bottom: -1.5rem;
-				}
-
-				.on-boarding-box-icon {
-					right: 1.5rem;
-					bottom: 1.5rem;
-					width: 2.13331rem;
-					height: 2.13331rem;
-				}
-			}
-		}
-
-		.page-2 {
-			font-size: 2.75063rem;
-
-			width: 5.66856rem;
-			height: 5.59944rem;
-			bottom: 3.7rem;
-		}
-	}
-}
-
-@media (min-width: 1680px) and (max-width: 1920px) {
-	.on-boarding-container {
-		padding-top: 10rem;
-		padding-bottom: 15rem;
-
-		.on-boarding-text-name {
-			font-size: 1.63569rem;
-		}
-
-		.on-boarding-text-header {
-			font-size: 2.499rem;
+			font-size: 2.1875rem;
 		}
 
 		.on-boarding-line {
@@ -273,43 +182,41 @@
 		}
 
 		.on-boarding-text-content {
-			font-size: 1.41763rem;
-			width: 69.2rem;
+			font-size: 1.23rem;
 			height: 1.8rem;
 			margin-top: 1.3rem;
 			margin-bottom: 8rem;
 		}
 
 		.on-boarding-content {
-			width: calc(12rem + (22.64063rem * 2));
-			gap: 2rem 12rem;
+			width: calc(15.75rem + (23.125rem * 2));
+			gap: 6.25rem 15.75rem;
 
 			.on-boarding-box {
-				padding-top: 2rem;
+				padding-top: 1.5rem;
 				padding-left: 2rem;
-				width: 22.64063rem;
-				height: 12.03125rem;
+				width: 23.125rem;
+				height: 12.5rem;
 
 				.on-boarding-box-header {
-					font-size: 1.21794rem;
+					font-size: 1.1875rem;
+					margin-bottom: 1rem;
 				}
 
 				.on-boarding-box-content {
-					font-size: 0.90113rem;
-					width: 13.17706rem;
+					width: 14.8125rem;
+					height: 3.75rem;
+					font-size: 1rem;
 				}
 
 				.subtract {
-					right: -2.5rem;
+					right: -1rem;
 					bottom: -2rem;
-					width: calc(1.5rem + (3.13331rem * 2));
+					width: calc(1.5rem + (2.375rem * 2));
 					gap: 1rem 1.5rem;
 					.subtract-rectangle {
-						width: 2.44794rem;
-						height: 3.17706rem;
-						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
-						border-radius: 4px;
+						width: 2.375rem;
+						height: 3.125rem;
 					}
 				}
 
@@ -323,291 +230,24 @@
 				.on-boarding-box-icon {
 					right: 1.2rem;
 					bottom: 1.2rem;
-					width: 1.66669rem;
-					height: 1.66669rem;
+					width: 1.5rem;
+					height: 1.5rem;
 				}
 			}
 		}
 
 		.page-2 {
-			font-size: 2.14894rem;
-			width: 4.42856rem;
-			height: 4.37456rem;
+			font-size: 1.7945rem;
+			width: 4rem;
+			height: 4rem;
 			bottom: 4.3rem;
 		}
 	}
 }
 
-@media (min-width: 1440px) and (max-width: 1680px) {
+@media (min-width: 768px) and (max-width: 1200px) {
 	.on-boarding-container {
-		padding-top: 8rem;
-		padding-bottom: 15rem;
-
-		.on-boarding-text-name {
-			font-size: 1.402rem;
-		}
-
-		.on-boarding-text-header {
-			font-size: 2.142rem;
-		}
-
-		.on-boarding-line {
-			width: 9.9375rem;
-		}
-
-		.on-boarding-text-content {
-			font-size: 0.99681rem;
-			width: 48.65625rem;
-			height: 1.26563rem;
-			margin-top: 1.3rem;
-			margin-bottom: 6rem;
-		}
-
-		.on-boarding-content {
-			width: calc(12rem + (19.40625rem * 2));
-			gap: 2rem 12rem;
-
-			.on-boarding-box {
-				padding-top: 1.5rem;
-				padding-left: 1.5rem;
-				width: 19.40625rem;
-				height: 10.3125rem;
-
-				.on-boarding-box-header {
-					font-size: 1.04394rem;
-				}
-
-				.on-boarding-box-content {
-					font-size: 0.811rem;
-					width: 12.375rem;
-				}
-
-				.subtract {
-					z-index: 1;
-					position: absolute;
-					right: -1rem;
-					bottom: -1.8rem;
-					display: flex;
-					flex-wrap: wrap;
-					width: calc(1.5rem + (2.20313rem * 2));
-					gap: 1rem 1.5rem;
-					.subtract-rectangle {
-						width: 2.20313rem;
-						height: 2.85938rem;
-						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
-						border-radius: 4px;
-					}
-				}
-
-				.on-boarding-box-circle {
-					width: 5.20313rem;
-					height: 4.96875rem;
-					right: -1rem;
-					bottom: -1rem;
-				}
-
-				.on-boarding-box-icon {
-					right: 1.1rem;
-					bottom: 1.1rem;
-					width: 1.5rem;
-					height: 1.5rem;
-				}
-			}
-		}
-
-		.page-2 {
-			font-size: 1.934rem;
-			width: 3.98569rem;
-			height: 3.93713rem;
-			bottom: 4.5rem;
-		}
-	}
-}
-
-@media (min-width: 1280px) and (max-width: 1440px) {
-	.on-boarding-container {
-		padding-top: 8rem;
-		padding-bottom: 15rem;
-
-		.on-boarding-text-name {
-			font-size: 1.32413rem;
-			margin-bottom: 1rem;
-		}
-
-		.on-boarding-text-header {
-			font-size: 2.023rem;
-			margin-bottom: 0.8rem;
-		}
-
-		.on-boarding-line {
-			width: 9.38544rem;
-		}
-
-		.on-boarding-text-content {
-			font-size: 0.94138rem;
-			width: 45.95313rem;
-			height: 1.19531rem;
-			margin-top: 1rem;
-			margin-bottom: 5rem;
-		}
-
-		.on-boarding-content {
-			width: calc(12rem + (19.40625rem * 2));
-			gap: 2rem 12rem;
-
-			.on-boarding-box {
-				padding-top: 1.5rem;
-				padding-left: 1.5rem;
-				width: 18.32813rem;
-				height: 9.73956rem;
-
-				.on-boarding-box-header {
-					font-size: 1.04394rem;
-				}
-
-				.on-boarding-box-content {
-					font-size: 0.76594rem;
-					width: 11.2005rem;
-				}
-
-				.subtract {
-					z-index: 1;
-					position: absolute;
-					right: -1rem;
-					bottom: -1.8rem;
-					display: flex;
-					flex-wrap: wrap;
-					width: calc(1.5rem + (2.20313rem * 2));
-					gap: 1rem 1.5rem;
-					.subtract-rectangle {
-						width: 2.20313rem;
-						height: 2.85938rem;
-						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
-						border-radius: 4px;
-					}
-				}
-
-				.on-boarding-box-circle {
-					width: 5.20313rem;
-					height: 4.96875rem;
-					right: -1rem;
-					bottom: -1rem;
-				}
-
-				.on-boarding-box-icon {
-					right: 1.1rem;
-					bottom: 1.1rem;
-					width: 1.5rem;
-					height: 1.5rem;
-				}
-			}
-		}
-
-		.page-2 {
-			font-size: 1.82656rem;
-			width: 3.76431rem;
-			height: 3.71838rem;
-			bottom: 4.5rem;
-		}
-	}
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-	.on-boarding-container {
-		padding-top: 8rem;
-		padding-bottom: 10rem;
-
-		.on-boarding-text-name {
-			font-size: 0.997rem;
-			margin-bottom: 0.5rem;
-		}
-
-		.on-boarding-text-header {
-			font-size: 1.52319rem;
-			margin-bottom: 1rem;
-		}
-
-		.on-boarding-line {
-			width: 7.06669rem;
-		}
-
-		.on-boarding-text-content {
-			font-size: 0.70881rem;
-			width: 34.6rem;
-			height: 0.9rem;
-			margin-top: 1rem;
-			margin-bottom: 5rem;
-		}
-
-		.on-boarding-content {
-			width: calc(8rem + (13.8rem * 2));
-			gap: 2rem 8rem;
-
-			.on-boarding-box {
-				padding-top: 1.2rem;
-				padding-left: 1.2rem;
-				width: 13.8rem;
-				height: 7.33331rem;
-
-				.on-boarding-box-header {
-					font-size: 0.74238rem;
-					margin-bottom: 0.7rem;
-				}
-
-				.on-boarding-box-content {
-					font-size: 0.57669rem;
-					width: 8rem;
-				}
-
-				.subtract {
-					z-index: 1;
-					position: absolute;
-					right: -1.5rem;
-					bottom: -1.5rem;
-					display: flex;
-					flex-wrap: wrap;
-					width: calc(1.3rem + (2.20313rem * 2));
-					gap: 0.8rem 1.3rem;
-					.subtract-rectangle {
-						width: 1.8rem;
-						height: 2.4rem;
-						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
-						border-radius: 4px;
-					}
-				}
-
-				.on-boarding-box-circle {
-					width: 4.5rem;
-					height: 4.2rem;
-					right: -0.8rem;
-					bottom: -0.8rem;
-				}
-
-				.on-boarding-box-icon {
-					right: 1.1rem;
-					bottom: 1.1rem;
-					width: 1.06669rem;
-					height: 1.06669rem;
-				}
-			}
-		}
-
-		.page-2 {
-			font-size: 1.37531rem;
-			width: 2.83431rem;
-			height: 2.79975rem;
-			bottom: 2.5rem;
-		}
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-	.on-boarding-container {
-		padding-top: 10rem;
-		padding-bottom: 15rem;
+		padding: 10rem 3rem 15rem 3rem;
 		height: auto;
 
 		.on-boarding-text-name {
@@ -624,7 +264,6 @@
 
 		.on-boarding-text-content {
 			font-size: 1.565rem;
-			width: 42.18438rem;
 			height: 2.06075rem;
 			margin-top: 1.3rem;
 			margin-bottom: 10rem;
@@ -694,9 +333,7 @@
 
 @media (max-width: 768px) {
 	.on-boarding-container {
-		padding-top: 5rem;
-		padding-bottom: 7rem;
-		height: auto;
+		padding: 5rem 2rem 10rem 2rem;
 
 		.on-boarding-text-name {
 			font-size: 1.43388rem;
@@ -704,7 +341,7 @@
 		}
 
 		.on-boarding-text-header {
-			font-size: 1.358rem;
+			font-size: 1.25rem;
 			margin-bottom: 0.5rem;
 		}
 
@@ -713,8 +350,7 @@
 		}
 
 		.on-boarding-text-content {
-			font-size: 0.79575rem;
-			width: 21.44969rem;
+			font-size: 0.875rem;
 			height: 1.04781rem;
 			margin-top: 0.5rem;
 			margin-bottom: 5rem;
@@ -731,11 +367,12 @@
 				height: 11.13631rem;
 
 				.on-boarding-box-header {
-					font-size: 1.12738rem;
+					font-size: 1.1875rem;
+					margin-bottom: 1rem;
 				}
 
 				.on-boarding-box-content {
-					font-size: 0.87581rem;
+					font-size: 1rem;
 					width: 12.88213rem;
 				}
 

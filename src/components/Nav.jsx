@@ -34,7 +34,6 @@ const Nav = (props) => {
 							Support
 						</li>
 						<li className="nav-item">Login</li>
-						<div className="get-started">GET STARTED</div>
 					</ul>
 				</div>
 			</nav>
