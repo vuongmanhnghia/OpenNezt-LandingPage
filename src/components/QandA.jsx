@@ -24,11 +24,11 @@ const QAndA = () => {
                             <span className="icon">
                                 {openAnswers[index] ? (
                                     <i
-                                        className="fa-solid fa-chevron-up"
+                                        className="fa-solid fa-chevron-up button-up"
                                         style={{ color: `#40BCD0`, transition: 'transform 0.3s ease' }}></i>
                                 ) : (
                                     <i
-                                        className="fa-solid fa-chevron-down"
+                                        className="fa-solid fa-chevron-down button-down"
                                         style={{ color: `#40BCD0`, transition: 'transform 0.3s ease' }}></i>
                                 )}
                             </span>

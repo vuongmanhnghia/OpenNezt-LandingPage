@@ -2,7 +2,7 @@
 
 .footer {
 	border: 1px solid #000;
-	background: linear-gradient(359deg, #050003 0.71%, #0a1449 99.29%);
+	background: linear-gradient(0deg, rgba(2, 5, 12, 0.20) 0%, rgba(2, 5, 12, 0.20) 100%), #00082D;
 	.footer__container {
 		display: flex;
 		flex-direction: column;
@@ -63,7 +63,7 @@
 						border-radius: 0.3rem;
 						border: none;
 						font-size: 1.5rem;
-
+						background:#fff;
 						&:focus {
 							outline: none;
 						}
@@ -120,11 +120,83 @@
 @media (min-width:1024px) and (max-width:1280px){
 	
 }
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:798px) and (max-width:1200px){
 	
 	  .footer__logo{
 		width: 326.383px !important;
 	  }
+	  .footer__links {
+
+		flex-direction: column;
+		align-items: center; 
+		gap: 1rem;
+	
+		.footer__section {
+			text-align: center; 
+
+			flex-direction: column;
+			align-items: center;
+			gap: 0.5rem;
+	
+			h3 {
+				font-family: "Inria Sans";
+				color: #fff;
+				font-size: 2rem;
+			}
+	
+			a {
+				font-family: "Inria Sans";
+				color: #fff;
+				text-decoration: none;
+				font-size: 1.2rem;
+			}
+		}
+	
+		.footer__newsletter {
+
+			flex-direction: column;
+			align-items: center; 
+			gap: 1rem;
+	
+			h3 {
+				font-family: "Inria Sans";
+				color: #fff;
+				font-size: 2rem;
+			}
+	
+			.newsletter__form {
+
+				// flex-direction: column; 
+				// align-items: center; 
+				gap: 1rem;
+	
+				.input {
+					
+					background-color: #272C3F;
+					&:focus {
+						outline: none;
+					}
+				}
+	
+				button {
+					margin-left: -102px !important;
+    				height: 46px !important;
+				}
+			}
+		}
+	}
+	
+	.footer__social {
+
+		flex-direction: row; 
+		align-items: center;
+		gap: 2rem !important;
+	
+		a {
+		width: 3rem !important;
+		height: 3rem !important;
+		}
+	}
 }
 @media (max-width:768px){
 
