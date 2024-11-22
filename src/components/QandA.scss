@@ -2,34 +2,34 @@
 .fa-chevron-up {
 	transform: rotate(-181deg);
 	transform: rotate(-181deg);
-  }
-  
-  .fa-chevron-down {
+}
+
+.fa-chevron-down {
 	transform: rotate(-90deg);
-  }
-  .answer-container {
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+.answer-container {
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease, opacity 0.5s ease;
 }
 
 .answer-container.open {
-    max-height: 200px; 
-    opacity: 1;
+	max-height: 200px;
+	opacity: 1;
 }
 
 .answer {
-    font-family: "Inria Sans";
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-align: left;
-    transition: opacity 0.5s ease;
-    opacity: 0;
+	// font-family: "Inria Sans";
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: left;
+	transition: opacity 0.5s ease;
+	opacity: 0;
 }
 
 .answer-container.open .answer {
-    opacity: 1;
+	opacity: 1;
 }
 
 .qanda {
@@ -50,7 +50,7 @@
 		padding: 1.5rem 2rem;
 
 		.question-header {
-			font-family: "Inria Sans";
+			// font-family: "Inria Sans";
 			display: flex;
 			justify-content: space-between;
 			font-size: 2rem;
@@ -58,7 +58,7 @@
 			font-style: normal;
 			font-weight: 700;
 			line-height: normal;
-			.big_title{
+			.big_title {
 				margin-top: 1.4rem;
 			}
 		}
@@ -70,212 +70,210 @@
 		}
 
 		.answer {
-			font-family: "Inria Sans";
+			// font-family: "Inria Sans";
 			font-size: 1.6rem;
 			font-style: normal;
 			font-weight: 400;
 			text-align: left;
 
 			p {
-				font-family: "Inria Sans";
+				// font-family: "Inria Sans";
 				margin: 0;
 			}
 		}
 	}
 }
-@media (min-width:1919px)  {
+@media (min-width: 1919px) {
 	.hero_title {
 		align-self: stretch !important;
 		color: #000 !important;
-text-align: center !important;
-font-family: Tahoma !important;
-font-size: 80px !important;
-font-style: normal !important;
-font-weight: 700 !important;
-line-height: normal !important;
+		text-align: center !important;
+		// font-family: Tahoma !important;
+		font-size: 80px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: normal !important;
 	}
 	.qanda .color .question-header .big_title {
 		flex: 1 0 0;
-		color: var(--color-blue-15, #1F1F30);
-font-family: Tahoma;
-font-size: 30.183px;
-font-style: normal;
-font-weight: 700;
-line-height: 32.927px; /* 109.091% */
-letter-spacing: -0.302px;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma;
+		font-size: 30.183px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32.927px; /* 109.091% */
+		letter-spacing: -0.302px;
 	}
-	.answer { 
+	.answer {
 		flex: 1 0 0;
-		color: var(--color-blue-15, #1F1F30);
-		font-family: Tahoma !important;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma !important;
 		font-size: 30.183px !important;
 		font-style: normal !important;
-font-weight: 700 !important;
-line-height: 32.927px !important; /* 109.091% */
-letter-spacing: -0.302px !important;
+		font-weight: 700 !important;
+		line-height: 32.927px !important; /* 109.091% */
+		letter-spacing: -0.302px !important;
 	}
 }
-	@media (min-width:1439px) and (max-width:1919px) {
-		.hero_title {
-			align-self: stretch !important;
-			color: #000 !important;
-	text-align: center !important;
-	font-family: Tahoma !important;
-	font-size: 60px !important;
-	font-style: normal !important;
-	font-weight: 700 !important;
-	line-height: normal !important;
-		}
-		.qanda .color .question-header .big_title {
-			flex: 1 0 0;
-			color: var(--color-blue-15, #1F1F30);
-	font-family: Tahoma;
-	font-size: 22.637px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 24.695px; /* 109.091% */ 
-	letter-spacing: -0.226px;
-		}
-		.answer {
-			color: var(--color-blue-15, #1F1F30);
-			font-family: Tahoma !important;
-			font-size: 22.637px !important;
-			font-style: normal !important;
-			font-weight: 700 !important;
-			line-height: 24.695px !important; /* 109.091% */ 
-			letter-spacing: -0.226px !important;
-		}
+@media (min-width: 1439px) and (max-width: 1919px) {
+	.hero_title {
+		align-self: stretch !important;
+		color: #000 !important;
+		text-align: center !important;
+		// font-family: Tahoma !important;
+		font-size: 60px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: normal !important;
+	}
+	.qanda .color .question-header .big_title {
+		flex: 1 0 0;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma;
+		font-size: 22.637px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24.695px; /* 109.091% */
+		letter-spacing: -0.226px;
+	}
+	.answer {
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma !important;
+		font-size: 22.637px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: 24.695px !important; /* 109.091% */
+		letter-spacing: -0.226px !important;
+	}
 }
-@media (min-width:798px) and (max-width:1200px) {
+@media (min-width: 798px) and (max-width: 1200px) {
 	.hero_title {
 		width: 650.967px !important;
 		align-self: stretch !important;
 		color: #000 !important;
-text-align: center !important;
-font-family: Tahoma !important;
-font-size: 47.2px !important;
-font-style: normal !important;
-font-weight: 700 !important;
-line-height: normal !important;
-// width: 331px !important;
-height: 76.7px !important;
-line-height: 51.92px !important; /* 110% */
-letter-spacing: -0.472px !important;
+		text-align: center !important;
+		// font-family: Tahoma !important;
+		font-size: 47.2px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: normal !important;
+		// width: 331px !important;
+		height: 76.7px !important;
+		line-height: 51.92px !important; /* 110% */
+		letter-spacing: -0.472px !important;
 	}
 	.qanda .color .question-header .big_title {
-		color: var(--color-blue-15, #1F1F30);
-font-family: Tahoma;
-font-size: 27.533px;
-font-style: normal;
-font-weight: 700;
-line-height: 35.793px; /* 130% */
-letter-spacing: -0.275px;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma;
+		font-size: 27.533px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 35.793px; /* 130% */
+		letter-spacing: -0.275px;
 	}
 	.answer {
-		color: var(--color-blue-15, #1F1F30) !important;
-font-family: Tahoma  !important;
-font-size: 27.533px  !important;
-font-style: normal  !important;
-font-weight: 700  !important;
-line-height: 35.793px  !important; /* 130% */
-letter-spacing: -0.275px  !important;
+		color: var(--color-blue-15, #1f1f30) !important;
+		// font-family: Tahoma !important;
+		font-size: 27.533px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: 35.793px !important; /* 130% */
+		letter-spacing: -0.275px !important;
 	}
 	.button-up {
 		width: 40px;
-height: 40px;
+		height: 40px;
 	}
 	.button-down {
 		width: 40px;
-height: 41px;
+		height: 41px;
 	}
 }
-@media (min-width:391px) and (max-width:798px) {
+@media (min-width: 391px) and (max-width: 798px) {
 	.hero_title {
 		align-self: stretch !important;
 		color: #000 !important;
-text-align: center !important;
-font-family: Tahoma !important;
-font-size: 24px !important;
-font-style: normal !important;
-font-weight: 700 !important;
-line-height: normal !important;
-// width: 331px !important;
-height: 39px !important;
-line-height: 26.4px !important; /* 110% */
-letter-spacing: -0.24px !important;
+		text-align: center !important;
+		// font-family: Tahoma !important;
+		font-size: 24px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: normal !important;
+		// width: 331px !important;
+		height: 39px !important;
+		line-height: 26.4px !important; /* 110% */
+		letter-spacing: -0.24px !important;
 	}
 	.qanda .color .question-header .big_title {
 		flex: 1 0 0;
-		color: var(--color-blue-15, #1F1F30);
-font-family: Tahoma;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18.2px; /* 109.091% */ 
-letter-spacing: -0.14px;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 18.2px; /* 109.091% */
+		letter-spacing: -0.14px;
 	}
 	.answer {
 		flex: 1 0 0;
-		color: var(--color-blue-15, #1F1F30);
-font-family: Tahoma !important;
-font-size: 14px !important;
-font-style: normal !important;
-font-weight: 700 !important;
-line-height: 18.2px !important; /* 109.091% */ 
-letter-spacing: -0.14px !important;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma !important;
+		font-size: 14px !important;
+		font-style: normal !important;
+		font-weight: 700 !important;
+		line-height: 18.2px !important; /* 109.091% */
+		letter-spacing: -0.14px !important;
 	}
 	.button-up {
 		width: 40px;
-height: 40px;
+		height: 40px;
 	}
 	.button-down {
 		width: 40px;
-height: 41px;
+		height: 41px;
 	}
-	
 }
-		@media (max-width:391px) {
-			.hero_title {
-				align-self: stretch !important;
-				color: #000 !important;
+@media (max-width: 391px) {
+	.hero_title {
+		align-self: stretch !important;
+		color: #000 !important;
 		text-align: center !important;
-		font-family: Tahoma !important;
+		// font-family: Tahoma !important;
 		font-size: 24px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
 		line-height: normal !important;
 		width: 331px !important;
-height: 39px !important;
-line-height: 26.4px !important; /* 110% */
-letter-spacing: -0.24px !important;
-			}
-			.qanda .color .question-header .big_title {
-				flex: 1 0 0;
-				color: var(--color-blue-15, #1F1F30);
-		font-family: Tahoma;
+		height: 39px !important;
+		line-height: 26.4px !important; /* 110% */
+		letter-spacing: -0.24px !important;
+	}
+	.qanda .color .question-header .big_title {
+		flex: 1 0 0;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma;
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 700;
-		line-height: 18.2px; /* 109.091% */ 
+		line-height: 18.2px; /* 109.091% */
 		letter-spacing: -0.14px;
-			}
-			.answer {
-				flex: 1 0 0;
-				color: var(--color-blue-15, #1F1F30);
-		font-family: Tahoma !important;
+	}
+	.answer {
+		flex: 1 0 0;
+		color: var(--color-blue-15, #1f1f30);
+		// font-family: Tahoma !important;
 		font-size: 14px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
-		line-height: 18.2px !important; /* 109.091% */ 
+		line-height: 18.2px !important; /* 109.091% */
 		letter-spacing: -0.14px !important;
-			}
-			.button-up {
-				width: 40px;
-height: 40px;
-			}
-			.button-down {
-				width: 40px;
-height: 41px;
-			}
-			
+	}
+	.button-up {
+		width: 40px;
+		height: 40px;
+	}
+	.button-down {
+		width: 40px;
+		height: 41px;
+	}
 }
