@@ -21,7 +21,7 @@ const OnBoarding = (props) => {
 				<div className="on-boarding-text-content">
 					Start your journey with OpenNezt in just a few simple steps. Our
 					onboarding process ensures a smooth entry into your co-founder
-					discovery experience
+					discovery experience.
 				</div>
 				<div className="on-boarding-content">
 					<div className="on-boarding-box">
@@ -30,7 +30,7 @@ const OnBoarding = (props) => {
 						</div>
 						<div className="on-boarding-box-content">
 							Add your details, upload a photo, and link your LinkIn
-							profile for quick start
+							profile for quick start.
 						</div>
 
 						<div className="subtract">
@@ -61,7 +61,7 @@ const OnBoarding = (props) => {
 						</div>
 						<div className="on-boarding-box-content">
 							Seclect your primary industry focus, highlight specific
-							skills, and your professional experience
+							skills, and your professional experience.
 						</div>
 
 						<div className="subtract">
@@ -89,7 +89,7 @@ const OnBoarding = (props) => {
 						</div>
 						<div className="on-boarding-box-content">
 							Define your time commitment and preferred compensation to
-							align with potential start-ups
+							align with potential start-ups.
 						</div>
 
 						<div className="subtract">

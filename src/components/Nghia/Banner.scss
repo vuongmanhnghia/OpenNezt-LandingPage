@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 .banner-container {
-	background: url("../assets/OpenNezt_Background.png") !important;
+	background: url("../../assets/OpenNezt_Background.png") !important;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
@@ -58,7 +58,6 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			color: var(--color-blue-15, #1f1f30);
 			// font-family: Tahoma;
 			font-size: 2.3125rem;
@@ -72,7 +71,6 @@
 			border-radius: 0.95725rem;
 			border: 1.392px solid #000;
 			background: var(--color-orange-58, #f2b538);
-			box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 		}
 	}
 
@@ -83,8 +81,8 @@
 		width: 5.33331rem;
 		height: 5.33331rem;
 		fill: #0f1b33;
-		stroke: #245d90;
-		color: #245d90;
+		stroke: #306ee8;
+		color: #306ee8;
 		text-align: center;
 		// font-family: Inter;
 		font-size: 2.39269rem;
@@ -96,7 +94,8 @@
 		bottom: -2.7rem;
 
 		text {
-			fill: #245d90;
+			fill: #306ee8;
+			color: #306ee8;
 			position: absolute;
 			display: flex;
 			justify-content: center;
@@ -105,7 +104,7 @@
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1920px) {
+@media (min-width: 1200px) and (max-width: 1919px) {
 	.banner-container {
 		padding: 12rem 6rem;
 
@@ -132,7 +131,8 @@
 		}
 
 		.page-1 {
-			font-size: 1.7945rem;
+			font-size: 32px;
+
 			width: 4rem;
 			height: 4rem;
 			bottom: -2rem;
@@ -140,7 +140,7 @@
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 	.banner-container {
 		padding: 15rem 3rem 15rem 3rem;
 
@@ -161,8 +161,8 @@
 
 			.banner-button {
 				font-size: 2.13394rem;
-				width: 21.63331rem;
-				height: 6.20219rem;
+				width: 20rem;
+				height: 5.7rem;
 				border-radius: 0.75994rem;
 			}
 		}
@@ -198,14 +198,14 @@
 
 			.banner-button {
 				font-size: 1.08506rem;
-				width: 12.375rem;
-				height: 3.125rem;
+				width: 11rem;
+				height: 2.7rem;
 				border-radius: 8px;
 			}
 		}
 
 		.page-1 {
-			font-size: 1.7945rem;
+			font-size: 2.5rem;
 			width: 3.69825rem;
 			height: 3.65313rem;
 			bottom: -2rem;

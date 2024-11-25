@@ -23,9 +23,7 @@ function Matching() {
 				<div className="matching-text-content">
 					After completing your profile, our algorithm works to find
 					potential co-founders that match your preferences, skills, and
-					startup vision. Browse curated profiles to evaluate compatibility
-					based on key aspects including industry experience, goals, and
-					expertise.
+					startup vision.
 				</div>
 				<div className="matching-content">
 					<div className="matching-box">
@@ -63,7 +61,7 @@ function Matching() {
 						</div>
 						<div className="matching-box-content">
 							The algorithm matches the professional ambitions you share
-							to suggest co-founders with similar values and objectives
+							to suggest co-founders with similar values and objectives.
 						</div>
 
 						<div className="subtract">
@@ -91,8 +89,8 @@ function Matching() {
 						</div>
 						<div className="matching-box-content">
 							Every detail in your profile, from technical skills to soft
-							skills, refines the list of co-founders, saving you time
-							and improving the chances of finding the right fit
+							skills, refines the list of co-founders, improving the
+							chances of finding the right fit.
 						</div>
 
 						<div className="subtract">
@@ -119,7 +117,7 @@ function Matching() {
 						<div className="matching-box-content">
 							Access detailed information on potential co-founders’
 							experience, personal goals, how to work with them, and key
-							skills to gauge compatibility
+							skills to gauge compatibility.
 						</div>
 
 						<div className="subtract">

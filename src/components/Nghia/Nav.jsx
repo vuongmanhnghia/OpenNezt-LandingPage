@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.scss";
-import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
+import OpenNeztLogoWhite from "../../assets/OpenNeztLogoWhite.png";
 
 const Nav = (props) => {
 	const handleClickNavbar = () => {

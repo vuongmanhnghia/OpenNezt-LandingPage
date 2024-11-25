@@ -1,15 +1,16 @@
-.on-boarding-container {
+.evaluation-container {
 	position: relative;
 	width: 100%;
-	background: linear-gradient(180deg, #00082d 0%, #02050c 49.16%);
-	padding: 10rem 10rem 20rem 10rem;
+	background: #050716;
+	padding-top: 20rem;
+	padding-bottom: 25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
-	.on-boarding-text-name {
+	.evaluation-text-name {
 		align-self: stretch;
-		color: #306ee8;
+		color: #2a50a8;
 		text-align: center;
 		// font-family: Tahoma;
 		font-size: 2rem;
@@ -19,7 +20,7 @@
 		margin-bottom: 1rem;
 	}
 
-	.on-boarding-text-header {
+	.evaluation-text-header {
 		align-self: stretch;
 		color: #fff;
 		// font-family: Tahoma;
@@ -30,34 +31,34 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.on-boarding-line {
+	.evaluation-line {
 		width: 13.25rem;
 		height: 1rem;
 		flex-shrink: 0;
-		stroke: #2554af !important;
+		color: #2a50a8;
 	}
 
-	.on-boarding-text-content {
+	.evaluation-text-content {
 		margin-top: 1.5rem;
 		margin-bottom: 8rem;
 		flex-shrink: 0;
 		color: #fff;
 		text-align: center;
 		// font-family: Tahoma;
-		font-size: 1.59rem;
+		font-size: 1.77206rem;
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
 	}
 
-	.on-boarding-content {
+	.evaluation-content {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 6.25rem 21rem;
+		gap: 3rem 15rem;
 		width: calc(21rem + (30.83331rem * 2));
 
-		.on-boarding-box {
-			border: var(--stroke-weight-1, 2px) solid #183367;
+		.evaluation-box {
+			border: var(--stroke-weight-1, 2px) solid #2a50a8;
 			box-shadow: 0px 0px 8px 5px #151e49;
 			position: relative;
 			width: 30.83331rem;
@@ -70,8 +71,8 @@
 			text-align: left;
 			overflow: hidden;
 
-			.on-boarding-box-header {
-				color: #8caef2;
+			.evaluation-box-header {
+				color: #2a50a8;
 				text-align: center;
 				// font-family: Tahoma;
 				font-size: 1.58331rem;
@@ -80,17 +81,17 @@
 				line-height: normal;
 				display: flex;
 				justify-content: flex-start;
-				margin-bottom: 1.5rem;
+				margin-bottom: 1rem;
 			}
 
-			.on-boarding-box-content {
-				width: 23rem;
+			.evaluation-box-content {
+				width: 19.75rem;
 				color: #a1a0ab;
 				// font-family: Tahoma;
 				font-size: 1.3rem;
-				width: 19.75rem;
-				height: 5rem;
+				font-style: normal;
 				font-weight: 400;
+				line-height: normal;
 			}
 
 			.subtract {
@@ -106,13 +107,13 @@
 					width: 3.16669rem;
 					height: 4.16669rem;
 					flex-shrink: 0;
-					border: var(--stroke-weight-1, 3px) solid #183367;
+					border: var(--stroke-weight-1, 3px) solid #2a50a8;
 					border-radius: 4px;
 				}
 			}
 
-			.on-boarding-box-circle {
-				border: var(--stroke-weight-1, 3px) solid #183367;
+			.evaluation-box-circle {
+				border: var(--stroke-weight-1, 3px) solid #2a50a8;
 				background-color: #02050c;
 				position: absolute;
 				right: -1rem;
@@ -124,7 +125,7 @@
 				fill: #d9d9d9;
 			}
 
-			.on-boarding-box-icon {
+			.evaluation-box-icon {
 				width: 2rem;
 				height: 2rem;
 				position: absolute;
@@ -140,20 +141,20 @@
 		z-index: 999;
 		position: absolute;
 		bottom: 0;
-		width: 5.33331rem;
-		height: 5.33331rem;
+		width: 7.97144rem;
+		height: 7.87425rem;
 		fill: #0f1b33;
 		stroke: #227588;
 		color: #227588;
 		text-align: center;
 		// font-family: Inter;
-		font-size: 2.39269rem;
+		font-size: 3rem;
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
 		right: 50%;
 		transform: translateX(50%);
-		bottom: 5.5rem;
+		bottom: 4.5rem;
 
 		text {
 			fill: #227588;
@@ -165,45 +166,45 @@
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1920px) {
-	.on-boarding-container {
-		padding: 6rem 6rem 15rem 6rem;
+@media (min-width: 1200px) and (max-width: 1919px) {
+	.evaluation-container {
+		padding: 15rem 6rem 15rem 6rem;
 
-		.on-boarding-text-name {
+		.evaluation-text-name {
 			font-size: 1.5rem;
 		}
 
-		.on-boarding-text-header {
+		.evaluation-text-header {
 			font-size: 2.1875rem;
 		}
 
-		.on-boarding-line {
+		.evaluation-line {
 			width: 11.59375rem;
 		}
 
-		.on-boarding-text-content {
+		.evaluation-text-content {
 			font-size: 1.23rem;
 			height: 1.8rem;
 			margin-top: 1.3rem;
 			margin-bottom: 8rem;
 		}
 
-		.on-boarding-content {
+		.evaluation-content {
 			width: calc(15.75rem + (23.125rem * 2));
 			gap: 6.25rem 15.75rem;
 
-			.on-boarding-box {
+			.evaluation-box {
 				padding-top: 1.5rem;
 				padding-left: 2rem;
 				width: 23.125rem;
 				height: 12.5rem;
 
-				.on-boarding-box-header {
+				.evaluation-box-header {
 					font-size: 1.1875rem;
 					margin-bottom: 1rem;
 				}
 
-				.on-boarding-box-content {
+				.evaluation-box-content {
 					width: 14.8125rem;
 					height: 3.75rem;
 					font-size: 1rem;
@@ -220,14 +221,14 @@
 					}
 				}
 
-				.on-boarding-box-circle {
+				.evaluation-box-circle {
 					width: 5.78125rem;
 					height: 5.52081rem;
 					right: -1.2rem;
 					bottom: -1.2rem;
 				}
 
-				.on-boarding-box-icon {
+				.evaluation-box-icon {
 					right: 1.2rem;
 					bottom: 1.2rem;
 					width: 1.5rem;
@@ -235,55 +236,50 @@
 				}
 			}
 		}
-
-		.page-2 {
-			font-size: 1.7945rem;
-			width: 4rem;
-			height: 4rem;
-			bottom: 4.3rem;
-		}
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-	.on-boarding-container {
-		padding: 10rem 3rem 15rem 3rem;
+@media (min-width: 768px) and (max-width: 1199px) {
+	.evaluation-container {
+		padding-top: 10rem;
+		padding-bottom: 2rem;
 		height: auto;
 
-		.on-boarding-text-name {
+		.evaluation-text-name {
 			font-size: 2.81994rem;
 		}
 
-		.on-boarding-text-header {
+		.evaluation-text-header {
 			font-size: 2.67069rem;
 		}
 
-		.on-boarding-line {
+		.evaluation-line {
 			width: 14.78881rem;
 		}
 
-		.on-boarding-text-content {
+		.evaluation-text-content {
 			font-size: 1.565rem;
+			width: 42.18438rem;
 			height: 2.06075rem;
 			margin-top: 1.3rem;
 			margin-bottom: 10rem;
 		}
 
-		.on-boarding-content {
+		.evaluation-content {
 			width: 41.41006rem;
 			gap: 3rem;
 
-			.on-boarding-box {
+			.evaluation-box {
 				padding-top: 3rem;
 				padding-left: 4rem;
 				width: 41.41006rem;
 				height: 21.90144rem;
 
-				.on-boarding-box-header {
+				.evaluation-box-header {
 					font-size: 2.21713rem;
 				}
 
-				.on-boarding-box-content {
+				.evaluation-box-content {
 					font-size: 1.72238rem;
 					width: 25.33488rem;
 				}
@@ -301,19 +297,19 @@
 						width: 4.70113rem;
 						height: 6.07269rem;
 						flex-shrink: 0;
-						border: var(--stroke-weight-1, 3px) solid #183367;
+						border: var(--stroke-weight-1, 3px) solid #2a50a8;
 						border-radius: 6px;
 					}
 				}
 
-				.on-boarding-box-circle {
+				.evaluation-box-circle {
 					width: 11.10269rem;
 					height: 10.5525rem;
 					right: -2.5rem;
 					bottom: -1.5rem;
 				}
 
-				.on-boarding-box-icon {
+				.evaluation-box-icon {
 					right: 2rem;
 					bottom: 2.5rem;
 					width: 3.27294rem;
@@ -332,48 +328,48 @@
 }
 
 @media (max-width: 768px) {
-	.on-boarding-container {
-		padding: 5rem 2rem 10rem 2rem;
+	.evaluation-container {
+		padding: 5rem 2rem 5rem 2rem;
 
-		.on-boarding-text-name {
+		.evaluation-text-name {
 			font-size: 1.43388rem;
 			margin-bottom: 0.5rem;
 		}
 
-		.on-boarding-text-header {
+		.evaluation-text-header {
 			font-size: 1.25rem;
 			margin-bottom: 0.5rem;
 		}
 
-		.on-boarding-line {
+		.evaluation-line {
 			width: 7.51975rem;
 		}
 
-		.on-boarding-text-content {
+		.evaluation-text-content {
 			font-size: 0.875rem;
 			height: 1.04781rem;
 			margin-top: 0.5rem;
 			margin-bottom: 5rem;
 		}
 
-		.on-boarding-content {
+		.evaluation-content {
 			gap: 2rem;
 			width: 21.056rem;
 
-			.on-boarding-box {
-				padding-top: 1.2rem;
+			.evaluation-box {
+				padding-top: 0.5rem;
 				padding-left: 1.3rem;
 				width: 21.056rem;
 				height: 11.13631rem;
 
-				.on-boarding-box-header {
-					font-size: 1.1875rem;
-					margin-bottom: 1rem;
+				.evaluation-box-header {
+					font-size: 1.15rem;
+					margin-bottom: 0.3rem;
 				}
 
-				.on-boarding-box-content {
+				.evaluation-box-content {
 					font-size: 1rem;
-					width: 12.88213rem;
+					width: 13rem;
 				}
 
 				.subtract {
@@ -389,19 +385,19 @@
 						width: 2.39044rem;
 						height: 3.08781rem;
 						flex-shrink: 0;
-						border: var(--stroke-weight-1, 2px) solid #183367;
+						border: var(--stroke-weight-1, 2px) solid #2a50a8;
 						border-radius: 4px;
 					}
 				}
 
-				.on-boarding-box-circle {
+				.evaluation-box-circle {
 					width: 5.64544rem;
 					height: 5.36569rem;
 					right: -1.3rem;
 					bottom: -1rem;
 				}
 
-				.on-boarding-box-icon {
+				.evaluation-box-icon {
 					right: 1rem;
 					bottom: 1.2rem;
 					width: 1.66419rem;
@@ -411,7 +407,7 @@
 		}
 
 		.page-2 {
-			font-size: 1.934rem;
+			font-size: 2.5rem;
 			width: 3.98569rem;
 			height: 3.93713rem;
 			bottom: -0.2rem;

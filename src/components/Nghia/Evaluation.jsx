@@ -21,9 +21,7 @@ function Evaluation() {
 				</svg>
 				<div className="evaluation-text-content">
 					After identifying potential co-founders, start a conversation
-					directly through the platform. Our in-app messaging feature
-					allows for seamless communication, ensuring you can quickly
-					assess compatibility.
+					directly through the platform.
 				</div>
 				<div className="evaluation-content">
 					<div className="evaluation-box">
@@ -31,9 +29,8 @@ function Evaluation() {
 							Message & Communication
 						</div>
 						<div className="evaluation-box-content">
-							Our in-platform messaging allows seamless communication
-							between co-founders, facilitating quick discussions on
-							startup goals and personal alignment
+							Connect with potential co-founders through in-platform
+							messaging for quick discussions on goals and alignment.
 						</div>
 
 						<div className="subtract">
@@ -60,9 +57,8 @@ function Evaluation() {
 							Schedule a Meeting
 						</div>
 						<div className="evaluation-box-content">
-							Set up video meetings through the platform to dive deeper
-							into co-founder compatibility. Discuss project ideas and
-							assess working styles in real-time
+							Use video meetings on the platform to dive into project
+							ideas and get a sense of each other's working style.
 						</div>
 
 						<div className="subtract">
@@ -89,9 +85,9 @@ function Evaluation() {
 							Share Documents & Ideas
 						</div>
 						<div className="evaluation-box-content">
-							Easily share documents, presentations, or startup ideas
-							through the platform, fostering collaboration and
-							brainstorming with potential co-founders
+							Share documents, presentations, and ideas with ease; create
+							collaboration and evoke creativity with potential
+							co-founders.
 						</div>
 
 						<div className="subtract">
@@ -120,9 +116,9 @@ function Evaluation() {
 							Assess Long-term Fit
 						</div>
 						<div className="evaluation-box-content">
-							Evaluate co-founders' skills, vision, and work approach
-							over a series of interactions to ensure long-term
-							compatibility before moving forward
+							Participate in discussions in order to understand each
+							other's abilities and vision for the future, shaping a
+							coherent and compatible partnership.
 						</div>
 
 						<div className="subtract">
