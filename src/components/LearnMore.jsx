@@ -8,7 +8,7 @@ function LearnMore() {
 		<>
 			<div
 				className="learnmore-container"
-				style={{ background: `#050716` }}>
+				style={{ background: `rgb(14,17,38)` }}>
 				<div className="learnmore-content">
 					<div className="learnmore-header">
 					Take Your Startup Journey 
@@ -36,7 +36,7 @@ function LearnMore() {
 </svg>
 </div>
 
-<div className="item-text" style={{color:"#5FA7E7"}}>Diverse Range of Filters</div>
+<div className="item-text" style={{color:"#5fa7e7"}}>Diverse Range of Filters</div>
 <div className="item-des" >Not sure how to find the perfect co-founder? Use our customizable filters to narrow down potential matches based on industry, skills, and goals.</div>
 							
 						</div>

@@ -238,6 +238,8 @@
 				gap: 1rem;
 
 				.input {
+					min-width: 14rem !important;
+					width: 10px;
 					background-color: #272c3f;
 					&:focus {
 						outline: none;
@@ -245,7 +247,7 @@
 				}
 
 				button {
-					margin-left: -102px !important;
+					// margin-left: -102px !important;
 					height: 46px !important;
 				}
 			}

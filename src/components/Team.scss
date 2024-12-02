@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .team-container {
-	background: #171b36;
+	background: rgb(21,25,50);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -257,7 +257,7 @@
 		text-align: center !important;
 		text-shadow: 0px 3.105px 3.105px rgba(0, 0, 0, 0.25) !important;
 		// font-family: Tahoma !important;
-		font-size: 66.917px !important;
+		font-size: 54.917px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
 		line-height: normal !important;
@@ -330,7 +330,7 @@
 		text-align: center !important;
 		text-shadow: 0px 2.329px 2.329px rgba(0, 0, 0, 0.25) !important;
 		// font-family: Tahoma !important;
-		font-size: 50.187px !important;
+		font-size: 38.187px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
 		line-height: normal !important;
@@ -392,7 +392,7 @@
 }
 @media (min-width: 1201px) and (max-width: 1438px) {
 	.team-container .team-content .team-header .team-header-text {
-		font-size: 74.22px !important;
+		font-size: 38.187px !important;
 	}
 	.team-header-text {
 		align-self: stretch !important;
@@ -400,7 +400,6 @@
 		text-align: center !important;
 		text-shadow: 0px 2.329px 2.329px rgba(0, 0, 0, 0.25) !important;
 		// font-family: Tahoma !important;
-		font-size: 50.187px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
 		line-height: normal !important;
@@ -466,7 +465,7 @@
 		color: #fff !important;
 		text-align: center !important;
 		// font-family: Tahoma !important;
-		font-size: 43.267px !important;
+		font-size: 34.267px !important;
 		font-style: normal !important;
 		font-weight: 700 !important;
 		line-height: 47.593px !important; /* 110% */
