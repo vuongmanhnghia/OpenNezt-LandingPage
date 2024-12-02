@@ -140,6 +140,11 @@
 		background: #288c9d !important;
 	}
 }
+@media (min-width:1201px) and (max-width: 1438px) {
+	.subscribe-header{
+		margin-top: 100px !important;
+	}
+}
 @media (min-width: 798px) and (max-width: 1200px) {
 	.subscribe-container .subscribe-content {
 		display: flex !important;

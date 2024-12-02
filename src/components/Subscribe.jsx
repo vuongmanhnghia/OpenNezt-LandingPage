@@ -6,7 +6,7 @@ function Subscribe() {
 		<>
 			<div
 				className="subscribe-container"
-				style={{ background: `#151932` }}>
+				style={{ background: `rgb(14,17,38)` }}>
 				<div className="subscribe-content container">
 					<div className="subscribe-header">
 						Subscribe to receive exclusive startup tips, strategic
