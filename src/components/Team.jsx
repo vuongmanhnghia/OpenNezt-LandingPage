@@ -160,7 +160,7 @@ function Team() {
 									// border: `rgba(237, 85, 100, 1) 4px solid`,
 								}}></div>
 							<div className="name">Vương Mạnh Nghĩa</div>
-							<div className="info">DevOps</div>
+							<div className="info">FullStack Developer</div>
 							<svg
 								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
