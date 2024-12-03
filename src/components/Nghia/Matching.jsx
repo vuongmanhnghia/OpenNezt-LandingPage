@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Matching.scss";
 
 function Matching() {
@@ -14,7 +14,7 @@ function Matching() {
 				<svg
 					className="matching-line
 						xmlns="
-					http:width="212" //www.w3.org/2000/svg"
+					width="212" //www.w3.org/2000/svg"
 					height="2"
 					viewBox="0 0 212 2"
 					fill="none">
@@ -31,7 +31,7 @@ function Matching() {
 							Skills & Expertise Matching
 						</div>
 						<div className="matching-box-content">
-							Our system analyzes the skill sets you've defined in your
+							Our system analyzes the skill sets you have defined in your
 							profile, ensuring that potential co-founders have
 							complementary expertise.
 						</div>

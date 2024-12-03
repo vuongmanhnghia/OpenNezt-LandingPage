@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Team.scss";
 import Viet_Anh from "../assets/Viet_Anh.png";
 import Phuong_Trang from "../assets/Phuong_Trang.png";

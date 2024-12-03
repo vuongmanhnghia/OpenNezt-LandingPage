@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Banner.scss";
 import OpenNezt_Background from "../../assets/OpenNezt_Background.png";
 

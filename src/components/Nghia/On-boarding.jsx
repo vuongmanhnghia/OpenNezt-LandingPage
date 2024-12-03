@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./On-boarding.scss";
 
 const OnBoarding = (props) => {
@@ -12,7 +12,7 @@ const OnBoarding = (props) => {
 				<svg
 					className="on-boarding-line
 						xmlns="
-					http:width="212" //www.w3.org/2000/svg"
+					width="212" //www.w3.org/2000/svg"
 					height="2"
 					viewBox="0 0 212 2"
 					fill="none">

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Evaluation.scss";
 
 function Evaluation() {
@@ -13,7 +13,7 @@ function Evaluation() {
 				<svg
 					className="evaluation-line
 						xmlns="
-					http:width="212" //www.w3.org/2000/svg"
+					width="212" //www.w3.org/2000/svg"
 					height="2"
 					viewBox="0 0 212 2"
 					fill="none">
@@ -58,7 +58,7 @@ function Evaluation() {
 						</div>
 						<div className="evaluation-box-content">
 							Use video meetings on the platform to dive into project
-							ideas and get a sense of each other's working style.
+							ideas and get a sense of each others working style.
 						</div>
 
 						<div className="subtract">
@@ -117,7 +117,7 @@ function Evaluation() {
 						</div>
 						<div className="evaluation-box-content">
 							Participate in discussions in order to understand each
-							other's abilities and vision for the future, shaping a
+							others abilities and vision for the future, shaping a
 							coherent and compatible partnership.
 						</div>
 

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { FaInstagram, FaYoutube, FaLinkedin, FaFacebook } from "react-icons/fa";
 import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
 import "./Footer.scss";

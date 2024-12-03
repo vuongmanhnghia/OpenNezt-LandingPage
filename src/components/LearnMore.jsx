@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./LearnMore.scss";
 import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
 
