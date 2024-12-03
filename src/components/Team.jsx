@@ -256,7 +256,7 @@ function Team() {
 							<button
 								className="custom-button"
 								onClick={() => setShowAll(!showAll)}>
-								{showAll ? "Ẩn bớt" : "More less.."}
+								{showAll ? "Ẩn bớt" : "Xem thêm.."}
 							</button>
 						)}
 					</div>
