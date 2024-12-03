@@ -58,8 +58,9 @@
 			font-style: normal;
 			font-weight: 700;
 			line-height: normal;
+			align-items: center;
 			.big_title {
-				margin-top: 1.4rem;
+				margin-top: 0.1rem;
 			}
 		}
 
@@ -114,6 +115,9 @@
 		line-height: 32.927px !important; /* 109.091% */
 		letter-spacing: -0.302px !important;
 	}
+	.big_title {
+		margin-top: 0.1rem !important;
+	}
 }
 @media (min-width: 1439px) and (max-width: 1919px) {
 	.hero_title {
@@ -145,6 +149,9 @@
 		line-height: 24.695px !important; /* 109.091% */
 		letter-spacing: -0.226px !important;
 	}
+	.big_title {
+		margin-top: 0.1rem !important;
+	}
 }
 @media (min-width: 798px) and (max-width: 1200px) {
 	.hero_title {
@@ -161,6 +168,7 @@
 		height: 76.7px !important;
 		line-height: 51.92px !important; /* 110% */
 		letter-spacing: -0.472px !important;
+
 	}
 	.qanda .color .question-header .big_title {
 		color: var(--color-blue-15, #1f1f30);
@@ -189,7 +197,9 @@
 		width: 40px;
 		height: 41px;
 	}
-	
+	.big_title {
+		margin-top: 0.1rem !important;
+	}
 }
 @media (min-width: 391px) and (max-width: 798px) {
 	.hero_title {
@@ -240,6 +250,9 @@
 	.toggle-btn{
 		padding: 0.6rem 0rem !important;
 	}
+	.big_title {
+		margin-top: 0.1rem !important;
+	}
 }
 @media (max-width: 391px) {
 	.hero_title {
@@ -289,5 +302,8 @@
 	}
 	.toggle-btn{
 		padding: 0.6rem 0rem !important;
+	}
+	.big_title {
+		margin-top: 0.1rem !important;
 	}
 }
