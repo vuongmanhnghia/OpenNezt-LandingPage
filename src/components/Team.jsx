@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
 import "./Team.scss";
 import Viet_Anh from "../assets/Viet_Anh.png";
-import Phuong_Trang from "../assets/Phuong_Trang.png";
+import Nhat_Hoa from "../assets/Profile Picture_Hà Thị Nhật Hoa.jpg";
 import Hoang from "../assets/Hoang.jpg";
 import Nghia from "../assets/Nghia.jpg";
-
+import Thuong from "../assets/Van_Thuong.jpg"
 import Nguyen_Ha from "../assets/NguyenThiHa.jpg";
-
+import Thuy from "../assets/Thi_Thuy.png";
+import Soren from "../assets/Soren_Kirchner.png"
+import Lan from "../assets/Huong_Lan.jpg";
+import Vinh from "../assets/Duc_Vinh.png";
+import Lich from "../assets/Van_Lich.png";
 function Team() {
 	const [showAll, setShowAll] = useState(false);
 	const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 799);
@@ -15,32 +19,32 @@ function Team() {
 		{
 			name: "MSc. Vũ Văn Thương",
 			info: "Founder of ZentSoft Software Solutions",
-			background: "src/assets/Van_Thuong.jpg",
+			background: Thuong,
 		},
 		{
 			name: "MA. Đỗ Thị Thủy",
 			info: "Marketing and Business Development Expert",
-			background: "src/assets/Thi_Thuy.png",
+			background: Thuy,
 		},
 		{
 			name: "Prof. Soren Kirchner",
 			info: "MBA Training Expert - Andrews University",
-			background: "src/assets/Soren_Kirchner.png",
+			background: Soren,
 		},
 		{
 			name: "Assoc. Prof. Đỗ Hương Lan",
 			info: "Deputy Director of CSIE - NEU",
-			background: "src/assets/Huong_Lan.jpg",
+			background: Lan,
 		},
 		{
 			name: "MA. Nguyễn Đức Vinh",
 			info: "Director of STG",
-			background: "src/assets/Duc_Vinh.png",
+			background: Vinh,
 		},
 		{
 			name: "MA. Trần Văn Lịch",
 			info: "Director of GGT Vietnam",
-			background: "src/assets/Van_Lich.png",
+			background: Lich,
 		},
 	];
 
@@ -197,12 +201,12 @@ function Team() {
 							<div
 								className="avt"
 								style={{
-									background: `url(${Phuong_Trang})`,
+									background: `url(${Nhat_Hoa})`,
 									backgroundPosition: `calc(50% - 0.5px) calc(0px)`,
 									// border: `rgba(172, 146, 235, 1) 4px solid`,
 								}}></div>
-							<div className="name">Lê Phương Trang</div>
-							<div className="info">Head of Marketing</div>
+							<div className="name">Hà Thị Nhật Hoa</div>
+							<div className="info">Head of Communication</div>
 							<svg
 								className="linked"
 								xmlns="http://www.w3.org/2000/svg"
