@@ -12,11 +12,14 @@ import Team from "./Team";
 import OnBoarding from "./Nghia/On-boarding";
 import Evaluation from "./Nghia/Evaluation";
 import Nav from "./Nghia/Nav";
+import Mentors from "./Mentors";
 function App() {
 	const QandARef = useRef(null);
 	const BannerRef = useRef(null);
 	const TeamRef = useRef(null);
-
+	const OnBoardingRef = useRef(null);
+	const ourServicesRef = useRef(null);
+	const MentorsRef = useRef(null);
 	const scrollToBanner = () => {
 		BannerRef.current?.scrollIntoView({ behavior: "smooth" });
 	};
@@ -26,6 +29,16 @@ function App() {
 	const scrollToQandA = () => {
 		QandARef.current?.scrollIntoView({ behavior: "smooth" });
 	};
+	const scrollOnBoarding = () => 
+	{
+		OnBoardingRef.current?.scrollIntoView({ behavior: "smooth" });
+	};
+	const scrollOurServices = () => {
+		ourServicesRef.current?.scrollIntoView({ behavior: "smooth" });
+	}
+	const scrollMentors = () => {
+		MentorsRef.current?.scrollIntoView({ behavior: "smooth" });
+	}
 
 	return (
 		<>
@@ -33,18 +46,30 @@ function App() {
 				scrollToBanner={scrollToBanner}
 				scrollToQandA={scrollToQandA}
 				scrollToTeam={scrollToTeam}
+				scrollOnBoarding={scrollOnBoarding}
+				scrollOurServices={scrollOurServices}
+				scrollMentors={scrollMentors}
 			/>
 			<div ref={BannerRef}>
 				<Banner />
 			</div>
+			<div ref={OnBoardingRef}>
 			<OnBoarding />
+			</div>
+			
 			<Matching />
+			
 			<Evaluation />
+			<div ref={ourServicesRef}>
 			<LearnMore />
+			</div>
 			<Subscribe />
 
 			<div ref={TeamRef}>
 				<Team />
+			</div>
+			<div ref={MentorsRef}>
+			<Mentors />
 			</div>
 			<div ref={QandARef}>
 				<QAndA />

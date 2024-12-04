@@ -24,14 +24,22 @@ const Nav = (props) => {
 							onClick={() => props.scrollToBanner()}>
 							Home
 						</li>
-						<li className="nav-item" onClick={() => props.scrollToTeam()}>
+						<li className="nav-item" onClick={() => props.scrollOnBoarding()}>
 							About Us
 						</li>
-						<li className="nav-item">Pricing</li>
+						<li className="nav-item" onClick={() => props.scrollOurServices()}>
+							Our Services
+						</li>
+						<li className="nav-item" onClick={() => props.scrollToTeam()}>
+							Team
+						</li>
+						<li className="nav-item" onClick={() => props.scrollMentors()}>
+							Mentors
+						</li>
 						<li
 							className="nav-item"
 							onClick={() => props.scrollToQandA()}>
-							Support
+							FAQ
 						</li>
 						<li className="nav-item">Login</li>
 					</ul>

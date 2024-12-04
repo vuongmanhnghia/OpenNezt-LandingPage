@@ -11,7 +11,7 @@ import Soren from "../assets/Soren_Kirchner.png"
 import Lan from "../assets/Huong_Lan.jpg";
 import Vinh from "../assets/Duc_Vinh.png";
 import Lich from "../assets/Van_Lich.png";
-function Team() {
+function Mentors() {
 	const [showAll, setShowAll] = useState(false);
 	const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 799);
 
@@ -80,7 +80,7 @@ function Team() {
 			<div className="team-container">
 				<div className="container team-content">
 					<div className="team-header">
-						<div className="team-header-text">Meet the Team</div>
+						{/* <div className="team-header-text">Meet the Team</div> */}
 						{/* <div className="line-color">
 							<div className="purple line"></div>
 							<div className="blue line"></div>
@@ -110,13 +110,13 @@ function Team() {
 						</span>
 						the startup ecosystem.
 					</div> */}
-					<div className="line1">
+					{/* <div className="line1">
 						<div className="line"></div>
 						<div className="rectangle">
 							<span className="rectangle-text">CORE TEAM</span>
 						</div>
-					</div>
-					<div className="core-team">
+					</div> */}
+					{/* <div className="core-team">
 						<div className="box-member">
 							<div
 								className="avt"
@@ -242,14 +242,14 @@ function Team() {
 							</svg>
 							</a>
 						</div>
-					</div>
-					{/* <div className="line2">
+					</div> */}
+					<div className="line2">
 						<div className="line"></div>
 						<div className="rectangle">
 							<span className="rectangle-text">MENTOR TEAM</span>
 						</div>
-					</div> */}
-					{/* <div className="mentor-team">
+					</div>
+					<div className="mentor-team">
 						{visibleMembers.map((member, index) => (
 							<div className="box-member" key={index}>
 								<div
@@ -275,7 +275,7 @@ function Team() {
 							</svg>
 							</a>
 							</div>
-						))} */}
+						))}
 						{isSmallScreen && (
 							<button
 								className="custom-button"
@@ -285,9 +285,9 @@ function Team() {
 						)}
 					</div>
 				</div>
-			{/* </div> */}
+			</div>
 		</>
 	);
 }
 
-export default Team;
+export default Mentors;
