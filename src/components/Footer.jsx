@@ -1,9 +1,21 @@
-// import React from "react";
+import React, { useState } from "react";
 import { FaInstagram, FaYoutube, FaLinkedin, FaFacebook } from "react-icons/fa";
 import OpenNeztLogoWhite from "../assets/OpenNeztLogoWhite.png";
 import "./Footer.scss";
+import subscribe_email from "./Subcribe_email";
 
 const Footer = () => {
+	const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = async () => {
+        try {
+            const responseMessage = await subscribe_email(email);
+            setMessage(responseMessage);
+        } catch (error) {
+            setMessage(error.message);
+        }
+    };
 	return (
 		<footer className="footer">
 			<div className="footer__container container">
@@ -34,9 +46,14 @@ const Footer = () => {
 								className="input"
 								type="email"
 								placeholder="Enter your email"
+								value={email}
+								onChange={(e) => setEmail(e.target.value)}
 							/>
-							<button type="submit">SUBMIT</button>
+							<button type="submit" onClick={handleSubmit}>SUBMIT</button>
+
 						</div>
+						{message && <div className="subscribe-message">{message}</div>}
+
 					</div>
 				</div>
 
