@@ -18,7 +18,6 @@ const subscribe_email = async (email) => {
     const ip = await getIp();
 
     try {
-        // console.log(process.env.API_URL);
         const response = await axios.post(`http://localhost:3456/subscribe/email`, { email, ip });
         return response.data.message;
     } catch (error) {

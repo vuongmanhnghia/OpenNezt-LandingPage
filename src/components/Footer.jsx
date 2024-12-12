@@ -64,10 +64,10 @@ const Footer = () => {
 					<a href="#">
 						<FaYoutube />
 					</a>
-					<a href="#">
+					<a href="https://www.linkedin.com/company/opennezt/">
 						<FaLinkedin />
 					</a>
-					<a href="#">
+					<a href="https://www.facebook.com/opennezt">
 						<FaFacebook />
 					</a>
 				</div>

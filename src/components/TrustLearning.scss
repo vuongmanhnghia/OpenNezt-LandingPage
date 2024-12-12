@@ -1,0 +1,88 @@
+.trust-learning-container {
+    display:flex;
+    background-size: cover !important;
+	background-repeat: no-repeat !important;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+	background-position: center calc(70% + 4rem);
+    background: #050716;
+    height: 100%;
+    padding-bottom:5rem;
+
+        .trust-learning-title {
+
+            .title {
+                color: #FFF;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 32px;
+                font-style: italic;
+                font-weight: 500;
+                line-height: 30.659px;
+                letter-spacing: -0.32px;
+            }
+        }
+
+        .trust-learning-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 28.37px;
+            align-self: stretch;
+            height: 100%;
+            .logos-neuron{ 
+                background-size: cover;
+                 background-repeat: no-repeat;
+            }
+            .logos {
+              
+                  background-size: cover;
+                 background-repeat: no-repeat;
+            }
+        }
+    }
+
+    @media (min-width: 798px) and (max-width: 1200px) {
+        .trust-learning-container {
+            padding-top:3rem;
+            padding-bottom:5rem;
+         
+            }
+            }
+            @media (min-width: 391px) and (max-width: 798px) {
+                .trust-learning-container {
+                    padding-top:3rem;
+                    padding-bottom:5rem;
+                    .trust-learning-logos {
+                        gap : 1px !important;
+                        .logos {
+                          
+                            width: 53px !important;
+                            height: 54px !important;
+                        }
+                        .logos-neuron {
+                            width: 108px !important;
+                            height: 54px !important;
+                        }
+                    }
+                    }
+                    }
+                    @media (max-width: 391px) {
+                        .trust-learning-container {
+                            padding-top:3rem;
+                            padding-bottom:5rem;
+                            .trust-learning-logos {
+                                gap : 0.37px !important;
+                                .logos {
+                                  
+                                    width: 50px !important;
+                                    height: 44px !important;
+                                }
+                                .logos-neuron {
+                                    width: 108px !important;
+                                    height: 54px !important;
+                                }
+                            }
+                            }
+                            }
