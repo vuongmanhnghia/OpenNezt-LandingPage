@@ -11,6 +11,7 @@ import Soren from "../assets/Soren_Kirchner.png"
 import Lan from "../assets/Huong_Lan.jpg";
 import Vinh from "../assets/Duc_Vinh.png";
 import Lich from "../assets/Van_Lich.png";
+import hoainam from "../assets/hoainam.jpg";
 function Mentors() {
 	const [showAll, setShowAll] = useState(false);
 	const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 799);
@@ -30,7 +31,13 @@ function Mentors() {
 			name: "Assoc. Prof. Đỗ Hương Lan",
 			info: "Deputy Director of CSIE - NEU",
 			background: Lan,
-			linkedin: "https://www.linkedin.com/in/vu-van-thuong-1b1b1b1b/",
+			linkedin: "https://www.linkedin.com/in/",
+		},
+		{
+			name: "Ph.D. Vũ Hoài Nam",
+			info: "Lecture - AI Department PTIT",
+			background: hoainam,
+			linkedin: "https://www.linkedin.com/in/",
 		},
 		{
 			name: "MSc. Vũ Văn Thương",
@@ -42,7 +49,7 @@ function Mentors() {
 			name: "MA. Trần Văn Lịch",
 			info: "Director of GGT Vietnam",
 			background: Lich,
-			linkedin: "https://www.linkedin.com/in/vu-van-thuong-1b1b1b1b/",
+			linkedin: "https://www.linkedin.com/in/",
 			
 		},
 		{
@@ -56,8 +63,9 @@ function Mentors() {
 			name: "MA. Nguyễn Đức Vinh",
 			info: "Director of STG",
 			background: Vinh,
-			linkedin: "https://www.linkedin.com/in/vu-van-thuong-1b1b1b1b/",
+			linkedin: "https://www.linkedin.com/in/",
 		},
+		
 	];
 
 	useEffect(() => {
