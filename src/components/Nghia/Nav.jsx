@@ -41,7 +41,9 @@ const Nav = (props) => {
 							onClick={() => props.scrollToQandA()}>
 							FAQ
 						</li>
-						<li className="nav-item">Login</li>
+						<li className="nav-item">
+                    <a href="https://beta.opennezt.com/" target="_blank" rel="noopener noreferrer">Login</a>
+                </li>
 					</ul>
 				</div>
 			</nav>
