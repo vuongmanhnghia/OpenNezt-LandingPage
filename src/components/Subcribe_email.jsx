@@ -18,7 +18,7 @@ const subscribe_email = async (email) => {
     const ip = await getIp();
 
     try {
-        const response = await axios.post(`http://localhost:3456/subscribe/email`, { email, ip });
+        const response = await axios.post(`https://beta-api.opennezt.com/subscribe/email`, { email, ip });
         return response.data.message;
     } catch (error) {
         if (error.response && error.response.data && error.response.data.error) {
