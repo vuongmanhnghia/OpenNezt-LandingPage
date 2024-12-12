@@ -29,11 +29,13 @@ const Footer = () => {
                 message: 'Success',
                 description: responseMessage,
             });
+            setEmail('');
         } catch (error) {
             notification.error({
                 message: 'Error',
                 description: error.message,
             });
+            
         }
     };
 

@@ -26,6 +26,7 @@ function Subscribe() {
                 message: 'Success',
                 description: responseMessage,
             });
+            setEmail('');
         } catch (error) {
             notification.error({
                 message: 'Error',
