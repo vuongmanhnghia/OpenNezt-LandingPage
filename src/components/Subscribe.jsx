@@ -1,18 +1,36 @@
 import React, { useState } from "react";
+import { notification } from 'antd';
 import "./Subscribe.scss";
-// import axios from "axios";
 import subscribe_email from "./Subcribe_email";
 
 function Subscribe() {
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+
+    const validateEmail = (email) => {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(String(email).toLowerCase());
+    };
 
     const handleSubmit = async () => {
+        if (!validateEmail(email)) {
+            notification.error({
+                message: 'Error',
+                description: 'Invalid email format',
+            });
+            return;
+        }
+
         try {
             const responseMessage = await subscribe_email(email);
-            setMessage(responseMessage);
+            notification.success({
+                message: 'Success',
+                description: responseMessage,
+            });
         } catch (error) {
-            setMessage(error.message);
+            notification.error({
+                message: 'Error',
+                description: error.message,
+            });
         }
     };
 
@@ -37,7 +55,6 @@ function Subscribe() {
                             SUBMIT
                         </button>
                     </div>
-                    {message && <div className="subscribe-message">{message}</div>}
                 </div>
             </div>
         </>

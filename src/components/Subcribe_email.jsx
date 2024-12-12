@@ -22,7 +22,7 @@ const subscribe_email = async (email) => {
         return response.data.message;
     } catch (error) {
         if (error.response && error.response.data && error.response.data.error) {
-            throw new Error(error.response.data.error);
+            throw new Error(`${error.response.status}: ${error.response.data.error}`);
         } else {
             throw new Error('Subscription failed');
         }
