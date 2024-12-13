@@ -43,7 +43,7 @@ function Mentors() {
 			linkedin: "https://www.linkedin.com/in/vu-van-thuong-1b1b1b1b/",
 		},
 		{
-			name: "BEng. Nguyễn Minh Đức",
+			name: "BEng. Trần Minh Đức",
 			info:"Software Security Engineer",
 			background: MinhDuc,
 			linkedin: "https://www.linkedin.com/in/ductmdev/"

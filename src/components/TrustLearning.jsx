@@ -14,11 +14,11 @@ function TrustLearning() {
             <p className='title'>Trusted By Leading Educational Institutions And Incubators</p>
           </div>
           <div className="trust-learning-logos">
-            <div className='logos' style={{ backgroundImage: `url(${csie})` ,width: "100px" , height :"100px" }}></div>
-            <div className='logos-neuron' style={{ backgroundImage: `url(${neuron})` ,width: "160px" , height :"100px"}}></div>
-            <div className='logos' style={{ backgroundImage: `url(${zent})`,width: "100px" , height :"100px" }}></div>
-            <div className='logos' style={{ backgroundImage: `url(${ptitiec})`,width: "100px" , height :"100px" }}></div>
-            <div className='logos' style={{ backgroundImage: `url(${vklinks})` ,width: "100px" , height :"100px"}}></div>
+            <div className='logos' style={{ backgroundImage: `url(${csie})` ,width: "200px" , height :"133px" }}></div>
+            <div className='logos' style={{ backgroundImage: `url(${neuron})` ,width: "200px" , height :"133px"}}></div>
+            <div className='logos' style={{ backgroundImage: `url(${zent})`,width: "200px" , height :"133px" }}></div>
+            <div className='logos' style={{ backgroundImage: `url(${ptitiec})`,width: "200px" , height :"133px" }}></div>
+            <div className='logos' style={{ backgroundImage: `url(${vklinks})` ,width: "200px" , height :"133px"}}></div>
 
           </div>
        
