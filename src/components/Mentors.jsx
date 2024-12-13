@@ -1,17 +1,14 @@
 import { useState, useEffect } from "react";
 import "./Team.scss";
-import Viet_Anh from "../assets/Viet_Anh.png";
-import Nhat_Hoa from "../assets/Profile Picture_Hà Thị Nhật Hoa.jpg";
-import Hoang from "../assets/Hoang.jpg";
-import Nghia from "../assets/Nghia.jpg";
+
 import Thuong from "../assets/Van_Thuong.jpg"
-import Nguyen_Ha from "../assets/NguyenThiHa.jpg";
 import Thuy from "../assets/Thi_Thuy.png";
 import Soren from "../assets/Soren_Kirchner.png"
 import Lan from "../assets/Huong_Lan.jpg";
 import Vinh from "../assets/Duc_Vinh.png";
 import Lich from "../assets/Van_Lich.png";
 import hoainam from "../assets/hoainam.jpg";
+import MinhDuc from "../assets/MinhDuc.jpg"
 function Mentors() {
 	const [showAll, setShowAll] = useState(false);
 	const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 799);
@@ -44,6 +41,12 @@ function Mentors() {
 			info: "Founder of ZentSoft Software Solutions",
 			background: Thuong,
 			linkedin: "https://www.linkedin.com/in/vu-van-thuong-1b1b1b1b/",
+		},
+		{
+			name: "BEng. Nguyễn Minh Đức",
+			info:"Software Security Engineer",
+			background: MinhDuc,
+			linkedin: "https://www.linkedin.com/in/ductmdev/"
 		},
 		{
 			name: "MA. Trần Văn Lịch",

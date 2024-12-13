@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./Team.scss";
-import Viet_Anh from "../assets/Viet_Anh.png";
+import Viet_Anh from "../assets/Viet_Anh.jpg";
 import Nhat_Hoa from "../assets/Profile Picture_Hà Thị Nhật Hoa.jpg";
-import Hoang from "../assets/Hoang.jpg";
+import Hoang from "../assets/Hoang.png";
 import Nghia from "../assets/Nghia.jpg";
 import Thuong from "../assets/Van_Thuong.jpg"
 import Nguyen_Ha from "../assets/NguyenThiHa.jpg";
